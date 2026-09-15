@@ -1,0 +1,11 @@
+{
+  "original_pdf_sha256": "95cedc55ff1dcc50c8d63fa926134105282a7f82a850518c88d9eff4b6db1a53",
+  "selected_pdf_sha256": "cf7b97b0ae0d4dfd78f7c7a1dac9ad3c8a4aa9896a9e392962c5bcd40fb84124",
+  "original_page_range": [
+    1,
+    11349
+  ],
+  "pages_checked": 11349,
+  "issues": [],
+  "scope": "Exact extracted text, page geometry, image counts and bookmarks for every retained page."
+}

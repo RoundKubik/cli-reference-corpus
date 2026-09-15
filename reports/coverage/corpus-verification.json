@@ -1,0 +1,422 @@
+{
+  "cisco-catalyst9300-iosxe-17.15.x": {
+    "pairs": 1343,
+    "pdf_hash_matches": true,
+    "missing_files": [],
+    "extra_files": [],
+    "markdown_mismatches": [],
+    "records_with_cyrillic": [],
+    "schema_errors": [
+      {
+        "section": "5.1.58",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "6.1.47",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "8.1.15",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "9.1.61",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "11.1.9",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "11.1.67",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "11.1.98",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "12.1.4",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "15.1.15",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "15.1.26",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "15.1.28",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "15.1.29",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.11",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.51",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.60",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.62",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.69",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.70",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.72",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.73",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.91",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.92",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.100",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      }
+    ],
+    "core_field_changes": [],
+    "title_whitespace_normalizations": [],
+    "commands_with_extra_info": 1343,
+    "commands_with_related_topics": 664,
+    "related_topics": 1851,
+    "related_targets_without_corpus_records": [],
+    "empty_explicit_related_sections": []
+  },
+  "cisco-catalyst9500-iosxe-17.15.x": {
+    "pairs": 1321,
+    "pdf_hash_matches": true,
+    "missing_files": [],
+    "extra_files": [],
+    "markdown_mismatches": [],
+    "records_with_cyrillic": [],
+    "schema_errors": [
+      {
+        "section": "5.1.58",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "7.1.73",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "9.1.16",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "10.1.61",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "12.1.6",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "12.1.58",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "12.1.86",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "13.1.4",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.11",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.48",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.56",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.58",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.65",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.66",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.68",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.69",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.86",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.87",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      },
+      {
+        "section": "16.1.95",
+        "errors": [
+          "[] should be non-empty"
+        ]
+      }
+    ],
+    "core_field_changes": [],
+    "title_whitespace_normalizations": [],
+    "commands_with_extra_info": 1321,
+    "commands_with_related_topics": 659,
+    "related_topics": 1924,
+    "related_targets_without_corpus_records": [],
+    "empty_explicit_related_sections": []
+  },
+  "huawei-campus-s1720-s2700-s5700-s6720-v200r011c10": {
+    "pairs": 5989,
+    "pdf_hash_matches": true,
+    "missing_files": [],
+    "extra_files": [],
+    "markdown_mismatches": [],
+    "records_with_cyrillic": [],
+    "schema_errors": [],
+    "core_field_changes": [],
+    "title_whitespace_normalizations": [],
+    "commands_with_extra_info": 5989,
+    "commands_with_related_topics": 4522,
+    "related_topics": 11772,
+    "related_targets_without_corpus_records": [],
+    "empty_explicit_related_sections": []
+  },
+  "huawei-cloudengine-9800-8800-6800-v300r024c00": {
+    "pairs": 6672,
+    "pdf_hash_matches": true,
+    "missing_files": [],
+    "extra_files": [],
+    "markdown_mismatches": [],
+    "records_with_cyrillic": [],
+    "schema_errors": [],
+    "core_field_changes": [],
+    "title_whitespace_normalizations": [],
+    "commands_with_extra_info": 6672,
+    "commands_with_related_topics": 3085,
+    "related_topics": 5642,
+    "related_targets_without_corpus_records": [],
+    "empty_explicit_related_sections": []
+  },
+  "huawei-ne40e-v800r024c00spc500": {
+    "pairs": 14551,
+    "pdf_hash_matches": true,
+    "missing_files": [],
+    "extra_files": [],
+    "markdown_mismatches": [],
+    "records_with_cyrillic": [],
+    "schema_errors": [],
+    "core_field_changes": [],
+    "title_whitespace_normalizations": [
+      {
+        "section": "1.1031",
+        "before": "port-mode  (VS view)",
+        "after": "port-mode (VS view)"
+      },
+      {
+        "section": "1.1040",
+        "before": "shutdown  (VS view)",
+        "after": "shutdown (VS view)"
+      },
+      {
+        "section": "1.1915",
+        "before": "promode  (Management interface view)",
+        "after": "promode (Management interface view)"
+      },
+      {
+        "section": "1.1923",
+        "before": "speed  (Management interface view)",
+        "after": "speed (Management interface view)"
+      },
+      {
+        "section": "1.2718",
+        "before": "flag space-padding disable  (Cpos interface view)",
+        "after": "flag space-padding disable (Cpos interface view)"
+      },
+      {
+        "section": "1.3552",
+        "before": "as-number(\tBGP multi-instance VPN instance session view)",
+        "after": "as-number( BGP multi-instance VPN instance session view)"
+      },
+      {
+        "section": "1.4374",
+        "before": "peer advertise-large-community  (group)",
+        "after": "peer advertise-large-community (group)"
+      },
+      {
+        "section": "1.4464",
+        "before": "peer as-path-filter export  (group)",
+        "after": "peer as-path-filter export (group)"
+      },
+      {
+        "section": "1.4792",
+        "before": "peer filter-policy export  (BGP view/BGP-IPv4 unicast address family view) (group)",
+        "after": "peer filter-policy export (BGP view/BGP-IPv4 unicast address family view) (group)"
+      },
+      {
+        "section": "1.4816",
+        "before": "peer filter-policy import  (BGP view/BGP-IPv4 unicast address family view) (group)",
+        "after": "peer filter-policy import (BGP view/BGP-IPv4 unicast address family view) (group)"
+      },
+      {
+        "section": "1.5396",
+        "before": "peer route-filter export  (IPv6)",
+        "after": "peer route-filter export (IPv6)"
+      },
+      {
+        "section": "1.5419",
+        "before": "peer route-filter import  (IPv6)",
+        "after": "peer route-filter import (IPv6)"
+      },
+      {
+        "section": "1.6765",
+        "before": "tiebreaker preference  (OSPF FRR view)",
+        "after": "tiebreaker preference (OSPF FRR view)"
+      },
+      {
+        "section": "1.9304",
+        "before": "match-type  (SRv6 mapping policy view)",
+        "after": "match-type (SRv6 mapping policy view)"
+      },
+      {
+        "section": "1.9755",
+        "before": "nexthop recursive-lookup restrain disable  (EVPN instance view)",
+        "after": "nexthop recursive-lookup restrain disable (EVPN instance view)"
+      },
+      {
+        "section": "1.10583",
+        "before": "traffic-policy  (Serial interface view)",
+        "after": "traffic-policy (Serial interface view)"
+      },
+      {
+        "section": "1.11822",
+        "before": "xsec  self-heal  disable",
+        "after": "xsec self-heal disable"
+      }
+    ],
+    "commands_with_extra_info": 14551,
+    "commands_with_related_topics": 6767,
+    "related_topics": 12456,
+    "related_targets_without_corpus_records": [],
+    "empty_explicit_related_sections": []
+  }
+}

@@ -1,0 +1,600 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en-us" xml:lang="en-us">
+<head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="DC.Type" content="cliref">
+<meta name="DC.Title" content="display ospfv3 routing (Diagnostic view)">
+<meta name="DC.subject" content="display ospfv3 routing (Diagnostic view)">
+<meta name="keywords" content="display ospfv3 routing (Diagnostic view)">
+<meta name="product" content="">
+<meta name="DC.Relation" scheme="URI" content="../../diagnose/8090/dc_OSPFv3_Diagnostic_Commands_title.html">
+<meta name="DC.Relation" scheme="URI" content="../../diagnose/8090/DISPLAY-OSPFV3-ROUTERID-CONFLICT(OSPFCOMMOM).html">
+<meta name="DC.Relation" scheme="URI" content="../../diagnose/8090/DISPLAY-OSPFV3-ROUTING-ROUTERID(OSPFCOMMOM).html">
+<meta name="prodname" content="">
+<meta name="version" content="">
+<meta name="brand" content="00_v8r24c10_diagnose_en">
+<meta name="DC.Creator" content="">
+<meta name="DC.Publisher" content="20240806">
+<meta name="Owner" content="z00875216">
+<meta name="DC.Creator" content="SUBSYS_ID_OSPFCOMMOM">
+<meta name="IA" content="">
+<meta name="SE" content="">
+<meta name="TE" content="">
+<meta name="LASTMODIFIER" content="cwx1082228">
+<meta name="DC.Format" content="XHTML">
+<meta name="DC.Identifier" content="EN-US_CLIREF_0000001999903409">
+<meta name="DC.Language" content="en-us">
+<link rel="stylesheet" type="text/css" href="../../public_sys-resources/commonltr.css">
+<script language="javascript" type="text/javascript" src="../../public_sys-resources/browseVersion.js"></script>
+<script type="text/javascript" src="../../public_sys-resources/customQuery.js"></script>
+<script type="text/javascript" src="../../public_sys-resources/RowOrColfreezeSupport.js"></script>
+
+<script type="text/javascript">
+	onPageLoad(function () {
+		$$("table[rowfreeze='yes']").rowfreeze();
+		$$("table[colfreeze='yes']").colfreeze();
+ });
+</script>
+<title>display ospfv3 routing (Diagnostic view)</title>
+
+<style type="text/css">
+			<!--	pre.screen,pre.codeblock{
+					word-wrap:break-word;
+					word-break:break-all;
+					white-space:pre-wrap !important;
+				}-->
+		</style>
+</head>
+<body><a name="EN-US_CLIREF_0000001999903409"></a><a name="EN-US_CLIREF_0000001999903409"></a>
+
+<div class="articleBoxWithoutHead">
+
+<h1 class="topicTitle-h1">display ospfv3 routing (Diagnostic view)</h1>
+
+
+<div>
+<div class="clifunc"><a name="EN-US_CLIREF_0000001999903409__1.3.1"></a><a name="1.3.1"></a><h2 class="sectiontitle">Function</h2>
+<div class="clifuncbody">
+<p><p>The <b><span class="cmdname">display ospfv3 routing</span></b> command displays the OSPFv3 routing table.</p>
+</p>
+
+</div></div>
+
+<div class="cliformat"><a name="EN-US_CLIREF_0000001999903409__1.3.2"></a><a name="1.3.2"></a><h2 class="sectiontitle">Format</h2>
+<div class="cliformatbody">
+<p><b><span class="cmdname">display ospfv3 </span></b>[ <i><span class="varname">process-id</span></i> ] <strong><span>routing</span></strong> [ [ <i><span class="varname">ipv6-address</span></i> <i><span class="varname">prefix-length</span></i> ] | <strong><span>ase-routes</span></strong> | <strong><span>inter-routes</span></strong> | <strong><span>intra-routes</span></strong> | <strong><span>nssa-routes</span></strong> ] [ <strong><span>verbose</span></strong> ] [ <strong><span>age</span></strong> { <strong><span>min-value</span></strong> <i><span class="varname">min-age-value</span></i> | <strong><span>max-value</span></strong> <i><span class="varname">max-age-value</span></i> } <sup>*</sup> ]</p>
+
+<p><b><span class="cmdname">display ospfv3 </span></b>[ <i><span class="varname">process-id</span></i> ] <strong><span>routing</span></strong> <strong><span>statistics</span></strong></p>
+
+</div></div>
+
+<div class="cliparam"><a name="EN-US_CLIREF_0000001999903409__1.3.3"></a><a name="1.3.3"></a><h2 class="sectiontitle">Parameters</h2>
+<div class="cliparambody">
+<div class="tableBorder"><table cellpadding="4" cellspacing="0" summary="">
+<tr>
+<th valign="bottom" align="left" id="mcps1.3.3.1.1.1">Parameter</th>
+<th valign="bottom" align="left" id="mcps1.3.3.1.1.2">Description</th>
+<th valign="bottom" align="left" id="mcps1.3.3.1.1.3">Value</th>
+</tr>
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><i><span class="varname">process-id</span></i></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays information about the ABR or ASBR of an OSPF route in a specified OSPF process.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>The value is an integer that ranges from 1 to 4294967295.</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><i><span class="varname">ipv6-address</span></i></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>IPv6 address.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>The value is a 32-digit hexadecimal number in the format X:X:X:X:X:X:X:X.</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><i><span class="varname">prefix-length</span></i></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Specifies the prefix length.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>It is an integer ranging from 0 to 128.</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>ase-routes</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays the statistics of OSPFv3 AS external routes.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>inter-routes</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays the statistics of OSPFv3 inter-area routes.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>intra-routes</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays the statistics of OSPFv3 intra-area routes.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>nssa-routes</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays the statistics of OSPFv3 NSSA routes.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>verbose</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays detailed information about OSPFv3 routes.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>age</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays the LSAs that age in the scope.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>min-value</span></strong> <i><span class="varname">min-age-value</span></i></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays OSPFv3 routing table information with the aging time greater than or equal to min-age-value.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>The value is an integer ranging from 0 to 4294967295.</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>max-value</span></strong> <i><span class="varname">max-age-value</span></i></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays OSPFv3 routing table information with the aging time less than or equal to max-age-value.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>The value is an integer ranging from 0 to 4294967295.</p>
+</td>
+</tr>
+
+<tr>
+<td valign="top" headers="mcps1.3.3.1-type"><strong><span>statistics</span></strong></td>
+<td valign="top" headers="mcps1.3.3.1-desc">
+<p><p>Displays all routes in the OSPFv3 routing table.</p>
+</p>
+
+</td>
+<td valign="top" headers="mcps1.3.3.1-value"><p>-</p>
+</td>
+</tr>
+
+</table></div>
+
+</div></div>
+
+<div class="cliview"><a name="EN-US_CLIREF_0000001999903409__1.3.4"></a><a name="1.3.4"></a><h2 class="sectiontitle">Views</h2>
+<div class="cliviewbody">
+<p>Diagnostic view</p>
+
+</div></div>
+
+<div class="clidefaultlevel"><a name="EN-US_CLIREF_0000001999903409__1.3.5"></a><a name="1.3.5"></a><h2 class="sectiontitle">Default Level</h2>
+<div class="clidefaultlevelbody">
+<p>3: Management level</p>
+
+</div></div>
+
+<div class="clitasknameandoper"><a name="EN-US_CLIREF_0000001999903409__1.3.6"></a><a name="1.3.6"></a><h2 class="sectiontitle">Task Name and Operations</h2>
+<div class="clitasknameandoperbody">
+<div class="tableBorder"><table cellpadding="4" cellspacing="0" summary="">
+<tr>
+<th valign="bottom" align="left" id="mcps1.3.6.1.1.1">Task Name</th>
+<th valign="bottom" align="left" id="mcps1.3.6.1.1.2">Operations</th>
+</tr>
+<tr>
+<td valign="top" headers="mcps1.3.6.1-type">ospf</td>
+<td valign="top" headers="mcps1.3.6.1-value">debug</td>
+</tr>
+
+</table></div>
+
+</div></div>
+
+<div class="clidesc"><a name="EN-US_CLIREF_0000001999903409__1.3.7"></a><a name="1.3.7"></a><h2 class="sectiontitle">Usage Guidelines</h2>
+<div class="clidescbody">
+<p><strong>Usage Scenario</strong></p>
+<p>With the corresponding parameters specified, you can view the routes of a specified type. The command output helps you troubleshoot OSPFv3 faults.</p>
+
+</div></div>
+
+<div class="cliexample"><a name="EN-US_CLIREF_0000001999903409__1.3.8"></a><a name="1.3.8"></a><h2 class="sectiontitle">Example</h2>
+<div class="cliexamplebody">
+<div class="note"><img src="../../public_sys-resources/note_3.0-en-us.png"><span class="notetitle"> </span><div class="notebody"><p>The actual command output varies according to the device. The command output here is only an example.</p>
+</div></div>
+
+<div class="p"># Display the OSPFv3 routing table.<pre class="screen">&lt;<span class="keyword">HUAWEI</span>&gt; <strong>system-view</strong>
+[<span class="keyword"><font style="font-size:8pt" Face="Courier New" >~</font></span><span class="keyword">HUAWEI</span>] <strong>diagnose</strong>
+[<span class="keyword"><font style="font-size:8pt" Face="Courier New" >~</font></span><span class="keyword">HUAWEI</span>-diagnose] <strong>display ospfv3 1 routing</strong>
+Codes : E2 - Type 2 External, E1 - Type 1 External, IA - Inter-Area,
+        N - NSSA
+Flags : A - Added to URT6, LT - Locator Routing
+OSPFv3 Process (1)
+Destination : 2001:DB8::                               PrefixLength : 96
+NextHop     : 2001:DB8::2                              Interface    : Eth<span>3/0/0</span>
+Metric      : 1                                        Type         : directly connected
+Priority    : Low                                      Age          : 00:37:56
+Flags       : A
+Destination : 2001:DB8:9::9                            PrefixLength : 128
+NextHop     : FE80::3A00:10FF:FE03:100                 Interface    : Eth<span>3/0/1</span>
+Metric      : 1                                        Type         : INTRA-AREA
+Priority    : Medium                                   Age          : 00:36:09
+Flags       : A
+</pre>
+</div>
+
+<div class="p"># Display the details of OSPFv3 routing table.<pre class="screen">&lt;<span class="keyword">HUAWEI</span>&gt; <strong>system-view</strong>
+[<span class="keyword"><font style="font-size:8pt" Face="Courier New" >~</font></span><span class="keyword">HUAWEI</span>] <strong>diagnose</strong>
+[<span class="keyword"><font style="font-size:8pt" Face="Courier New" >~</font></span><span class="keyword">HUAWEI</span>-diagnose] <strong>display ospfv3 1 routing verbose</strong>
+Codes : E2 - Type 2 External, E1 - Type 1 External, IA - Inter-Area
+Flags : A - Added to URT6, LT - Locator Routing
+OSPFv3 Process (1)
+Destination   :5::                            Prefix Length    :64
+AdverRouter   :55.55.55.55                    Area             :0.0.0.0
+Metric        :1                              Type             :INTRA-AREA
+Nexthop       :FE80::3A15:24FF:FE02:501       Nexthop Interface:Eth<span>3/0/2</span>.1
+Direct NextHop:Y
+Srv6 Avoid Microloop Sid Stack(Top-&gt;Bottom): {3::1:0:42, 2::1:0:40}
+CalculateTime :2021-07-10 10:29:42.776        DownloadTime     :2021-07-10 10:53:26.850
+Flags         :A                              IID              :0x1000028
+Backup Nexthop:FE80::3A15:26FF:FE03:201       Backup Interface :Eth<span>3/0/3</span>
+Backup Type   :SRV6 TI-LFA LINK               BackupIID        :0x100004c
+Backup Sid Stack(Top-&gt;Bottom): {2::1:0:4}
+Priority      :Low                            Age              :00h24m18s
+</pre>
+</div>
+
+
+
+<div class="tableBorder"><table cellpadding="4" cellspacing="0" summary="" rowfreeze="yes" frame="border" border="1" rules="all"><caption><b>Table 1 </b>Description of the <b><span class="cmdname">display ospfv3 routing (Diagnostic view)</span></b> command output</caption>
+    
+    
+<thead align="left">
+<tr>
+<th align="left" class="cellrowborder" valign="top" width="44.5%" id="mcps1.3.8.4.2.3.1.1" liSelected="liSelected">Item</th>
+
+<th align="left" class="cellrowborder" valign="top" width="55.50000000000001%" id="mcps1.3.8.4.2.3.1.2" liSelected="liSelected">Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Codes</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><div class="p"><p>The following information provides the full spelling and explanation:</p>
+<ul><li>E2: Type 2 external route.</li><li>E1: Type 1 external route.</li><li>IA: Inter-area route.</li><li>N: NSSA route.</li></ul>
+</div>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Type</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Route type.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Flags</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p><p>Flag of routing information.</p>
+<p>A: The route is added to the IPv6 unicast routing table.</p>
+<p>LT: locator route.</p>
+</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">OSPFv3 Process</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>OSPFv3 process.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Destination</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Indicates the destination IP address.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">PrefixLength</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Length of prefix.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">NextHop</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Next hop to the destination.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Interface</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Outbound interface to the destination.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Metric</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Cost to the destination.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Priority</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Priority of OSPFv3.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Age</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Route age.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">AdverRouter</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Advertiser.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Area</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Area ID.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Nexthop Interface</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Outbound interface to the destination.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Direct NextHop</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Next-hop direct connection flag.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Srv6 Avoid Microloop Sid Stack</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>SRv6 microloop avoidance SID label stack.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">CalculateTime</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Route calculation time.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">DownloadTime</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Time when a route is delivered.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">IID</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>IID of the next hop.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Backup Nexthop</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Backup next hop.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Backup Interface</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Backup outbound interface.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Backup Type</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Type of the backup path.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Backup Sid Stack(Top-&gt;Bottom)</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>SID label stack of the backup path.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">BackupIID</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Backup IID.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Intra-area-routes</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>OSPFv3 routes in an area.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Inter-area-routes</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>OSPFv3 routes between areas.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">External-routes</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>External routes.</p>
+</td>
+
+</tr>
+
+<tr>
+
+<td class="cellrowborder" valign="top" width="44.5%" headers="mcps1.3.8.4.2.3.1.1 ">Direct-routes</td>
+
+<td class="cellrowborder" valign="top" width="55.50000000000001%" headers="mcps1.3.8.4.2.3.1.2 "><p>Direct routes.</p>
+</td>
+
+</tr>
+
+</tbody>
+
+</table>
+</div>
+
+</div></div>
+
+</div>
+
+
+</div>
+<div class="footerNavBar clearfix">
+
+<div class="parentlink">
+Parent Topic:
+<a href="../../diagnose/8090/dc_OSPFv3_Diagnostic_Commands_title.html">OSPFv3 Diagnostic Commands
+</a>
+</div>
+<div class="copyrightBottomBar">
+Copyright &copy; Huawei Technologies Co., Ltd.</div>
+<div class="bottomNavBtn clearfix">
+<a href="../../diagnose/8090/DISPLAY-OSPFV3-ROUTERID-CONFLICT(OSPFCOMMOM).html"><span class="font-st">&lt; </span>Previous topic</a>
+<a href="../../diagnose/8090/DISPLAY-OSPFV3-ROUTING-ROUTERID(OSPFCOMMOM).html">Next topic<span class="font-st"> &gt;</span></a>
+</div>
+</div>
+</body>
+</html>

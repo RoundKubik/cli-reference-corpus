@@ -1,0 +1,15 @@
+{
+  "source_pdf": "huawei-ne40e-v800r024c00spc500.rendered.pdf",
+  "source_sha256": "71d6075723cd8798691f8f0160dc9d5a4b50bc4d5b42736d330927e85493d4d6",
+  "reference_topics": 14833,
+  "source_command_topics": 14551,
+  "corpus_records": 14551,
+  "chm_outline_check": {
+    "outline_entries": 14833,
+    "unique_html_topics": 14833,
+    "missing_topics": [],
+    "extra_topics": []
+  },
+  "issues": [],
+  "scope": "Source-topic and file coverage; does not certify semantic correctness of extracted fields."
+}

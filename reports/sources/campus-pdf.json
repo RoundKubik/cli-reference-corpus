@@ -1,0 +1,21 @@
+{
+  "document_url": "https://support.huawei.com/enterprise/en/doc/EDOC1000178165",
+  "download_url": "https://download.huawei.com/edownload/e/download.do?actionFlag=download&nid=EDOC1000178165&partNo=6001&mid=SUPE_DOC",
+  "archive_sha256": "8197cc1965622aa836e4394f89158d06f6a6d20af64ef04c9270850147d94ed0",
+  "original_pdf_member": "S1720, S2700, S5700, and S6720 V200R011C10 Command Reference.pdf",
+  "original_pdf_sha256": "95cedc55ff1dcc50c8d63fa926134105282a7f82a850518c88d9eff4b6db1a53",
+  "original_pdf_pages": 11594,
+  "pdf_sha256": "cf7b97b0ae0d4dfd78f7c7a1dac9ad3c8a4aa9896a9e392962c5bcd40fb84124",
+  "retained_pages": 11349,
+  "original_page_range": [
+    1,
+    11349
+  ],
+  "excluded_original_page_range": [
+    11350,
+    11594
+  ],
+  "include_upgrade": false,
+  "origin": "Original Huawei PDF pages; no HTML conversion, OCR or text reflow.",
+  "scope": "Front matter and chapters 1–18; chapter 19 excluded by the project scope. The original printed contents still lists chapter 19."
+}

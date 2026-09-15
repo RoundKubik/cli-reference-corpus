@@ -1,0 +1,2989 @@
+{
+  "topics_with_word_differences": 124,
+  "checks": [
+    {
+      "section": "1.429",
+      "word": "CR5DL6XEFG7P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D\nL6XEFG7P"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5D0L5XFA7J",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D0L5X\nFA7J"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5DLPUFA27E",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5\nDLPUFA27E"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5DLAXFAJ7F",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DLAXF\nAJ7F"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5D00LFXF7P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D\n00LFXF7P"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5DE2NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DE2NLB\nX73"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5DE1NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "C\nR5DE1NLBX73"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5D00E4NC7B",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5\nD00E4NC7B"
+      ]
+    },
+    {
+      "section": "1.429",
+      "word": "CR5D00E4NC7P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D00\nE4NC7P"
+      ]
+    },
+    {
+      "section": "1.851",
+      "word": "0000",
+      "expected": 6,
+      "found_after_unwrapping": 6,
+      "wrapped_samples": [
+        "0\n000"
+      ]
+    },
+    {
+      "section": "1.1079",
+      "word": "CR5D0MPUB570",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5\nD0MPUB570"
+      ]
+    },
+    {
+      "section": "1.1513",
+      "word": "session",
+      "expected": 37,
+      "found_after_unwrapping": 37,
+      "wrapped_samples": [
+        "sessi\non"
+      ]
+    },
+    {
+      "section": "1.1514",
+      "word": "session",
+      "expected": 14,
+      "found_after_unwrapping": 14,
+      "wrapped_samples": [
+        "sessi\non"
+      ]
+    },
+    {
+      "section": "1.1517",
+      "word": "session",
+      "expected": 28,
+      "found_after_unwrapping": 28,
+      "wrapped_samples": [
+        "sessi\non"
+      ]
+    },
+    {
+      "section": "1.3206",
+      "word": "DHCP_FILE_WITHOUT_CHECK_CODE",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "DHCP_FILE_WITHOUT_CHECK_\nCODE"
+      ]
+    },
+    {
+      "section": "1.3207",
+      "word": "DHCP_FILE_WITHOUT_CHECK_CODE",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "DHCP_FILE_WITHOUT_CHECK_\nCODE"
+      ]
+    },
+    {
+      "section": "1.3319",
+      "word": "tacacs",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "taca\ncs",
+        "taca\ncs",
+        "taca\ncs"
+      ]
+    },
+    {
+      "section": "1.3319",
+      "word": "hostname",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "hostn\name",
+        "hostn\name",
+        "hostn\name"
+      ]
+    },
+    {
+      "section": "1.3341",
+      "word": "DHCP_FILE_WITHOUT_CHECK_CODE",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "DHCP_FILE_WITHOUT_CHECK_\nCODE"
+      ]
+    },
+    {
+      "section": "1.3408",
+      "word": "DHCP_FILE_WITHOUT_CHECK_CODE",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "DHCP_FILE_WITHOUT_CHECK_\nCODE"
+      ]
+    },
+    {
+      "section": "1.3556",
+      "word": "hwRpkiSessionASPAExceedThreshold",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "hwRpkiSessionASPAExceed\nThreshold"
+      ]
+    },
+    {
+      "section": "1.3556",
+      "word": "hwRpkiSessionAspaExceedLimit",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "hwRpkiSessionAspaExceed\nLimit"
+      ]
+    },
+    {
+      "section": "1.5441",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5441",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5442",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5442",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5443",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5443",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5444",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5444",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5445",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5445",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5446",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5446",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": []
+    },
+    {
+      "section": "1.5447",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5447",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5448",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5448",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5449",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5449",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5450",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5450",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5451",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5451",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": []
+    },
+    {
+      "section": "1.5452",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5452",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5453",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5453",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5454",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5454",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5455",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5455",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5456",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5456",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5457",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5457",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5458",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5458",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": []
+    },
+    {
+      "section": "1.5459",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5459",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5460",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5460",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5461",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5461",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5462",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5462",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5463",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5463",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5464",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5464",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5465",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5465",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5466",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5466",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": []
+    },
+    {
+      "section": "1.5467",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5467",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5468",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5468",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5469",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5469",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": []
+    },
+    {
+      "section": "1.5470",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5470",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5471",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5471",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5472",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5472",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5473",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5473",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5474",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5474",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5475",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5475",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5476",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5476",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5477",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5477",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5478",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5478",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5479",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5479",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.5480",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.5480",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.6908",
+      "word": "ospfv3nbrrestarthelperstatuschange",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "ospfv3nbrrestarthelperstatuscha\nnge"
+      ]
+    },
+    {
+      "section": "1.7239",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.7239",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.7240",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.7240",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.7241",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.7241",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.7299",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7332",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7337",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7338",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7341",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7342",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7395",
+      "word": "the",
+      "expected": 48,
+      "found_after_unwrapping": 48,
+      "wrapped_samples": [
+        "t\nhe"
+      ]
+    },
+    {
+      "section": "1.7396",
+      "word": "the",
+      "expected": 48,
+      "found_after_unwrapping": 48,
+      "wrapped_samples": [
+        "t\nhe"
+      ]
+    },
+    {
+      "section": "1.7470",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7471",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7475",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7476",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7477",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7478",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7479",
+      "word": "FFFF",
+      "expected": 16,
+      "found_after_unwrapping": 16,
+      "wrapped_samples": [
+        "FFF\nF",
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7480",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7507",
+      "word": "decimal",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "d\necimal"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "group",
+      "expected": 18,
+      "found_after_unwrapping": 18,
+      "wrapped_samples": [
+        "gr\noup"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "query",
+      "expected": 12,
+      "found_after_unwrapping": 12,
+      "wrapped_samples": [
+        "qu\nery"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "device",
+      "expected": 5,
+      "found_after_unwrapping": 5,
+      "wrapped_samples": [
+        "devic\ne"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "message",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "messag\ne"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "member",
+      "expected": 7,
+      "found_after_unwrapping": 7,
+      "wrapped_samples": [
+        "membe\nr"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "downstream",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "d\nownstream"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "corresponding",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "corresp\nonding"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "within",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "withi\nn"
+      ]
+    },
+    {
+      "section": "1.7548",
+      "word": "that",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "th\nat"
+      ]
+    },
+    {
+      "section": "1.7609",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7616",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7688",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7690",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7697",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7763",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7764",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7904",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7905",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7907",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7909",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.7912",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.8075",
+      "word": "FFFF",
+      "expected": 7,
+      "found_after_unwrapping": 7,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.8076",
+      "word": "FFFF",
+      "expected": 7,
+      "found_after_unwrapping": 7,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.8282",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.8282",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.8283",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.8283",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.8369",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.8370",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.8400",
+      "word": "FFFF",
+      "expected": 18,
+      "found_after_unwrapping": 18,
+      "wrapped_samples": [
+        "FFF\nF",
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.8405",
+      "word": "FFFF",
+      "expected": 8,
+      "found_after_unwrapping": 8,
+      "wrapped_samples": [
+        "FFF\nF"
+      ]
+    },
+    {
+      "section": "1.9315",
+      "word": "SPEC_RES_SRPOLICY_SEGLIST_MAX_NUM",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "SPEC_RES_SRPOLICY_SEGLIST\n_MAX_NUM"
+      ]
+    },
+    {
+      "section": "1.9317",
+      "word": "SPEC_RES_SRPOLICY_SEGLIST_MAX_NUM",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "SPEC_RES_SRPOLICY_SEGLIST\n_MAX_NUM"
+      ]
+    },
+    {
+      "section": "1.9618",
+      "word": "IpAddrLen",
+      "expected": 21,
+      "found_after_unwrapping": 21,
+      "wrapped_samples": [
+        "IpAdd\nrLen"
+      ]
+    },
+    {
+      "section": "1.9625",
+      "word": "IpAddrLen",
+      "expected": 10,
+      "found_after_unwrapping": 10,
+      "wrapped_samples": [
+        "IpAdd\nrLen"
+      ]
+    },
+    {
+      "section": "1.9825",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.9825",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.9826",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.9826",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.10689",
+      "word": "CR5DLAXFAJ7E",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DL\nAXFAJ7E"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5D00LFXF7P",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5D\n00LFXF7P",
+        "CR5D00LFX\nF7P"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DE2NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DE2NLB\nX73"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DE1NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "C\nR5DE1NLBX73"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DLPUFE07F",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5D\nLPUFE07F"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DLPUFF07H",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5D\nLPUFF07H"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DL6XEFG7P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D\nL6XEFG7P"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5D0L5XFA7J",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D0L5X\nFA7J"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DLPUFA27E",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5\nDLPUFA27E"
+      ]
+    },
+    {
+      "section": "1.10698",
+      "word": "CR5DLAXFAJ7F",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DLAXF\nAJ7F"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5D00E2ND70",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D\n00E2ND70"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5D00E4NC71",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D00E4N\nC71"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5D00LFXF70",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "C\nR5D00LFXF70"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5D00LMXF7B",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D00L\nMXF7B"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5D01LMXF7B",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D01LMXF7\nB"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DE1NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR\n5DE1NLBX73"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DE2NLFX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DE2\nNLFX73"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DE2NLFX7P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DE2NLFX\n7P"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFF070",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "C\nR5DLPUFF070"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFF07G",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DLP\nUFF07G"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFF379",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DLPUFF3\n79"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFM074",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "C\nR5DLPUFM074"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFME71",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5\nDLPUFME71"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DSPUIM070",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DSP\nUIM070"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFM37S",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5DLPUFM\n37S"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFM37T",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5\nDLPUFM37T"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFM39B",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5DL\nPUFM39B"
+      ]
+    },
+    {
+      "section": "1.10709",
+      "word": "CR5DLPUFT07J",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR\n5DLPUFT07J",
+        "CR5DLPUF\nT07J"
+      ]
+    },
+    {
+      "section": "1.10747",
+      "word": "CS7",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CS\n7"
+      ]
+    },
+    {
+      "section": "1.10760",
+      "word": "hwXQoSCarBindwidthExceedChipLimitAlarm",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "hwXQoSCarBindwidthExceedChipL\nimitAlarm",
+        "hwXQoSCarBindwidthExceedChipL\nimitAlarm"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DL6XEFG7P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D\nL6XEFG7P"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5D0L5XFA7J",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5D0L5X\nFA7J"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DLPUFA27E",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5\nDLPUFA27E"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DLAXFAJ7F",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DLAXF\nAJ7F"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5D00LFXF7P",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5D\n00LFXF7P",
+        "CR5D00LFX\nF7P"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DE2NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "CR5DE2NLB\nX73"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DE1NLBX73",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "C\nR5DE1NLBX73"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DLPUFE07F",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5D\nLPUFE07F"
+      ]
+    },
+    {
+      "section": "1.10852",
+      "word": "CR5DLPUFF07H",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "CR5D\nLPUFF07H"
+      ]
+    },
+    {
+      "section": "1.11112",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.11112",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.11113",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.11113",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.11114",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.11114",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.11115",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.11115",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.11116",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.11116",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.11117",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "1\n77",
+        "1\n77"
+      ]
+    },
+    {
+      "section": "1.11117",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\nED"
+      ]
+    },
+    {
+      "section": "1.11878",
+      "word": "DHCP_FILE_WITHOUT_CHECK_CODE",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "DHCP_FILE_WITHOUT_CHECK_\nCODE"
+      ]
+    },
+    {
+      "section": "1.11958",
+      "word": "OU",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "O\nU"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "OoqWSTjcqEuGRdjoMCV",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "OoqWSTj\ncqEuGRdjoMCV"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "3Vf0H5bOViHoOI",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "3Vf0H5bOV\niHoOI"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "h1QktAsakBu",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "h1QktAsa\nkBu"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "YvWaUYPzqmuKNDgYp6ktr4Hwwzaoivt9sN5oTSLzn9Uyqi02tkaQSF4zTLwPx7HVeb52Y4",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "YvWaUYPzqmuKNDg\nYp6ktr4Hwwzaoivt9sN5oTSLzn9Uyqi02tkaQSF4zTLwPx7HVeb52Y4",
+        "YvWaUYPzqmuKNDgYp6ktr4Hwwzaoivt9s\nN5oTSLzn9Uyqi02tkaQSF4zTLwPx7HVeb52Y4"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "c1BeuGo9D2zQcqU9pjqDGtYKXPxGQ41m22kXj6KjxLOYYQ2vfulabEZFVUx6r5NTQpVJ2CkicAhfTFdzLsTwN",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "c1\nBeuGo9D2zQcqU9pjqDGtYKXPxGQ41m22kXj6KjxLOYYQ2vfulabEZFVUx6r5NTQp\nVJ2CkicAhfTFdzLsTwN",
+        "c1BeuGo9D2zQcqU9pjqDGtYKXPxGQ41m22kXj6KjxLOYYQ2vfulabEZFVUx6r\n5NTQpVJ2CkicAhfTFdzLsTwN"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "5571290816422985563228010738023376282026422802321978245232464346209118705826447081125555668821839117543607581413402878206624308957234996508127981982040469046360396135450284102292189828365428604710776833852275834335478951803876891605481124016606719440935869319903016464742587822871460854389074858880039203864702975814009631567425756403444956273508171766344998692574870216424775487600290152245969225576405692844987865306392220879575550715466951421629401238256983264928669910809026222174957033240204042316357160835550935672777885243402004971881093394445395425718716298768072415426297056246184367069314702664903649151507716052012934262464522851219983176023843750596204584157368511866742715230358567389542473107551635890669234811788704536078677848635002288815702137779996648705195760955209374102163370840072342839921995733856601664944384898464966197721047586311884029548844372650859182598009550793164694470886884683145613041306913",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "557129081642298556322801073802337628202642280232197824523246434620911870582644708112555566882183911754360\n758141340287820662430895723499650812798198204046904636039613545028410229218982836542860471077683385227583\n433547895180387689160548112401660671944093586931990301646474258782287146085438907485888003920386470297581\n400963156742575640344495627350817176634499869257487021642477548760029015224596922557640569284498786530639\n222087957555071546695142162940123825698326492866991080902622217495703324020404231635716083555093567277788\n524340200497188109339444539542571871629876807241542629705624618436706931470266490364915150771605201293426\n246452285121998317602384375059620458415736851186674271523035856738954247310755163589066923481178870453607\n867784863500228881570213777999664870519576095520937410216337084007234283992199573385660166494438489846496\n6197721047586311884029548844372650859182598009550793164694470886884683145613041306913"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "rJH2xPUlC4v8AAAEAFSvZdMF1im2",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "rJH2\nxPUlC4v8AAAEAFSvZdMF1im2"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "NWoiY2Gi4Oyw6",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "NWoi\nY2Gi4Oyw6"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "stqeBkwXuFH5CiRLmBFKzfKF9YRwu5MRrS8dyZUwmhWqZ7PpdgANnsxqQUi8TlJb0GC2",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "stqeBkwXuFH5CiRLmBFKzfKF9YRwu5MRrS8dyZUwmhW\nqZ7PpdgANnsxqQUi8TlJb0GC2",
+        "stqeBkwXuFH5CiRLmBFK\nzfKF9YRwu5MRrS8dyZUwmhWqZ7PpdgANnsxqQUi8TlJb0GC2"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "RlzaLktv2hJ0cdGuifhL5iijkttBYfWVZeadQVBPpHvyWHD95IJYlz6jX1Gn6NaOeN7YUBH1TXc1jrzBYs6JbeccUtjJrfbYGfr8VPMGnILDhp",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "RlzaLktv2hJ0cdGuifhL5\niijkttBYfWVZeadQVBPpHvyWHD95IJYlz6jX1Gn6NaOeN7YUBH1TXc1jrzBYs6Jb\neccUtjJrfbYGfr8VPMGnILDhp",
+        "RlzaLktv2hJ0cdGuifhL5iijkttBYfWVZeadQVB\nPpHvyWHD95IJYlz6jX1Gn6NaOeN7YUBH1TXc1jrzBYs6JbeccUtjJrfbYGfr8VPMGnILDhp"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "mwkBzj7uPBdQWsrXdcuNim7WSRL",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "mwkBzj7uPBdQW\nsrXdcuNim7WSRL",
+        "mwkBzj7u\nPBdQWsrXdcuNim7WSRL"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "K0wK5i1CjpUKr67AAABADrBF0bulZy9MPZpxX4pC8R8tbv9lq6SFXopxyNy",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "K0w\nK5i1CjpUKr67AAABADrBF0bulZy9MPZpxX4pC8R8tbv9lq6SFXopxyNy",
+        "K0wK5i1CjpUKr67AAABADrBF0bulZy9MPZpxX4p\nC8R8tbv9lq6SFXopxyNy"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "bPM4CzUBGVg2kIDYgXG76sUhm5qEGDfYli",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "bPM4CzUBGVg2kIDYg\nXG76sUhm5qEGDfYli",
+        "bPM4CzUBGVg2kIDYgXG76sUhm5qEGD\nfYli"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "t5pW4y7BWgZZPRfEByn1h8d0lZAXYrCAcCRWSy7nnG4dhnk1SHbMZiodPeHRLHnhAsCxDlycRCizrrkyeCbUzeUYmpPqUx4P",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "t5pW4y7BWgZZPRfE\nByn1h8d0lZAXYrCAcCRWSy7nnG4dhnk1SHbMZiodPeHRLHnhAsCxDlycRCizrrky\neCbUzeUYmpPqUx4P",
+        "t5pW4y7BWgZZPRfEByn1h8d0lZAXYrCAcCRWSy7nnG4dhnk1SHbMZiodPeHRLHnhAsCxDl\nycRCizrrkyeCbUzeUYmpPqUx4P"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "6PPeusJH4s6ZPNXae8VBTyoYXBLvFxoZPWVFVZOo9BaQGx3e7aGg4IYOwu8D8OkLUtDH9",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "6PPeusJH4s6ZPNXae8VBTyoYXBLvFxoZPWVFVZOo9BaQGx3e7\naGg4IYOwu8D8OkLUtDH9",
+        "6PPeusJH4s6ZPNXae8VBTyoYXBLvFxoZPW\nVFVZOo9BaQGx3e7aGg4IYOwu8D8OkLUtDH9"
+      ]
+    },
+    {
+      "section": "1.12060",
+      "word": "98TCdAuUiSIcWCzmfMNpC20OswYQWWPqK1rRFZPZhP21gffThHBmhPKUGbobGLi0Jm9HMJmuKNqR16dX8Swh7xPeKzOK9rsiXT8",
+      "expected": 1,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "98TCdAuUiSIcWCzmfMNpC20OswYQWWPqK1rRFZPZhP2\n1gffThHBmhPKUGbobGLi0Jm9HMJmuKNqR16dX8Swh7xPeKzOK9rsiXT8",
+        "98TCdAuUiSIcWCzmfMNpC20OswYQWWPqK1rRFZPZhP21gffThHBmhPKUGbobGLi0Jm9HM\nJmuKNqR16dX8Swh7xPeKzOK9rsiXT8"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "UlylcU5ISAiavmqgm",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "Ulyl\ncU5ISAiavmqgm"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "stqeBkwXuFH5CiRLmBFKzfKF9YRwu5MRrS8dyZUwmhWqZ7PpdgANnsxqQUi8TlJb0GC2",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "stqeBkwXuFH5CiRLmBFK\nzfKF9YRwu5MRrS8dyZUwmhWqZ7PpdgANnsxqQUi8TlJb0GC2"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "RlzaLktv2hJ0cdGuifhL5iijkttBYfWVZeadQVBPpHvyWHD95IJYlz6jX1Gn6NaOeN7YUBH1TXc1jrzBYs6JbeccUtjJrfbYGfr8VPMGnILDhp",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "RlzaLktv2hJ0cdGuifhL5iijkttBYfWVZeadQVB\nPpHvyWHD95IJYlz6jX1Gn6NaOeN7YUBH1TXc1jrzBYs6JbeccUtjJrfbYGfr8VPMGnILDhp"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "mwkBzj7uPBdQWsrXdcuNim7WSRL",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "mwkBzj7u\nPBdQWsrXdcuNim7WSRL"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "K0wK5i1CjpUKr67AAABADrBF0bulZy9MPZpxX4pC8R8tbv9lq6SFXopxyNy",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "K0wK5i1CjpUKr67AAABADrBF0bulZy9MPZpxX4p\nC8R8tbv9lq6SFXopxyNy"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "bPM4CzUBGVg2kIDYgXG76sUhm5qEGDfYli",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "bPM4CzUBGVg2kIDYgXG76sUhm5qEGD\nfYli"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "t5pW4y7BWgZZPRfEByn1h8d0lZAXYrCAcCRWSy7nnG4dhnk1SHbMZiodPeHRLHnhAsCxDlycRCizrrkyeCbUzeUYmpPqUx4P",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "t5pW4y7BWgZZPRfEByn1h8d0lZAXYrCAcCRWSy7nnG4dhnk1SHbMZiodPeHRLHnhAsCxDl\nycRCizrrkyeCbUzeUYmpPqUx4P"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "rJH2xPUlC4v8AAAEBALc2WJExKcuSCTzmXoiS6ZTykTAjgVpFaHJYHMK3OtXusAPjEWhDOMlS",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "rJH2\nxPUlC4v8AAAEBALc2WJExKcuSCTzmXoiS6ZTykTAjgVpFaHJYHMK3OtXusAPjEWhDOMlS"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "sD9EcjeNekF4V1vysmKmW",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "sD9EcjeNekF4V\n1vysmKmW"
+      ]
+    },
+    {
+      "section": "1.12074",
+      "word": "1A13NfOJPEJcl9avOT0YsHh7Qz22cXHUD08XuJk7r",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "1A13NfOJPEJcl9avOT0YsHh7Qz22cXHUD0\n8XuJk7r"
+      ]
+    },
+    {
+      "section": "1.12096",
+      "word": "O3GvlZxTSqWHNtZKZj",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "O3GvlZx\nTSqWHNtZKZj"
+      ]
+    },
+    {
+      "section": "1.12096",
+      "word": "eggSS68qLlgSEf2dsJNYnigUAhfZ2RmCZJYJbbluRVkvt",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "eggSS68qLlgSEf2dsJNYnigUAhfZ2RmCZJYJ\nbbluRVkvt"
+      ]
+    },
+    {
+      "section": "1.12096",
+      "word": "judye9euRvMh758WUL8MTBJeKyB9JbfjT7MFtHbLYzP7zcWnsFE1WiXCJ784ialNrB4QZ632VlCJgUNEnhjwxcsXmgF2zpMwOTCzWvgWHYM2tqgq1IpSizOVUyN2tlzowHZ86",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "judye9euRvMh758WUL8MTBJeKyB9JbfjT7MFtH\nbLYzP7zcWnsFE1WiXCJ784ialNrB4QZ632VlCJgUNEnhjwxcsXmgF2zpMwOTCzWvgWHYM2tqgq1IpSizOVUyN2tlzowHZ86"
+      ]
+    },
+    {
+      "section": "1.12096",
+      "word": "aE6GWhbnIP04Wr2CZmZQn6BYpWQuY2dEboZOptvrau1yx4XdslkCg5r4OCe83yQHKbC7d4RvLODjTwI0rKEWvMEf1FN7Oz",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "aE6GWhbnIP04Wr2CZmZQn6BYpW\nQuY2dEboZOptvrau1yx4XdslkCg5r4OCe83yQHKbC7d4RvLODjTwI0rKEWvMEf1FN7Oz"
+      ]
+    },
+    {
+      "section": "1.12096",
+      "word": "oogevaAxh3vyqHA9GU3xuOQpRddWZQSLKyoLUgby0",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "oogevaAxh3vyqHA9GU3xuOQ\npRddWZQSLKyoLUgby0"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls1_ck_dhe_rsa_with_aes_256_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls1_ck_dhe_rsa_with_aes_256_s\nha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls1_ck_dhe_dss_with_aes_256_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls1_ck_dhe_dss_with_aes_256_\nsha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls1_ck_dhe_rsa_with_aes_128_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls1_ck_dhe_rsa_with_aes_128_s\nha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls1_ck_dhe_dss_with_aes_128_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls1_ck_dhe_dss_with_aes_128_\nsha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_rsa_aes_128_cbc_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_rsa_aes_128_cbc_sha2\n56"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_rsa_aes_256_cbc_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_rsa_aes_256_cbc_sha2\n56"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_dss_aes_128_cbc_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_dss_aes_128_cbc_\nsha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_rsa_aes_128_cbc_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_rsa_aes_128_cbc_\nsha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_dss_aes_256_cbc_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_dss_aes_256_cbc_\nsha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_rsa_aes_256_cbc_sha",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_rsa_aes_256_cbc_\nsha"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_dss_aes_128_cbc_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_dss_aes_128_cbc_\nsha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_rsa_aes_128_cbc_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_rsa_aes_128_cbc_\nsha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_dss_aes_256_cbc_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_dss_aes_256_cbc_\nsha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_rsa_aes_256_cbc_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_rsa_aes_256_cbc_\nsha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_rsa_with_aes_128_gcm_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_rsa_with_aes_128_gcm\n_sha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_rsa_with_aes_256_gcm_sha384",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_rsa_with_aes_256_gcm\n_sha384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_rsa_with_aes_128_gcm_sha256",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "tls12_ck_dhe_rsa_with_aes_128_\ngcm_sha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_rsa_with_aes_256_gcm_sha384",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "tls12_ck_dhe_rsa_with_aes_256_\ngcm_sha384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_dss_with_aes_128_gcm_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_dss_with_aes_128\n_gcm_sha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_dhe_dss_with_aes_256_gcm_sha384",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_dhe_dss_with_aes_256\n_gcm_sha384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_ecdhe_rsa_with_aes_128_gcm_sha256",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_ecdhe_rsa_with_aes_12\n8_gcm_sha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_ecdhe_rsa_with_aes_256_gcm_sha384",
+      "expected": 4,
+      "found_after_unwrapping": 4,
+      "wrapped_samples": [
+        "tls12_ck_ecdhe_rsa_with_aes_25\n6_gcm_sha384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls13_chacha20_poly1305_sha256",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "tls13_chacha20_poly1305_sha25\n6"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_ecdhe_ecdsa_with_aes_128_gcm_sha256",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "tls12_ck_ecdhe_ecdsa_with_aes\n_128_gcm_sha256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "tls12_ck_ecdhe_ecdsa_with_aes_256_gcm_sha384",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "tls12_ck_ecdhe_ecdsa_with_aes\n_256_gcm_sha384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_RSA_WITH_AES_256_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_256_CBC_\nSHA",
+        "TLS_RSA_WITH_AES_256_CBC_\nSHA"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_RSA_WITH_AES_128_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_128_CBC_\n-\n\nSHA",
+        "TLS_RSA_WITH_AES_128_CBC_\nSHA"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_DHE_RSA_WITH_AES_256_\nCBC_SHA",
+        "TLS_DHE_RSA_WITH_AES_256_\n-\n\nCBC_SHA"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_DHE_DSS_WITH_AES_256_\nCBC_SHA",
+        "TLS_DHE_DSS_WITH_AES_256_\nCBC_SHA"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_DHE_RSA_WITH_AES_128_\nCBC_SHA",
+        "TLS_DHE_RSA_WITH_AES_128_\nCBC_SHA"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_DHE_DSS_WITH_AES_128_\nCBC_SHA",
+        "TLS_DHE_DSS_WITH_AES_128_\nCBC_SHA"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_RSA_WITH_AES_128_CBC_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_128_CBC_\nSHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_RSA_WITH_AES_256_CBC_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_256_CBC_\nSHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_DSS_WITH_AES_128_CBC_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_DSS_WITH_AES_128_\nCBC_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_RSA_WITH_AES_128_CBC_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_RSA_WITH_AES_128_\nCBC_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_DSS_WITH_AES_256_CBC_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_DSS_WITH_AES_256_\nCBC_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_RSA_WITH_AES_256_CBC_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_RSA_WITH_AES_256_\nCBC_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_RSA_WITH_AES_128_GCM_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_128_GCM_\nSHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_RSA_WITH_AES_256_GCM_SHA384",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_256_GCM_\nSHA384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_RSA_WITH_AES_128_GCM_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_RSA_WITH_AES_128_\nGCM_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_RSA_WITH_AES_256_GCM_SHA384",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_RSA_WITH_AES_256_\nGCM_SHA384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_DSS_WITH_AES_128_GCM_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_DSS_WITH_AES_128_\nGCM_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_DHE_DSS_WITH_AES_256_GCM_SHA384",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_DHE_DSS_WITH_AES_256_\nGCM_SHA384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_ECDHE_RSA_WITH_AES_12\n8_GCM_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_ECDHE_RSA_WITH_AES_25\n-\n\n6_GCM_SHA384"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_CHACHA20_POLY1305_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_CHACHA20_POLY1305_SHA\n256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_ECDHE_ECDSA_WITH_AES\n_128_GCM_SHA256"
+      ]
+    },
+    {
+      "section": "1.12171",
+      "word": "TLS_ECDHE_ECDSA_WITH_AES_256_GCM_SHA384",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_ECDHE_ECDSA_WITH_AES\n_256_GCM_SHA384"
+      ]
+    },
+    {
+      "section": "1.13294",
+      "word": "XPI",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "X\nPI"
+      ]
+    },
+    {
+      "section": "1.13358",
+      "word": "SystemName",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "Syst\nemName"
+      ]
+    },
+    {
+      "section": "1.13445",
+      "word": "threshold",
+      "expected": 3,
+      "found_after_unwrapping": 3,
+      "wrapped_samples": [
+        "thresh\nold"
+      ]
+    },
+    {
+      "section": "1.13445",
+      "word": "packets",
+      "expected": 6,
+      "found_after_unwrapping": 6,
+      "wrapped_samples": [
+        "pack\nets"
+      ]
+    },
+    {
+      "section": "1.13726",
+      "word": "than",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "t\nhan"
+      ]
+    },
+    {
+      "section": "1.13726",
+      "word": "capability",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "capabili\nty"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS_RSA_WITH_AES_128_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_128_\nCBC_SHA"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS1",
+      "expected": 13,
+      "found_after_unwrapping": 13,
+      "wrapped_samples": [
+        "TLS\n1"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS_RSA_WITH_AES_256_CBC_SHA",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_RSA_WITH_AES_256_\nCBC_SHA"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS_ECDHE_ECDSA_WITH_AES_128_GCM_SHA256",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "TLS_ECDHE_ECDSA_WIT\nH_AES_128_GCM_SHA256"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_ECDHE_RSA_WITH_A\nES_128_GCM_SHA256"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS_AES_128_GCM_SHA256",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_AES_128_GCM_SHA2\n56"
+      ]
+    },
+    {
+      "section": "1.13873",
+      "word": "TLS_AES_256_GCM_SHA384",
+      "expected": 2,
+      "found_after_unwrapping": 2,
+      "wrapped_samples": [
+        "TLS_AES_256_GCM_SHA3\n84"
+      ]
+    },
+    {
+      "section": "1.14373",
+      "word": "SECOND",
+      "expected": 12,
+      "found_after_unwrapping": 12,
+      "wrapped_samples": [
+        "SECO\nND",
+        "SECO\nND"
+      ]
+    },
+    {
+      "section": "1.14373",
+      "word": "ASP_NAT_PORT_BLOCK_ALLOC",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ASP_NAT_PORT_BLOCK_\nALLOC"
+      ]
+    },
+    {
+      "section": "1.14373",
+      "word": "ASP_NAT_PORT_BLOCK_RELEASE",
+      "expected": 1,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "ASP_NAT_PORT_BLOCK_\nRELEASE"
+      ]
+    }
+  ],
+  "table_column_reviews": [
+    {
+      "section": "1.5446",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\n\nED"
+      ],
+      "found_in_table_column": 1,
+      "column_x_bounds": [
+        215,
+        382
+      ],
+      "resolved": true
+    },
+    {
+      "section": "1.5451",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\n\nED"
+      ],
+      "found_in_table_column": 1,
+      "column_x_bounds": [
+        215,
+        382
+      ],
+      "resolved": true
+    },
+    {
+      "section": "1.5458",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\n\nED"
+      ],
+      "found_in_table_column": 1,
+      "column_x_bounds": [
+        215,
+        382
+      ],
+      "resolved": true
+    },
+    {
+      "section": "1.5465",
+      "word": "177",
+      "expected": 2,
+      "found_after_unwrapping": 1,
+      "wrapped_samples": [
+        "1\n\n77",
+        "1\n77"
+      ],
+      "found_in_table_column": 2,
+      "column_x_bounds": [
+        215,
+        382
+      ],
+      "resolved": true
+    },
+    {
+      "section": "1.5466",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\n\nED"
+      ],
+      "found_in_table_column": 1,
+      "column_x_bounds": [
+        215,
+        382
+      ],
+      "resolved": true
+    },
+    {
+      "section": "1.5469",
+      "word": "ROUTETHRESHOLDEXCEED",
+      "expected": 1,
+      "found_after_unwrapping": 0,
+      "wrapped_samples": [
+        "ROUTETHRESHOLDEXCE\n\nED"
+      ],
+      "found_in_table_column": 1,
+      "column_x_bounds": [
+        215,
+        382
+      ],
+      "resolved": true
+    }
+  ],
+  "unresolved": [],
+  "source_pdf_sha256": "71d6075723cd8798691f8f0160dc9d5a4b50bc4d5b42736d330927e85493d4d6",
+  "source_image_references": 2508,
+  "pdf_image_occurrences": 2508,
+  "scope": "Word-counter differences checked allowing wrapped tokens; six table fragments checked in their column across page breaks. Not a semantic corpus audit."
+}

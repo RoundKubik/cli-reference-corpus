@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-reference-corpus"
+version = "0.3.0"
+description = "Turn multi-vendor CLI reference PDFs into per-command JSON and Markdown corpora"
+requires-python = ">=3.10"
+dependencies = ["PyMuPDF>=1.24,<2"]
+
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "jsonschema>=4.20,<5"]
+prepare = ["beautifulsoup4>=4.12,<5"]
+
+[project.scripts]
+cli-reference-corpus = "cli_reference_corpus.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

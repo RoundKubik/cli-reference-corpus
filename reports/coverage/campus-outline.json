@@ -1,0 +1,15 @@
+{
+  "source_sha256": "cf7b97b0ae0d4dfd78f7c7a1dac9ad3c8a4aa9896a9e392962c5bcd40fb84124",
+  "expected_command_descriptions": 5989,
+  "corpus_records": 5989,
+  "issues": [],
+  "non_command_bookmark_exceptions": [
+    {
+      "section": "8.2.1",
+      "title": "MLD Configuration Commands",
+      "page": 4747,
+      "reason": "Model support matrix; no dedicated command description."
+    }
+  ],
+  "scope": "All command bookmarks in retained chapters; Command Support entries excluded. Printed-page census is reported separately."
+}
