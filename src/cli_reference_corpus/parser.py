@@ -217,7 +217,7 @@ class BasePDFParser(ABC):
                 doc, pages, outline,
                 header=header, footer=footer, workers=workers, progress=progress,
             )
-            related = RelatedTopicIndex.from_outline(outline)
+            related = RelatedTopicIndex.from_outline(outline, result.commands)
             for command in result.commands:
                 related.enrich(command)
         if not result.commands:

@@ -20,7 +20,7 @@ class HuaweiPDFParser(BasePDFParser):
     }
     condition_prefixes = ("For ",)
     inverse_keywords = ("undo",)
-    prompt = re.compile(r"^(?:<[^<>\s]+>|\[[~*]?[^\[\]\s]+\])\s*\S")
+    prompt = re.compile(r"^(?:(?:<[^<>\s]+>|\[[~*]?[^\[\]\s]+\])\s*\S|(?:<>|\[\])\s+[A-Za-z])")
 
     def outline_entries(self, doc):
         entries = []

@@ -6,7 +6,7 @@ import pytest
 from jsonschema import Draft202012Validator
 
 from cli_reference_corpus.markdown import render_command
-from cli_reference_corpus.model import Command, RelatedTopic
+from cli_reference_corpus.model import Command, Parameter, RelatedTopic
 from cli_reference_corpus.parser import Heading
 from cli_reference_corpus.pdf import Table
 from cli_reference_corpus.related_sections import RelatedSection
@@ -24,10 +24,10 @@ def test_ne40e_esi_preserves_access_metadata_caption_and_named_references(worker
     assert "Task Name | Operations\nbgp | write" in command.extra
     assert "# Bind a dynamic ESI instance to an Eth-Trunk interface." in command.extra
     assert command.examples[0][-1] == "[*HUAWEI-Eth-Trunk10] esi dynamic esi1"
-    assert [(t.title, t.target_sections) for t in command.related_topics] == [
+    assert [(t.title, t.target_sections) for t in command.related_topics if t.source_section == "Usage Guidelines"] == [
         ("esi dynamic-name", ["1.9664"]), ("evpn redundancy-mode", ["1.9687"]),
     ]
-    assert all(t.source_section == "Usage Guidelines" for t in command.related_topics)
+    assert {t.source_section for t in command.related_topics} == {"Usage Guidelines", "Examples"}
     assert "### Related Topics" in render_command(command)
     assert "Reference sections: 1.9664" in render_command(command)
 
@@ -68,7 +68,8 @@ def test_related_topics_table_retains_unknown_target_and_description_continuatio
     topic, = RelatedSection("Related Topics").read(events)
     assert topic.to_dict() == {
         "title": "external topic", "description": "First line\nContinuation",
-        "source_section": "Related Topics", "target_sections": [],
+        "source_section": "Related Topics", "target_sections": [], "target_files": [],
+        "reference_kind": "documented_reference",
     }
 
 
@@ -111,7 +112,7 @@ def test_reference_resolution_keeps_homonyms_and_excludes_casual_mentions():
 def test_additional_information_and_topics_round_trip_both_schemas(schema):
     command = Command("sample", "1", 1, 1, clis=["sample"], views=["System view"],
                       extra="Default Level:\n2: Configuration level",
-                      related_topics=[RelatedTopic("peer", "Sets a peer.", "Related Topics", ["2"])])
+                      related_topics=[RelatedTopic("peer", "Sets a peer.", "Related Topics", ["2"], ["2_peer.json"])])
     record = command.to_dict(schema)
     validator = Draft202012Validator(json.loads((ROOT / "schemas" / f"{schema}.schema.json").read_text()))
     assert list(validator.iter_errors(record)) == []
@@ -127,9 +128,153 @@ def test_old_record_without_related_topics_still_renders():
     assert "### Related Topics" not in render_command(Command.from_dict(record))
 
 
-@pytest.mark.parametrize("value", ["peer", ["peer"], [{"title": "peer", "target_sections": "2"}]])
+@pytest.mark.parametrize("value", ["peer", ["peer"], [{"title": "peer", "target_sections": "2"}],
+                                   [{"title": "peer", "target_files": "2_peer.json"}]])
 def test_malformed_related_topics_are_rejected(value):
     record = Command("sample", "1", 1, 1).to_dict()
     record["related_topics"] = value
     with pytest.raises(ValueError):
         Command.from_dict(record)
+
+
+@pytest.mark.parametrize("text, expected", [
+    ("Run display ip routing-table to check routes.", ["display ip routing-table"]),
+    ("The display ip routing-table and reset bgp commands help troubleshoot.",
+     ["display ip routing-table", "reset bgp"]),
+    ("Use display ip routing-table, reset bgp, and peer.",
+     ["display ip routing-table", "reset bgp", "peer"]),
+    ("See also display ip routing-table.", ["display ip routing-table"]),
+    ("Enter `display ip routing-table` before proceeding.", ["display ip routing-table"]),
+    ("Execute the display ip routing-\ntable <address>.", ["display ip routing-table"]),
+    ("The PEER command selects a neighbor.", ["peer"]),
+    ("A peer exists. A display is attached. Run peer-group. Run unknown-command.", []),
+    ("Run the unknown peer command.", []),
+])
+def test_command_mentions_use_known_complete_names_and_command_context(text, expected):
+    index = RelatedTopicIndex.from_outline([
+        Heading("1", "sample", 1), Heading("2", "display", 2),
+        Heading("3", "display ip routing-table", 3), Heading("4", "reset bgp", 4),
+        Heading("5", "peer", 5),
+    ])
+    command = Command("sample", "1", 1, 1, usage_guidelines=text)
+    index.enrich(command)
+    assert [t.title.casefold() for t in command.related_topics] == expected
+    before = command.to_dict()
+    index.enrich(command)
+    assert command.to_dict() == before
+
+
+def test_mentions_in_additional_page_text_and_direct_external_references_survive():
+    index = RelatedTopicIndex.from_commands([Command("peer", "2", 2, 2)])
+    command = Command("sample", "1", 1, 1, extra="Examples (source text):\nSee peer.",
+                      related_topics=[RelatedTopic("external", "", "See Also", ["9.2"])])
+    index.enrich(command)
+    assert [(t.title, t.source_section, t.target_sections) for t in command.related_topics] == [
+        ("external", "See Also", ["9.2"]), ("peer", "ExtraInfo", ["2"]),
+    ]
+
+
+def test_legacy_related_topic_without_target_files_is_readable():
+    record = Command("sample", "1", 1, 1).to_dict()
+    record["related_topics"] = [{"title": "peer", "target_sections": ["2"]}]
+    assert Command.from_dict(record).related_topics[0].target_files == []
+
+
+def test_unknown_long_command_and_ordinary_prose_never_fall_back_to_short_prefix():
+    commands = [Command(name, str(i), i, i) for i, name in enumerate(
+        ["sample", "port", "more", "port trunk allow-pass vlan"], 1)]
+    source = commands[0]
+    source.usage_guidelines = (
+        "Run the port trunk allow-pass command. Run more than one command. "
+        "Run the port unknown-feature command."
+    )
+    source.related_topics = [RelatedTopic("port", "run the port", "Usage Guidelines", ["2"])]
+    index = RelatedTopicIndex.from_commands(commands)
+    index.enrich(source)
+    assert [(t.title, t.target_sections) for t in source.related_topics] == [("port trunk allow-pass vlan", ["4"])]
+    index.enrich(commands[-1])
+    assert not commands[-1].related_topics
+
+
+def test_ambiguous_command_abbreviation_is_not_consumed_as_short_command_arguments():
+    commands = [
+        Command("sample", "1", 1, 1, usage_guidelines="Run the port trunk allow-pass command."),
+        Command("port", "2", 2, 2, clis=["port <kind> <number>"]),
+        Command("port trunk allow-pass vlan (view A)", "3", 3, 3),
+        Command("port trunk allow-pass vlan (view B)", "4", 4, 4),
+    ]
+    RelatedTopicIndex.from_commands(commands).enrich(commands[0])
+    assert commands[0].related_topics == []
+
+
+@pytest.mark.parametrize("entity", ["lumennet", "stellar segment"])
+def test_parameter_topics_are_learned_from_this_manual_not_entity_or_parameter_names(entity):
+    source = Command("attach", "1.1", 1, 1, clis=["attach <opaque>"],
+                     function="Attaches a resource.",
+                     parameters=[Parameter("opaque", f"Specifies the {entity} identifier.")])
+    definition = Command(entity, "1.2", 2, 2, clis=[entity + " <identifier>"],
+                         function=f"Creates a {entity} identified by its identifier.",
+                         parameters=[Parameter("identifier", f"Specifies the {entity} identifier.")])
+    distractor = Command("start", "2.1", 3, 3, clis=["start"], function="Starts a diagnostic test.")
+    index = RelatedTopicIndex.from_commands([source, definition, distractor])
+    index.enrich(source)
+    topic, = source.related_topics
+    assert topic.reference_kind == "parameter_topic"
+    assert topic.target_sections == ["1.2"]
+    assert "opaque" in topic.description
+
+
+def test_example_homonyms_prefer_documented_view_and_general_title():
+    source = Command("sample", "1", 1, 1, views=["ordinary view"], examples=[["[DEVICE] quit"]])
+    general = Command("quit", "2", 2, 2, clis=["quit"], views=["All views"])
+    specialized = Command("quit (special view)", "3", 3, 3, clis=["quit"], views=["special view"])
+    index = RelatedTopicIndex.from_commands([source, general, specialized])
+    index.enrich(source)
+    assert source.related_topics[0].target_sections == ["2"]
+    source.views = ["special view"]
+    index.enrich(source)
+    assert source.related_topics[0].target_sections == ["3"]
+
+
+@pytest.mark.parametrize("family", [
+    "huawei-cloudengine-9800-8800-6800-v300r024c00",
+    "huawei-campus-s1720-s2700-s5700-s6720-v200r011c10",
+    "huawei-ne40e-v800r024c00spc500",
+])
+def test_real_huawei_parameter_topics_include_vlan_and_exclude_unrelated_short_commands(family):
+    fixture = json.loads((ROOT / "tests/fixtures/related-topics-records.json").read_text())[family]
+    commands = [Command.from_dict(entry["record"], title=entry["title"], section=entry["section"],
+                                  start_page=entry["first_page"], end_page=entry["last_page"])
+                for entry in fixture["commands"]]
+    source = next(c for c in commands if c.title == "port trunk allow-pass vlan")
+    index = RelatedTopicIndex.from_commands(commands)
+    index.enrich(source)
+    topic_targets = {target for t in source.related_topics if t.reference_kind == "parameter_topic"
+                     for target in t.target_sections}
+    vlan = next(c for c in commands if c.title in {"vlan", "vlan (system view)"})
+    assert vlan.section in topic_targets
+    unrelated = {c.section for c in commands if c.title.casefold().split(" (")[0] in {"port", "start", "more", "mode"}}
+    assert not unrelated & {section for t in source.related_topics for section in t.target_sections}
+    assert source.section not in {section for t in source.related_topics for section in t.target_sections}
+
+
+def test_parameter_topics_respect_documented_configuration_scope():
+    source = Command("attach", "1", 1, 1, views=["attachment view"],
+                     parameters=[Parameter("opaque", "Specifies the lumennet identifier."),
+                                 Parameter("peer-address", "Specifies the peer address.")])
+    definition = Command("lumennet", "2", 2, 2, views=["root configuration"],
+                         clis=["lumennet <id>", "remove lumennet <id>"],
+                         function="Creates a lumennet identified by its identifier.")
+    other = Command("resource", "3", 3, 3, views=["root configuration"],
+                    clis=["resource <id>", "remove resource <id>"])
+    another = Command("profile", "5", 5, 5, views=["root configuration"],
+                      clis=["profile <id>", "remove profile <id>"])
+    unrelated = Command("peer-address", "4", 4, 4, views=["telemetry destination"],
+                        clis=["peer-address <address>", "remove peer-address <address>"],
+                        function="Specifies the peer address.")
+    index = RelatedTopicIndex.from_commands([source, definition, other, another, unrelated])
+    index.enrich(source)
+    assert {s for t in source.related_topics for s in t.target_sections} == {"2"}
+    source.views = ["telemetry destination"]
+    index.enrich(source)
+    assert {s for t in source.related_topics for s in t.target_sections} == {"2", "4"}

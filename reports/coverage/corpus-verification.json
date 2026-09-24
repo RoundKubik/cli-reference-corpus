@@ -146,13 +146,3499 @@
         ]
       }
     ],
-    "core_field_changes": [],
+    "core_field_changes": [
+      {
+        "section": "4.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.5",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.6",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.8",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.10",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.28",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.32",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.43",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.48",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.3",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "6.1.9",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.14",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "6.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.24",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.29",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.47",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.62",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.67",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.68",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.85",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.89",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.91",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "6.1.92",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.98",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "6.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.104",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.105",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.111",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.112",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "7.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.8",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.9",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.10",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.24",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.32",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.36",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.37",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.38",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.44",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.45",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.46",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.47",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.50",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.53",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.59",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.62",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.67",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.68",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.70",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.71",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.72",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.73",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.75",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.77",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.80",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.82",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.85",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.87",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.88",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.90",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.91",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.92",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.93",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.95",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.96",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.97",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.98",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.99",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.100",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.101",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.102",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.104",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.105",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.109",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.111",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.112",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.113",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.114",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.115",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.116",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.117",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.118",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.119",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.120",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.121",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.122",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.123",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.124",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.125",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.126",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.128",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.129",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.130",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.131",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.132",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.133",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.134",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.135",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.136",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.137",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.138",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.139",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.142",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.144",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.145",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.146",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.147",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.148",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.149",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.150",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.151",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.152",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.153",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.154",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.155",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.156",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.157",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.158",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.159",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.160",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.161",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.162",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.163",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.164",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.165",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.166",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.167",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.168",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.169",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.170",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.171",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.172",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.173",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.174",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.175",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.176",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.177",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.8",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.9",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.10",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.29",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.31",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.32",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.38",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.40",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.46",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "8.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.39",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "9.1.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.83",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.85",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.87",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.90",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.91",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.93",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.94",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.95",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.104",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.105",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.106",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.108",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.109",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.110",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.113",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.122",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.31",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.32",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.33",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.44",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.13",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.14",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.16",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.17",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.20",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.22",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.72",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.82",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.83",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.85",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.94",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.101",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.108",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.110",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.116",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.117",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.123",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.134",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "11.1.141",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.143",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.144",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.8",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.9",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.10",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.27",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.38",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.39",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.40",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.44",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.47",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.48",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.50",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.52",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.53",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.67",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.68",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "13.1.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.70",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.71",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.72",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.76",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.77",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.81",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.2",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.16",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.19",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.38",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "UsageGuidelines"
+        ]
+      },
+      {
+        "section": "14.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.53",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.65",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.68",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.73",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.87",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.90",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.93",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.96",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.98",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.100",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.101",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.109",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.112",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.113",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.118",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.133",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.134",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.142",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.145",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.160",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.161",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.163",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.164",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.36",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.38",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.39",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.40",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.41",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.42",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.43",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.44",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.45",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.46",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.47",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.48",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.49",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.50",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.53",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.62",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.77",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.81",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.82",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.83",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.2.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.10",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.16",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.24",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.29",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.38",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.40",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.44",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.50",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.1.52",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.53",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.62",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.68",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.70",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.71",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.72",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.73",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.80",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.83",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.89",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.97",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.106",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.107",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.108",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.109",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.110",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.2.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.5",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.2.8",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.10",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.20",
+        "fields": [
+          "Examples"
+        ]
+      }
+    ],
     "title_whitespace_normalizations": [],
     "commands_with_extra_info": 1343,
-    "commands_with_related_topics": 664,
-    "related_topics": 1851,
+    "commands_with_related_topics": 922,
+    "related_topics": 2752,
     "related_targets_without_corpus_records": [],
-    "empty_explicit_related_sections": []
+    "incorrect_target_files": []
   },
   "cisco-catalyst9500-iosxe-17.15.x": {
     "pairs": 1321,
@@ -277,13 +3763,2788 @@
         ]
       }
     ],
-    "core_field_changes": [],
+    "core_field_changes": [
+      {
+        "section": "4.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.5",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.6",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.8",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.10",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.28",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.32",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "4.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.43",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "4.1.48",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "5.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.29",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.32",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "6.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.13",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "7.1.14",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "7.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.38",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.43",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.50",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.52",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.65",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "7.1.66",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "7.1.72",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "7.1.80",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.32",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.36",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.37",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.38",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.43",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.48",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.49",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.50",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.53",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "8.1.62",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.67",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.70",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.71",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.75",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.79",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.85",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.88",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.96",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.99",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.102",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.104",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.113",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.114",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.116",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.117",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.118",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.119",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.121",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.125",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.126",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.128",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.129",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.133",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.134",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.136",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.137",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.141",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.142",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.147",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.150",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.152",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.158",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.159",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.161",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.162",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.163",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.164",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.171",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.173",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.174",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.175",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.176",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.177",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.181",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.182",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "8.1.184",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.3",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "9.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.9",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.24",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.28",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.29",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.30",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.40",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.41",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.43",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.44",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.50",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "9.1.51",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "10.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.39",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "10.1.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.83",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.85",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.87",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.90",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.91",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.93",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.94",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.95",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.104",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.105",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.106",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.107",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.108",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.110",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.111",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.112",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.115",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "10.1.117",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "10.1.125",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.8",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.24",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.36",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.39",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "11.1.48",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.10",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "12.1.12",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "12.1.13",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "12.1.16",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "12.1.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.73",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.75",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.82",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.89",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.90",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.91",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.98",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.104",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "12.1.110",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.120",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "12.1.127",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.129",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "12.1.130",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.8",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.9",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.24",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.1.28",
+        "fields": [
+          "CLIs",
+          "FuncDef"
+        ]
+      },
+      {
+        "section": "14.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.8",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.29",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.34",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.45",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.47",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.48",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.49",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.50",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.52",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.62",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.67",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.68",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.70",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.71",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.73",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.74",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.77",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.78",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "14.1.79",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.80",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.81",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.82",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.86",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.87",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.88",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.89",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "14.1.92",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.2",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.13",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.16",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.29",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.31",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.32",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "UsageGuidelines"
+        ]
+      },
+      {
+        "section": "15.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.48",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.52",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.57",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.66",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.80",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.85",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.87",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.89",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.90",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.97",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "15.1.100",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.101",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.105",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.120",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.128",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.141",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.142",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.144",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.1.145",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.7",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.11",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.15",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.21",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.22",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.23",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.27",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.30",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.36",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.38",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.39",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.40",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.41",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.42",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.43",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.44",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.45",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.46",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.47",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.48",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.49",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.50",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.51",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.53",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.56",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.60",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.62",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.63",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.76",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.77",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.81",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.82",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.83",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "15.2.86",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.1",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.2",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.3",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.4",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.5",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.6",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.14",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.16",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.23",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.1.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.26",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.28",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.32",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.33",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.34",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.35",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.36",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.37",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.41",
+        "fields": [
+          "CLIs",
+          "FuncDef",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.42",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.43",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.46",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.47",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.1.49",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.50",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.52",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.54",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.55",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.57",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.58",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.59",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.61",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.64",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.65",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.66",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.67",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.68",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.69",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.75",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.78",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.79",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.84",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.92",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.100",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.101",
+        "fields": [
+          "CLIs",
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.102",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.103",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.1.104",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.2.5",
+        "fields": [
+          "CLIs"
+        ]
+      },
+      {
+        "section": "16.2.8",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.20",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "16.2.25",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.10",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.12",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.13",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.14",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.16",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.17",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.19",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "17.1.20",
+        "fields": [
+          "Examples"
+        ]
+      }
+    ],
     "title_whitespace_normalizations": [],
     "commands_with_extra_info": 1321,
-    "commands_with_related_topics": 659,
-    "related_topics": 1924,
+    "commands_with_related_topics": 932,
+    "related_topics": 2995,
     "related_targets_without_corpus_records": [],
-    "empty_explicit_related_sections": []
+    "incorrect_target_files": []
   },
   "huawei-campus-s1720-s2700-s5700-s6720-v200r011c10": {
     "pairs": 5989,
@@ -293,13 +6554,26 @@
     "markdown_mismatches": [],
     "records_with_cyrillic": [],
     "schema_errors": [],
-    "core_field_changes": [],
+    "core_field_changes": [
+      {
+        "section": "13.6.18",
+        "fields": [
+          "Examples"
+        ]
+      },
+      {
+        "section": "13.6.21",
+        "fields": [
+          "Examples"
+        ]
+      }
+    ],
     "title_whitespace_normalizations": [],
     "commands_with_extra_info": 5989,
-    "commands_with_related_topics": 4522,
-    "related_topics": 11772,
+    "commands_with_related_topics": 5768,
+    "related_topics": 30017,
     "related_targets_without_corpus_records": [],
-    "empty_explicit_related_sections": []
+    "incorrect_target_files": []
   },
   "huawei-cloudengine-9800-8800-6800-v300r024c00": {
     "pairs": 6672,
@@ -312,10 +6586,10 @@
     "core_field_changes": [],
     "title_whitespace_normalizations": [],
     "commands_with_extra_info": 6672,
-    "commands_with_related_topics": 3085,
-    "related_topics": 5642,
+    "commands_with_related_topics": 6234,
+    "related_topics": 29856,
     "related_targets_without_corpus_records": [],
-    "empty_explicit_related_sections": []
+    "incorrect_target_files": []
   },
   "huawei-ne40e-v800r024c00spc500": {
     "pairs": 14551,
@@ -326,97 +6600,11 @@
     "records_with_cyrillic": [],
     "schema_errors": [],
     "core_field_changes": [],
-    "title_whitespace_normalizations": [
-      {
-        "section": "1.1031",
-        "before": "port-mode  (VS view)",
-        "after": "port-mode (VS view)"
-      },
-      {
-        "section": "1.1040",
-        "before": "shutdown  (VS view)",
-        "after": "shutdown (VS view)"
-      },
-      {
-        "section": "1.1915",
-        "before": "promode  (Management interface view)",
-        "after": "promode (Management interface view)"
-      },
-      {
-        "section": "1.1923",
-        "before": "speed  (Management interface view)",
-        "after": "speed (Management interface view)"
-      },
-      {
-        "section": "1.2718",
-        "before": "flag space-padding disable  (Cpos interface view)",
-        "after": "flag space-padding disable (Cpos interface view)"
-      },
-      {
-        "section": "1.3552",
-        "before": "as-number(\tBGP multi-instance VPN instance session view)",
-        "after": "as-number( BGP multi-instance VPN instance session view)"
-      },
-      {
-        "section": "1.4374",
-        "before": "peer advertise-large-community  (group)",
-        "after": "peer advertise-large-community (group)"
-      },
-      {
-        "section": "1.4464",
-        "before": "peer as-path-filter export  (group)",
-        "after": "peer as-path-filter export (group)"
-      },
-      {
-        "section": "1.4792",
-        "before": "peer filter-policy export  (BGP view/BGP-IPv4 unicast address family view) (group)",
-        "after": "peer filter-policy export (BGP view/BGP-IPv4 unicast address family view) (group)"
-      },
-      {
-        "section": "1.4816",
-        "before": "peer filter-policy import  (BGP view/BGP-IPv4 unicast address family view) (group)",
-        "after": "peer filter-policy import (BGP view/BGP-IPv4 unicast address family view) (group)"
-      },
-      {
-        "section": "1.5396",
-        "before": "peer route-filter export  (IPv6)",
-        "after": "peer route-filter export (IPv6)"
-      },
-      {
-        "section": "1.5419",
-        "before": "peer route-filter import  (IPv6)",
-        "after": "peer route-filter import (IPv6)"
-      },
-      {
-        "section": "1.6765",
-        "before": "tiebreaker preference  (OSPF FRR view)",
-        "after": "tiebreaker preference (OSPF FRR view)"
-      },
-      {
-        "section": "1.9304",
-        "before": "match-type  (SRv6 mapping policy view)",
-        "after": "match-type (SRv6 mapping policy view)"
-      },
-      {
-        "section": "1.9755",
-        "before": "nexthop recursive-lookup restrain disable  (EVPN instance view)",
-        "after": "nexthop recursive-lookup restrain disable (EVPN instance view)"
-      },
-      {
-        "section": "1.10583",
-        "before": "traffic-policy  (Serial interface view)",
-        "after": "traffic-policy (Serial interface view)"
-      },
-      {
-        "section": "1.11822",
-        "before": "xsec  self-heal  disable",
-        "after": "xsec self-heal disable"
-      }
-    ],
+    "title_whitespace_normalizations": [],
     "commands_with_extra_info": 14551,
     "commands_with_related_topics": 6767,
     "related_topics": 12456,
     "related_targets_without_corpus_records": [],
-    "empty_explicit_related_sections": []
+    "incorrect_target_files": []
   }
 }

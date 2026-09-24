@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Prepare the pinned Campus Switch reference PDF from Huawei's public archive."""
+"""Download a Campus manual by URL, or prepare the project's pinned reference."""
 from __future__ import annotations
 
 import argparse
@@ -12,6 +12,7 @@ import zipfile
 import pymupdf
 
 from cli_reference_corpus.storage import file_hash, write_json
+from cli_reference_corpus.downloads import add_url_arguments, fetch_from_arguments, supplied_url
 
 URL = ('https://download.huawei.com/edownload/e/download.do?actionFlag=download'
        '&nid=EDOC1000178165&partNo=6001&mid=SUPE_DOC')
@@ -88,13 +89,23 @@ def prepare(output: Path, source_map: Path, archive: Path | None, include_upgrad
 
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__)
+    add_url_arguments(parser, output=False, source_map=False)
     parser.add_argument('--archive', type=Path, help='Previously downloaded official ZIP; otherwise download it')
-    parser.add_argument('-o', '--output', type=Path, required=True)
-    parser.add_argument('--source-map', type=Path, required=True)
+    parser.add_argument('-o', '--output', type=Path)
+    parser.add_argument('--destination', type=Path, default=Path('data/manuals'))
+    parser.add_argument('--source-map', type=Path)
     parser.add_argument('--include-upgrade', action='store_true', help='Also retain chapter 19')
     args = parser.parse_args()
+    args.url = supplied_url(args, parser)
     try:
-        prepare(args.output, args.source_map, args.archive, args.include_upgrade)
+        if args.url:
+            if args.archive or args.include_upgrade:
+                parser.error('--url downloads the complete selected document; --archive/--include-upgrade belong to pinned preparation')
+            print(fetch_from_arguments(args, parser))
+        else:
+            if not args.source_map or not args.output:
+                parser.error('Pinned Campus preparation requires --output and --source-map')
+            prepare(args.output, args.source_map, args.archive, args.include_upgrade)
     except (OSError, ValueError, KeyError, zipfile.BadZipFile) as error:
         parser.exit(1, f'Preparation failed: {error}\n')
 

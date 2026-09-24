@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and verify the exact public Huawei reference used by this project."""
+"""Download a CloudEngine manual by URL, or reproduce the project's pinned reference."""
 from __future__ import annotations
 
 import argparse
@@ -8,6 +8,8 @@ from pathlib import Path
 import tempfile
 import urllib.request
 import zipfile
+
+from cli_reference_corpus.downloads import add_url_arguments, fetch_from_arguments, supplied_url
 
 DOCUMENT_ID = "EDOC1100439391"
 URL = "https://download.huawei.com/edownload/e/download.do?actionFlag=download&nid=EDOC1100439391&partNo=6001&mid=SUPE_DOC"
@@ -63,9 +65,13 @@ def fetch(destination: Path) -> Path:
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
+    add_url_arguments(parser)
     parser.add_argument("--destination", type=Path, default=Path("data/manuals"))
     args = parser.parse_args()
+    args.url = supplied_url(args, parser)
+    if not args.url and (args.output or args.source_map):
+        parser.error('--output/--source-map require a URL; pinned mode uses --destination')
     try:
-        print(fetch(args.destination))
+        print(fetch_from_arguments(args, parser) if args.url else fetch(args.destination))
     except (OSError, ValueError, zipfile.BadZipFile, KeyError) as error:
         parser.exit(1, f"Download failed: {error}\n")

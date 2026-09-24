@@ -13,12 +13,15 @@ from .corpus import write_corpus
 from .storage import file_hash
 from .vendors import load_parser
 from .markdown import export_markdown
+from .enrichment import enrich_corpus
 
 
 def main(argv: list[str] | None = None) -> int:
     argv = list(sys.argv[1:] if argv is None else argv)
     if argv and argv[0] == "markdown":
         return markdown_main(argv[1:])
+    if argv and argv[0] == "enrich-related":
+        return enrichment_main(argv[1:])
     if argv and argv[0] == "parse":
         argv = argv[1:]
     if hasattr(pymupdf, "no_recommend_layout"):
@@ -104,4 +107,20 @@ def markdown_main(argv: list[str]) -> int:
         print(f"Error: {error}", file=sys.stderr)
         return 1
     print(json.dumps({"output": str(args.output), "commands": count}))
+    return 0
+
+
+def enrichment_main(argv: list[str]) -> int:
+    parser = argparse.ArgumentParser(description=(
+        "Resolve command mentions in an existing JSON corpus and write enriched JSON/Markdown pairs."
+    ))
+    parser.add_argument("input", type=Path, help="Corpus directory or manifest.json")
+    parser.add_argument("--output", "-o", type=Path, required=True, help="New output directory")
+    args = parser.parse_args(argv)
+    try:
+        counts = enrich_corpus(args.input, args.output)
+    except (OSError, ValueError, RuntimeError) as error:
+        print(f"Error: {error}", file=sys.stderr)
+        return 1
+    print(json.dumps({"output": str(args.output), **counts}))
     return 0

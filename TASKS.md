@@ -1,35 +1,39 @@
-# Задачи
+# Tasks
 
-- [x] Расширяемый PDF-парсер с профилями Huawei и Cisco.
-- [x] `UsageGuidelines` в модели, обеих JSON-схемах и Markdown.
-- [x] Пять входных PDF Command Reference: CloudEngine, NE40E, Campus, Cisco Catalyst 9300 и 9500.
-- [x] Удалить Upgrade-compatible из входных данных и выходных корпусов.
-- [x] Автоматический экспорт отдельной пары JSON + Markdown для каждой команды.
-- [x] Убрать общие Markdown-файлы мануалов из output.
-- [x] Проверить пары, контрольные суммы PDF и JSON-схему; зафиксировать результаты в README и отчётах корпусов.
-- [ ] Проверить предупреждения извлечения, включая 23 неполные записи Catalyst 9300 и 19 записей Catalyst 9500.
+- [x] Extensible PDF parser with Huawei and Cisco profiles.
+- [x] `UsageGuidelines` in the model, both JSON schemas, and Markdown.
+- [x] Five input Command Reference PDFs: CloudEngine, NE40E, Campus, and Cisco Catalyst 9300 and 9500.
+- [x] Remove Upgrade-compatible from the input data and output corpora.
+- [x] Automatically export a separate JSON + Markdown pair for each command.
+- [x] Remove combined manual Markdown files from output.
+- [x] Verify pairs, PDF checksums, and JSON Schema compliance; record the results in the README and corpus reports.
+- [x] Review extraction warnings, including 23 incomplete Catalyst 9300 records and 19 Catalyst 9500 records.
 
-NE40E заменён полным обычным Command Reference V800R024C00SPC500 из официального
-пакета Huawei. PDF включает 14 833 темы; оглавление CHM и печатные описания
-14 551 команды независимо сверены. Карта происхождения сохранена в reports/sources.
-Корпуса требуют проверки предупреждений и не считаются верифицированными на оборудовании.
+NE40E has been replaced with the complete standard Command Reference
+V800R024C00SPC500 from the official Huawei package. The PDF includes 14,833 topics;
+the CHM table of contents and the printed descriptions of 14,551 commands were
+independently checked. The provenance map is stored in reports/sources.
+Warning categories and missing primary fields have been reviewed; the corpora have not been validated on hardware.
 
-- [x] Независимо сверить печатные описания команд всех PDF с корпусами.
-- [ ] Исправить потерю примеров Cisco без hostname / без prompt и порядок фрагментов синтаксиса (`ip nat inside source`); см. reports/coverage/README.md.
+- [x] Independently compare the printed command descriptions in all PDFs with the corpora.
+- [x] Fix missing Cisco examples without a hostname / prompt and the ordering of syntax fragments (`ip nat inside source`); see reports/coverage/README.md.
 
-- [x] Заменить NE40E Diagnose полным обычным Command Reference и сверить CHM → PDF → корпус.
-- [x] Сохранять полные названия из закладок подготовленного PDF без пробелов от переносов строк.
-- [x] Сохранить исходный пример default.cfg без prompt у NE40E `dcn security-mode enable` в ExtraInfo; массив CLI Examples остаётся пустым.
+- [x] Replace NE40E Diagnose with the complete standard Command Reference and verify CHM → PDF → corpus consistency.
+- [x] Preserve complete titles from the prepared PDF's bookmarks without spaces introduced by line wrapping.
+- [x] Preserve the original default.cfg example without a prompt for NE40E `dcn security-mode enable` in ExtraInfo; the CLI Examples array remains empty.
 
-- [x] Добавить Campus Switch S1720/S2700/S5700/S6720 V200R011C10: четвёртый PDF и отдельный корпус из 5 989 пар.
-- [x] Исключить главу Upgrade-compatible из Campus PDF и корпуса; сверить сохранённые страницы с оригиналом.
-- [x] Учесть служебные закладки Command Support, таблицу MLD 8.2.1 и переносы названий в профиле campus-switch.
+- [x] Add Campus Switch S1720/S2700/S5700/S6720 V200R011C10: the fourth PDF and a separate corpus of 5,989 pairs.
+- [x] Exclude the Upgrade-compatible chapter from the Campus PDF and corpus; compare the retained pages with the original.
+- [x] Handle Command Support bookmarks, MLD table 8.2.1, and wrapped titles in the campus-switch profile.
 
-- [ ] Проверить три пустых Examples в Campus при наличии раздела Example в PDF; см. reports/coverage/huawei-campus-s1720-s2700-s5700-s6720-v200r011c10.json.
+- [x] Review the three empty Campus Examples arrays where the PDF has an Example section; see reports/coverage/huawei-campus-s1720-s2700-s5700-s6720-v200r011c10.json.
 
-- [x] Добавить полный Cisco Catalyst 9500 IOS XE 17.15.x Command Reference: 1 321 пара JSON + Markdown.
-- [x] Указать модели и версии в названиях всех корпусов и PDF; обновить пути и аудит.
+- [x] Add the complete Cisco Catalyst 9500 IOS XE 17.15.x Command Reference: 1,321 JSON + Markdown pairs.
+- [x] Include models and versions in all corpus and PDF names; update paths and the audit.
 
-- [x] Сохранять Default Level, Task Name and Operations и остальные дополнительные разделы в ExtraInfo.
-- [x] Сохранять полный текст Examples, включая подписи и вывод, в ExtraInfo; CLI-массив Examples остаётся отдельным представлением.
-- [x] Добавить related_topics из явных связанных разделов и упоминаний именованных команд; пересобрать все пять корпусов по схеме v3.
+- [x] Preserve Default Level, Task Name and Operations, and other additional sections in ExtraInfo.
+- [x] Preserve the complete Examples text, including captions and output, in ExtraInfo; the CLI Examples array remains a separate representation.
+- [x] Add related_topics from explicit related sections and named command mentions; rebuild all five corpora using schema v3.
+
+Review and correction results (2026-09-24): [extraction warning review](reports/coverage/extraction-warning-review.md).
+Source omissions and the documented extraction limitations remain visible as warnings.

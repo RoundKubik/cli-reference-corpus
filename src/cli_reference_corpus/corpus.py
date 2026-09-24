@@ -63,6 +63,7 @@ class CorpusWriter:
 
     def write(self, output: Path) -> dict:
         with staged_directory(output) as stage:
+            resolve_topic_files(self.result.commands)
             directory = stage / "cmd_corpus"
             directory.mkdir()
             entries = [
@@ -87,6 +88,17 @@ class CorpusWriter:
             "page_numbering": "physical PDF pages, 1-based",
             "commands": entries,
         }
+
+
+def resolve_topic_files(commands: list[Command]) -> None:
+    """Only name JSON files actually included in this export, relative to cmd_corpus."""
+    filenames = {command.section: CommandFiles(command, "repository").filename() for command in commands}
+    for command in commands:
+        for topic in command.related_topics:
+            topic.target_files = list(dict.fromkeys(
+                filenames[section] for section in topic.target_sections
+                if section in filenames and section != command.section
+            ))
 
 
 def write_corpus(

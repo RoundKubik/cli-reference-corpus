@@ -50,12 +50,17 @@ The independent page census found 1,321 dedicated command descriptions and match
 all of them to corpus records. All saved Markdown files match their JSON and
 manifest metadata; there are no missing or extra files.
 
-There are 2,217 extracted CLI templates and 553 records with extraction warnings.
-Nineteen records fail the strict JSON schema: eight have no extracted syntax and
-eleven have no extracted command mode. Six records have empty function text, which
-the schema permits. In 120 records an Example/Examples section is detected in the
-PDF while the extracted examples are empty. These are field-level review items;
-the source must be inspected before assigning a cause to each case.
+There are 2,206 extracted CLI templates and 551 records with extraction warnings
+in the refreshed Catalyst 9500 corpus. Nineteen records fail the strict JSON
+schema: eight source entries omit a standalone syntax block, ten print mode text
+under Command Default, and one has no labelled mode section. One entry has no
+function paragraph in the source; five other function paragraphs were recovered
+by correcting preamble note handling.
+
+Prompted and promptless examples are now recovered. Four example sections still
+have empty CLI arrays: three contain only captions and one contains log output.
+See the [warning and example review](../reports/coverage/extraction-warning-review.md)
+for the individual causes and the corresponding Catalyst 9300 results.
 
 See the [Catalyst 9500 census](../reports/coverage/cisco-catalyst9500-iosxe-17.15.x.json),
 [validation report](../output/cisco-catalyst9500-iosxe-17.15.x/validation.json),

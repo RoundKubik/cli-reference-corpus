@@ -4,6 +4,8 @@ from __future__ import annotations
 from dataclasses import dataclass, field
 import re
 
+from .command_syntax import syntax_issues
+
 
 @dataclass
 class Parameter:
@@ -17,11 +19,15 @@ class RelatedTopic:
     description: str = ""
     source_section: str = ""
     target_sections: list[str] = field(default_factory=list)
+    target_files: list[str] = field(default_factory=list)
+    reference_kind: str = "documented_reference"
 
     def to_dict(self) -> dict:
         return {
             "title": self.title, "description": self.description,
             "source_section": self.source_section, "target_sections": self.target_sections,
+            "target_files": self.target_files,
+            "reference_kind": self.reference_kind,
         }
 
 
@@ -55,6 +61,7 @@ class Command:
             "UsageGuidelines": self.usage_guidelines,
             "ExtraInfo": self.extra,
             "related_topics": [topic.to_dict() for topic in self.related_topics],
+            "syntax_issues": syntax_issues(self.clis),
         }
         if schema == "repository":
             data = {"PageTitle": self.title, **data}
@@ -139,6 +146,8 @@ class CommandFields:
                 fields.string("title"), fields.string("description", ""),
                 fields.string("source_section", ""),
                 fields.strings(row.get("target_sections", []), "target_sections"),
+                fields.strings(row.get("target_files", []), "target_files"),
+                fields.string("reference_kind", "documented_reference"),
             ))
         return topics
 
@@ -162,20 +171,8 @@ def validate(command: Command) -> list[str]:
     if not command.views:
         problems.append("missing_views")
     documented = " ".join(p.name for p in command.parameters)
+    problems.extend(f"{issue['code']}: {issue['cli']}" for issue in syntax_issues(command.clis))
     for cli in command.clis:
-        # Remove placeholders and Huawei repetition notation before checking grouping.
-        plain = re.sub(r"&<\d+-\d+>|<[^<>]+>", "PARAM", cli)
-        stack = []
-        for char in plain:
-            if char in "[{":
-                stack.append(char)
-            elif char in "]}":
-                if not stack or stack.pop() != {"]": "[", "}": "{"}[char]:
-                    problems.append(f"unbalanced_syntax: {cli}")
-                    break
-        else:
-            if stack:
-                problems.append(f"unbalanced_syntax: {cli}")
         for name in re.findall(r"(?<!&)<([^<>]+)>", cli):
             if not re.search(r"(?<![\w-])" + re.escape(name) + r"(?![\w-])", documented):
                 problems.append(f"undocumented_parameter: {name}")

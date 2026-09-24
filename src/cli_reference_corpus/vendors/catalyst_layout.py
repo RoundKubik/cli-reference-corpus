@@ -139,12 +139,16 @@ class ReadingOrder:
     def join(self, previous: Line, current: Line) -> Line:
         parts = sorted([previous, current], key=lambda line: line.bbox[0])
         spans = []
-        for part in parts:
-            if spans:
-                spans.append({**part.spans[0], "text": " "})
-            spans.extend(part.spans)
+        # A fragment can fall inside the extent of a previously merged line.
+        # Sort individual spans, not just whole lines, to preserve visual order.
+        for span in sorted([s for part in parts for s in part.spans], key=lambda s: s["bbox"][0]):
+            if spans and span["bbox"][0] - spans[-1]["bbox"][2] > .8:
+                spans.append({**span, "text": " ",
+                              "bbox": (spans[-1]["bbox"][2], span["bbox"][1],
+                                       span["bbox"][0], span["bbox"][3])})
+            spans.append(span)
         return Line(
-            " ".join(part.text for part in parts),
+            clean("".join(span["text"] for span in spans)),
             spans,
             enclosing_box(part.bbox for part in parts),
             current.page,

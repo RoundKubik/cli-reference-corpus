@@ -1,12 +1,13 @@
 # CLI Reference Corpus
 
-Парсер документации Huawei CloudEngine, Huawei NE40E, Cisco Catalyst
-и Huawei Campus Switch S1720/S2700/S5700/S6720.
-Каждая команда сохраняется отдельно: JSON в формате NAssim и его читаемый
-Markdown-рендер с тем же именем. Все подписи, заголовки и сообщения рендерера
-на английском языке; исходный текст команды сохраняется. Общий Markdown всего мануала не создаётся.
+A documentation parser for Huawei CloudEngine, Huawei NE40E, Cisco Catalyst,
+and Huawei Campus Switch S1720/S2700/S5700/S6720.
+Each command is saved separately as NAssim-format JSON and a readable Markdown
+rendering with the same basename. All renderer labels, headings, and messages
+are in English; the original command text is preserved. No combined Markdown
+file is generated for the entire manual.
 
-## Рабочая структура
+## Workspace layout
 
 ```text
 data/manuals/
@@ -23,73 +24,77 @@ output/
   cisco-catalyst9500-iosxe-17.15.x/
 ```
 
-Название корпуса содержит производителя, модель или семейства моделей и версию ПО.
-У общих справочников перечислены все семейства; корпус не фильтруется по конкретному
-шасси. Соответствие моделей, версий и источников хранится в
-[реестре источников](reports/sources/command-references.json).
-В каждом каталоге корпуса находятся `manifest.json`, `validation.json` и
-`cmd_corpus/` с отдельными парами `<раздел>_<команда>.json` и `.md`.
+Corpus names include the vendor, model or model families, and software version.
+Shared references list all families; the corpus is not filtered by a specific
+chassis. Model, version, and source mappings are stored in the
+[source registry](reports/sources/command-references.json).
+Each corpus directory contains `manifest.json`, `validation.json`, and
+`cmd_corpus/` with individual `<section>_<command>.json` and `.md` pairs.
 
-В `data` находятся только пять PDF. Архивы, CHM, промежуточные метаданные и
-справочник Upgrade-compatible удалены. Полные корпуса и PDF хранятся локально;
-`data/manuals/` и `output/` исключены из Git. `benchmarks/` и `research/`
-находятся в родительском каталоге и относятся к исследованию зависимостей конфигурации.
+`data` contains only the five PDFs. Archives, CHM files, intermediate metadata,
+and the Upgrade-compatible reference have been removed. Complete corpora and PDFs
+are stored locally; `data/manuals/` and `output/` are excluded from Git.
+`benchmarks/` and `research/` are in the parent directory and belong to the
+configuration dependency research project.
 
-## Источники и охват
+## Sources and coverage
 
-| Корпус | Документ | Происхождение PDF |
+| Corpus | Document | PDF origin |
 | --- | --- | --- |
-| CloudEngine 9800/8800/6800 V300R024C00 | CloudEngine 9800, 8800, and 6800 V300R024C00 Command Reference, EDOC1100439391, issue 01 (2025-01-21) | Оригинальный PDF Huawei, 12 269 страниц |
-| NE40E V800R024C00SPC500 | NE40E V800R024C00SPC500 Command Reference, из пакета EDOC1100423401 | Локально сформированный полный PDF из официального CHM, 30 291 страница |
-| Catalyst 9300 IOS XE 17.15.x | Command Reference, Cisco IOS XE 17.15.x (Catalyst 9300 Switches) | Оригинальный PDF Cisco, 2 642 страницы |
-| Catalyst 9500 IOS XE 17.15.x | Command Reference, Cisco IOS XE 17.15.x (Catalyst 9500 Switches) | Оригинальный PDF Cisco, 2 592 страницы |
-| Campus S1720/S2700/S5700/S6720 V200R011C10 | S1720, S2700, S5700, and S6720 V200R011C10 Command Reference, EDOC1000178165, issue 14 (2021-10-20) | 11 349 исходных страниц Huawei; глава 19 Upgrade-compatible исключена |
+| CloudEngine 9800/8800/6800 V300R024C00 | CloudEngine 9800, 8800, and 6800 V300R024C00 Command Reference, EDOC1100439391, issue 01 (2025-01-21) | Original Huawei PDF, 12,269 pages |
+| NE40E V800R024C00SPC500 | NE40E V800R024C00SPC500 Command Reference, from package EDOC1100423401 | Complete PDF generated locally from the official CHM, 30,291 pages |
+| Catalyst 9300 IOS XE 17.15.x | Command Reference, Cisco IOS XE 17.15.x (Catalyst 9300 Switches) | Original Cisco PDF, 2,642 pages |
+| Catalyst 9500 IOS XE 17.15.x | Command Reference, Cisco IOS XE 17.15.x (Catalyst 9500 Switches) | Original Cisco PDF, 2,592 pages |
+| Campus S1720/S2700/S5700/S6720 V200R011C10 | S1720, S2700, S5700, and S6720 V200R011C10 Command Reference, EDOC1000178165, issue 14 (2021-10-20) | 11,349 original Huawei pages; chapter 19, Upgrade-compatible, excluded |
 
-Ссылки: [CloudEngine](https://support.huawei.com/enterprise/en/doc/EDOC1100439391),
+Links: [CloudEngine](https://support.huawei.com/enterprise/en/doc/EDOC1100439391),
 [NE40E Command Reference](https://support.huawei.com/hedex/hdx.do?docid=EDOC1100408650&lang=en&id=EN-US_TOPIC_0000001844751981),
 [Cisco PDF](https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/17-15/command_reference/b_1715_9300_cr.pdf).
-Контрольные суммы используемых PDF и URL источников сохраняются в `manifest.json`
-каждого корпуса.
+Checksums of the PDFs used and their source URLs are stored in each corpus's
+`manifest.json`.
 
-**NE40E использует обычный Command Reference.** PDF включает все 14 833 темы
-выбранного справочника, в том числе 14 551 описание команды. Состав независимо
-сверен с оглавлением официального CHM. Номера разделов `1.N` назначены при
-подготовке PDF; карта исходных тем и проверки сохранены. [Подробнее](docs/ne40e.md).
-CloudEngine использует общий справочник нескольких моделей; автоматического
-отбора команд по конкретному шасси нет. Для Cisco используется профиль
-`cisco-catalyst`, проверенный на PDF Catalyst 9300 и 9500. [Источники Cisco](docs/cisco.md).
-Campus Switch использует профиль `campus-switch`: служебные пункты Command Support
-не считаются командами. В корпус входят обычные команды глав 2–18 общего справочника;
-автоматического отбора по модели нет. [Источник и воспроизведение](docs/campus.md).
+**NE40E uses the standard Command Reference.** The PDF includes all 14,833 topics
+in the selected reference, including 14,551 command descriptions. Its contents
+were independently checked against the official CHM table of contents. Section
+numbers `1.N` were assigned during PDF preparation; the source topic map and
+verification results are preserved. [Details](docs/ne40e.md).
+CloudEngine uses a reference shared by several models; commands are not
+automatically filtered by chassis. Cisco uses the `cisco-catalyst` profile,
+validated against the Catalyst 9300 and 9500 PDFs. [Cisco sources](docs/cisco.md).
+Campus Switch uses the `campus-switch` profile: Command Support entries are not
+counted as commands. The corpus contains the standard commands from chapters
+2–18 of the shared reference, without automatic filtering by model.
+[Source and reproduction](docs/campus.md).
 
-## Текущий результат
+## Current results
 
-| Корпус | Пар JSON + Markdown | CLI-шаблонов | Команд с предупреждениями |
+| Corpus | JSON + Markdown pairs | CLI templates | Commands with warnings |
 | --- | ---: | ---: | ---: |
-| CloudEngine 9800/8800/6800 V300R024C00 | 6 672 | 15 446 | 551 |
-| NE40E V800R024C00SPC500 | 14 551 | 33 151 | 379 |
-| Catalyst 9300 IOS XE 17.15.x | 1 343 | 2 233 | 532 |
-| Catalyst 9500 IOS XE 17.15.x | 1 321 | 2 217 | 553 |
-| Campus S1720/S2700/S5700/S6720 V200R011C10 | 5 989 | 11 851 | 560 |
+| CloudEngine 9800/8800/6800 V300R024C00 | 6,672 | 15,446 | 551 |
+| NE40E V800R024C00SPC500 | 14,551 | 33,151 | 379 |
+| Catalyst 9300 IOS XE 17.15.x | 1,343 | 2,234 | 534 |
+| Catalyst 9500 IOS XE 17.15.x | 1,321 | 2,206 | 551 |
+| Campus S1720/S2700/S5700/S6720 V200R011C10 | 5,989 | 11,851 | 560 |
 
-Все 29 876 пар проверены: Markdown соответствует JSON и метаданным, контрольные
-суммы PDF совпадают с manifest. Пропусков команд относительно выбранных закладок
-нет; вводные главы Cisco исключены из списка ожидаемых команд. Для NE40E
-отдельно подтверждено соответствие всех команд исходному Command Reference:
-[сверка источника с корпусом](reports/coverage/ne40e-source-to-corpus.json).
-[Проверка всех пар и JSON Schema](reports/coverage/corpus-verification.json).
+All 29,876 pairs have been checked: Markdown matches the JSON and metadata, and
+PDF checksums match the manifests. No commands are missing relative to the
+selected bookmarks; introductory Cisco chapters are excluded from the expected
+command list. For NE40E, all commands were also checked against the source
+Command Reference: [source-to-corpus verification](reports/coverage/ne40e-source-to-corpus.json).
+[Pair and JSON Schema verification](reports/coverage/corpus-verification.json).
 
-CloudEngine, NE40E и Campus Switch проходят JSON Schema для каждой записи.
-У Catalyst 9300 **23 записи** не проходят строгую схему: 15 без режима и 8 без
-синтаксиса. У Catalyst 9500 таких записей **19**: 11 без режима и 8 без синтаксиса.
-Причины требуют проверки по конкретным страницам: отсутствие извлечённого поля
-не означает, что его нет в исходном PDF. Записи сохранены с предупреждениями.
-Подробности — в `validation.json` соответствующего корпуса и
-[отчёте проверки](reports/coverage/README.md).
+Every CloudEngine, NE40E, and Campus Switch record passes JSON Schema validation.
+Catalyst 9300 has **23 records** that fail the strict schema: 15 lack a command
+mode and 8 lack syntax. Catalyst 9500 has **19 such records**: 11 lack a mode and
+8 lack syntax. Source review found 16 missing syntax blocks, 21 mode sections mislabeled as
+Command Default, and 5 absent mode sections across the two corpora. These records
+are retained with warnings; no syntax or modes are invented. See each corpus's `validation.json` and the
+[verification report](reports/coverage/README.md).
 
-## Запуск
+## Running the parser
 
-Python 3.10 или новее. Парсинг выполняется локально без LLM, API-ключей и сети.
+Python 3.10 or later is required. Parsing runs locally without LLMs, API keys,
+or network access.
 
 ```bash
 cd /home/roundkubik/workdir/huawei/cli-reference-corpus
@@ -97,9 +102,23 @@ python3 -m venv .venv
 .venv/bin/python -m pip install -e '.[test,prepare]'
 ```
 
-В текущей рабочей директории корпуса уже созданы. Следующие команды воспроизводят
-их из пяти PDF; выходные каталоги должны быть новыми. Для повторного прогона
-используйте другой `-o` или предварительно уберите предыдущий результат.
+For another model or software version, pass its URL to a downloader in `scripts/`:
+
+```bash
+.venv/bin/python scripts/fetch_cloudengine.py 'DOCUMENTATION_URL'
+.venv/bin/python scripts/fetch_campus.py 'DOCUMENTATION_URL'
+.venv/bin/python scripts/fetch_ne40e.py 'DOCUMENTATION_URL'
+```
+
+PDF, CHM, ZIP, and Huawei EDOC pages are supported. The file is saved in
+`data/manuals`, with its name and format detected automatically. Use `-o` for a
+custom filename, `--destination` for the directory, and `--member` to select a
+specific document when an archive is ambiguous.
+[Download rules and subsequent parsing](docs/downloads.md).
+
+The corpora already exist in the current workspace. The following commands
+reproduce them from the five PDFs; output directories must be new. For another
+run, use a different `-o` or remove the previous output first.
 
 ```bash
 .venv/bin/python -m cli_reference_corpus parse \
@@ -118,7 +137,7 @@ python3 -m venv .venv
   --source-url https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9300/software/release/17-15/command_reference/b_1715_9300_cr.pdf
 ```
 
-Для второго корпуса Cisco:
+For the second Cisco corpus:
 
 ```bash
 .venv/bin/python -m cli_reference_corpus parse \
@@ -127,7 +146,7 @@ python3 -m venv .venv
   --source-url https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9500/software/release/17-15/command_reference/b_1715_9500_cr.pdf
 ```
 
-Для Campus Switch:
+For Campus Switch:
 
 ```bash
 .venv/bin/python -m cli_reference_corpus parse \
@@ -136,84 +155,119 @@ python3 -m venv .venv
   --source-url https://support.huawei.com/enterprise/en/doc/EDOC1000178165
 ```
 
-`parse` автоматически создаёт обе версии каждой команды. Отдельный запуск
-экспорта всего справочника в Markdown не требуется.
-Для просмотра произвольного отдельного JSON остаётся команда:
+`parse` automatically creates both representations of each command. A separate
+Markdown export of the entire reference is not required.
+To render any individual JSON record, use:
 
 ```bash
 .venv/bin/python -m cli_reference_corpus markdown path/to/command.json -o path/to/command.md
 ```
 
-Экспорт общего Markdown корпуса сохранён в API/CLI для совместимости, но в текущем
-наборе данных не используется.
+Combined corpus Markdown export remains available in the API/CLI for
+compatibility, but is not used for the current dataset.
 
-## Формат команды
+To add related pages to an existing JSON corpus without rereading the PDF:
 
-По умолчанию применяется схема `repository` версии 3:
+```bash
+.venv/bin/python -m cli_reference_corpus enrich-related \
+  output/cisco-catalyst9300-iosxe-17.15.x \
+  -o output/cisco-catalyst9300-iosxe-17.15.x-enriched
+```
 
-- `PageTitle` — название команды;
-- `CLIs` — шаблоны CLI, аргументы обозначены `<...>`;
-- `FuncDef` — назначение;
-- `ParentView` — режимы/представления;
-- `ParaDef` — параметры, каждый с `Parameters` и `Info`;
-- `Examples` — списки строк CLI с приглашением устройства;
-- `UsageGuidelines` — рекомендации, предпосылки и ограничения;
-- `ExtraInfo` — уровень команды, задачи и операции доступа, дополнительные разделы,
-  условия применимости синтаксиса и полный исходный текст примеров с подписями и выводом.
-- `related_topics` — связанные темы: название, описание/цитата, исходный раздел
-  и найденные номера разделов справочника.
+The input must be a corpus directory containing `manifest.json`, or the manifest
+itself. The result is a new directory with JSON/Markdown files and updated counts
+in `validation.json`. The `related_topics[].target_files` field contains JSON
+filenames within `cmd_corpus`, such as `13.1.57_route-map.json`. These files can
+be loaded automatically from that directory. Regular `parse` runs populate this
+field automatically. If a related command is absent from the selected corpus,
+its section number is retained, but no filename is added for the missing file.
 
-`--schema paper` выбирает альтернативные названия полей NAssim (`ParentViews`,
-`Paras`) без `PageTitle`. В версии 3 оба варианта сохраняют `UsageGuidelines`,
-`ExtraInfo` и `related_topics`.
-Схемы находятся в [schemas/](schemas/). Чтение старых JSON без `UsageGuidelines`
-и `related_topics` поддерживается. [Правила сбора дополнительных сведений](docs/additional-information.md). Markdown строится из сериализуемых полей JSON; название, страницы
-и предупреждения добавляются из метаданных извлечения.
+## Command format
 
-`manifest.json` связывает `file` и `markdown_file` каждой команды с её названием,
-разделом и физическими страницами PDF (с 1). `validation.json` содержит количество
-команд, шаблонов и примеров, пропуски относительно закладок и предупреждения.
-В `cmd_corpus/` лежат только пары команд; отчёты находятся на уровень выше.
+The default is version 3 of the `repository` schema:
 
-## Проверка полноты
+- `PageTitle` — command title;
+- `CLIs` — CLI templates, with arguments marked as `<...>`;
+- `FuncDef` — function description;
+- `ParentView` — command modes/views;
+- `ParaDef` — parameters, each with `Parameters` and `Info`;
+- `Examples` — lists of CLI input lines, with printed prompts when present;
+- `UsageGuidelines` — guidance, prerequisites, and restrictions;
+- `ExtraInfo` — command level, access tasks and operations, additional sections,
+  syntax applicability conditions, and complete source examples with captions and output.
+- `related_topics` — related topics: title, description/quotation, source section,
+  resolved reference section numbers (`target_sections`), and available command
+  JSON filenames (`target_files`).
+- `related_topics[].reference_kind` distinguishes an explicit reference
+  (`documented_reference`), a command from an example (`example_command`), and a
+  topic from parameter descriptions (`parameter_topic`). Parameter topics are
+  selected using the current reference's data, without dictionaries of models
+  or entities, or special rules for individual parameter names.
+- `syntax_issues` — syntax parsing errors in individual CLI templates: template
+  index, original CLI, code, and description. Errors are saved in JSON, the
+  command is exported, and processing continues for the remaining pages. These
+  diagnostics check the extracted format, not command behavior on a device.
 
-Аудит всех страниц пяти PDF не обнаружил пропущенных самостоятельных описаний
-команд. Однако это не гарантия полноты их содержимого: подтверждены потери
-примеров в массиве `Examples` и ошибки порядка синтаксиса Cisco. Полный текст
-раздела примеров теперь дополнительно сохраняется в `ExtraInfo`. У 281 записи Catalyst 9300 и 120 записей
-Catalyst 9500 `Examples` пуст, хотя в PDF найден раздел примеров. Подробности, конкретные страницы и воспроизводимая
-проверка: [reports/coverage/README.md](reports/coverage/README.md).
+`--schema paper` selects the alternative NAssim field names (`ParentViews`,
+`Paras`) without `PageTitle`. In version 3, both variants retain `UsageGuidelines`,
+`ExtraInfo`, and `related_topics`.
+Schemas are in [schemas/](schemas/). Legacy JSON without `UsageGuidelines` or
+`related_topics` is supported. [Additional information extraction rules](docs/additional-information.md).
+Markdown is built from the serialized JSON fields; the title, pages, and warnings
+are added from extraction metadata.
 
-## Проверки и ограничения
+`manifest.json` maps each command's `file` and `markdown_file` to its title,
+section, and physical PDF pages (1-based). `validation.json` contains command,
+template, and example counts, missing commands relative to bookmarks, and warnings.
+`cmd_corpus/` contains only command pairs; reports are stored one directory above.
+
+## Completeness checks
+
+An audit of every page in all five PDFs found no missing standalone command
+descriptions. Cisco prompt handling, promptless examples, and geometric syntax
+ordering have been corrected, and both Cisco corpora and Campus were regenerated.
+The remaining empty example arrays with printed example headings are 6 for
+Catalyst 9300, 4 for Catalyst 9500, and 1 for Campus: source captions without
+command text, log-only output, or explicit `None`. Full source example text
+remains in `ExtraInfo`.
+
+All 42 Cisco schema failures and all warning categories were reviewed. This does
+not establish semantic accuracy of every parameter or template; known limitations
+remain documented. See the [review and source evidence](reports/coverage/extraction-warning-review.md)
+and [page census](reports/coverage/README.md).
+
+## Tests and limitations
 
 ```bash
 .venv/bin/python -m pytest -q
 ```
 
-**69 тестов проходят.** Тесты используют реальные PDF-страницы Huawei и Cisco, проверяют таблицы,
-многостраничные команды, шрифтовое выделение аргументов, схемы JSON, пары JSON/MD,
-предупреждения, отказ от перезаписи и одинаковый результат при `workers=1` и `2`.
-Тесты преобразования CHM требуют optional-зависимость `beautifulsoup4` (`prepare`).
-Проверяются также границы выбранного справочника, сверка с оглавлением CHM,
-сохранение вводных тем и изображений, обнаружение потерянного текста.
-Для подготовки полного PDF нужны `7z` и Chrome/Chromium; сам PDF-парсер их не использует.
+Tests use real Huawei and Cisco PDF pages to check tables, commands spanning
+multiple pages, font-based argument detection, JSON schemas, JSON/MD pairs,
+warnings, refusal to overwrite existing output, and identical results with
+`workers=1` and `2`. CHM conversion tests require the optional `beautifulsoup4`
+dependency (`prepare`). Tests also check the selected reference's boundaries,
+consistency with the CHM table of contents, preservation of introductory topics
+and images, and detection of lost text. Preparing the complete PDF requires `7z`
+and Chrome/Chromium; the PDF parser itself does not use them.
 
-Корпуса предварительные: предупреждения остаются в отчётах и Markdown команд.
-Наличие записи и соответствие JSON Schema не доказывают семантическую точность
-каждого поля или работоспособность команды на оборудовании. Полнота относительно
-закладок относится к выбранному справочнику, а не ко всем командам платформы.
-Сканированные PDF требуют предварительного OCR. CLI-иерархия, проверка на устройстве
-и NetBERT Mapper не реализованы.
+The corpora are preliminary: warnings remain in the reports and command Markdown.
+A record's presence and JSON Schema compliance do not establish the semantic
+accuracy of every field or whether the command works on hardware. Completeness
+relative to bookmarks applies to the selected reference, not every command on
+the platform. Scanned PDFs require OCR first. CLI hierarchy, on-device validation,
+and NetBERT Mapper are not implemented.
 
-`--strict` сохраняет результат, но возвращает код `2` при предупреждениях,
-пропусках или страницах без текста. Коды `0` и `1` означают успешный экспорт
-и ошибку чтения/обработки соответственно; ошибки аргументов также имеют код `2`.
+`--strict` saves the output but returns exit code `2` for warnings, missing
+commands, or pages without text. Codes `0` and `1` indicate successful export and
+a reading/processing error, respectively; argument errors also return code `2`.
 
-## Расширение
+## Extending the parser
 
-Общее ядро — `BasePDFParser`, профили Huawei/Cisco подключаются через `--parser`.
-Внешний наследник задаётся как `module:Class`. [Инструкция](docs/extending-parsers.md).
-JSON и Markdown используют общую модель `Command`.
-Исходный формат корпуса: [NAssim](https://github.com/AmyWorkspace/nassim).
+`BasePDFParser` provides the shared core; Huawei/Cisco profiles are selected with
+`--parser`. An external subclass is specified as `module:Class`.
+[Instructions](docs/extending-parsers.md).
+JSON and Markdown use the shared `Command` model.
+Original corpus format: [NAssim](https://github.com/AmyWorkspace/nassim).
 
-Карта модулей и порядок чтения кода: [docs/code-structure.md](docs/code-structure.md).
+Module map and suggested code reading order: [docs/code-structure.md](docs/code-structure.md).

@@ -64,6 +64,13 @@ including the wrapped `aaa new-model` title, narrow column gaps and mirrored mar
 on a page break. Source:
 https://www.cisco.com/c/en/us/td/docs/switches/lan/catalyst9500/software/release/17-15/command_reference/b_1715_9500_cr.pdf
 
+`related-topics-records.json`: extracted records for `port trunk allow-pass vlan`
+and potential target/distractor pages from the CloudEngine, Campus and NE40E manuals
+listed above. Each record retains its source PDF filename, section ID and physical
+page range. It covers false short-prefix references, VLAN parameter-topic retrieval,
+view-specific homonyms and example commands. The source text is preserved; existing
+related topics are cleared so tests exercise extraction rather than saved results.
+
 `campus-related.pdf`: original physical pages 3299–3302 of the Campus V200R011C10
 PDF, retaining `abr-summary (OSPF area)` and its numbered Related Topics list.
 Tests adjacent references `7.4.4 area (OSPF)` and `7.4.67 ospf` as separate targets,
@@ -74,3 +81,30 @@ same as for `campus-interfaces.pdf` above.
 The last `stp snooping enable` description is followed by a large chapter title and
 chapter contents. Tests that these are not collected as related topics or extra
 information for the preceding command.
+
+`cisco-extraction-regressions.pdf`: original Catalyst 9300 IOS XE 17.15.x physical
+pages 303, 529, 570–574, 885, and 2362. Tests hostless prompts, promptless NAT
+configuration blocks, geometric syntax ordering, subsection captions, missing
+source syntax, and a source mode mislabeled as Command Default. Bookmarks are
+rebased to excerpt pages; the source and copyright are the same as for
+`cisco-catalyst.pdf` above.
+
+`cisco-preamble-note.pdf`: original Catalyst 9500 physical page 881. A small bold
+Note label precedes the function paragraph and must not start CLI syntax.
+Source and checksum are the same as for `cisco-related-no-header.pdf` above.
+
+`campus-empty-examples.pdf`: physical pages 1594–1595, 9589–9590, and 9594–9595 of
+the retained Campus PDF (before the excluded chapter). Tests the explicit
+`Example: None` and examples with empty `<>` / `[]` device prompts. Source and
+checksum are the same as for `campus-interfaces.pdf` above.
+
+`cisco-example-variants.pdf`: original Catalyst 9300 physical pages 1152–1153,
+1367–1368, 1478–1479, 2089, 2109, and 2232. Tests configuration listings, source
+example/template disagreements, `no-match` syntax boundaries, boot-loader prompts,
+and routed processor prompts. Source and copyright are the same as for
+`cisco-catalyst.pdf` above.
+
+`cisco-inverse-example.pdf`: original Catalyst 9300 physical pages 1524–1525.
+The printed affirmative `area nssa` template is malformed, while the inverse
+form remains usable to recognize the promptless example on the next page.
+The malformed source syntax is retained rather than silently repaired.

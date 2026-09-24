@@ -96,12 +96,58 @@
               "type": "string",
               "minLength": 1
             }
+          },
+          "target_files": {
+            "type": "array",
+            "uniqueItems": true,
+            "description": "JSON filenames relative to cmd_corpus, only for targets present in this export.",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "reference_kind": {
+            "type": "string",
+            "enum": [
+              "documented_reference",
+              "example_command",
+              "parameter_topic"
+            ]
           }
         }
       }
     },
     "ExtraInfo": {
       "type": "string"
+    },
+    "syntax_issues": {
+      "type": "array",
+      "description": "Non-fatal extraction/template-format diagnostics, not device CLI validation.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "cli_index",
+          "cli",
+          "code",
+          "message"
+        ],
+        "properties": {
+          "cli_index": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "cli": {
+            "type": "string"
+          },
+          "code": {
+            "type": "string"
+          },
+          "message": {
+            "type": "string"
+          }
+        }
+      }
     }
   }
 }

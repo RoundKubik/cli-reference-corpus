@@ -5,7 +5,8 @@ import re
 
 from ..parser import BasePDFParser
 from ..pdf import Line
-from .catalyst_layout import CatalystPage
+from .catalyst_layout import BODY_LEFT, CatalystPage
+from .cisco_examples import examples
 
 
 class CiscoIOSParser(BasePDFParser):
@@ -26,8 +27,8 @@ class CiscoIOSParser(BasePDFParser):
         "Command History": "History",
         "Related Commands": "Related Commands",
     }
-    inverse_keywords = ("no", "default")
-    prompt = re.compile(r"^[\w.-]+(?:\([^\n)]*\))?[#>]\s*\S")
+    inverse_keywords = ("no", "default", "no-match")
+    prompt = re.compile(r"^(?:[\w./:-]+)?(?:\([^\n)]*\))?[#>]\s*\S")
     caption_prefix = "!"
 
     def command_heading(self, event, page, outline):
@@ -48,7 +49,11 @@ class CiscoIOSParser(BasePDFParser):
 
     def build_command(self, builder):
         self.read_preamble(builder)
-        return super().build_command(builder)
+        command = super().build_command(builder)
+        if command is not None:
+            command.examples = examples(builder.fields.get("Examples", []), command.clis,
+                                        command.warnings, self.prompt, command.title)
+        return command
 
     def read_preamble(self, builder) -> None:
         # IOS often prints description and syntax without Function/Format labels.
@@ -108,6 +113,15 @@ class CiscoCatalystParser(CiscoIOSParser):
         return super().build_command(builder)
 
     def read_preamble(self, builder) -> None:
+        # Printed subsection captions are source context, not CLI templates.
+        captions = [event for event in self.preamble_events(builder)
+                    if isinstance(event, Line) and event.text[:1].isupper()
+                    and event.size >= self.field_min_size and event.bbox[0] >= BODY_LEFT
+                    and event.text.split()[0] != builder.command.title.split()[0]
+                    and all(span["flags"] & 16 for span in event.spans if span["text"].strip())]
+        if captions:
+            builder.fields.setdefault("Format captions", []).extend(captions)
+            builder.preamble = [event for event in builder.preamble if event not in captions]
         super().read_preamble(builder)
         builder.preamble = []
 
@@ -119,12 +133,13 @@ class CiscoCatalystParser(CiscoIOSParser):
         ]
 
     def starts_syntax(self, event, description) -> bool:
-        if not isinstance(event, Line):
+        if not isinstance(event, Line) or event.bbox[0] < BODY_LEFT:
             return False
         first_word = next((span for span in event.spans if re.search(r"\w", span["text"])), {})
         is_emphasized = bool(first_word.get("flags", 0) & (16 | 8 | 2))
         follows_paragraph = not description or event.bbox[1] - description[-1].bbox[3] > 4
-        return is_emphasized and event.size < 14 and follows_paragraph
+        return (is_emphasized and self.field_min_size <= first_word.get("size", event.size) < 14
+                and follows_paragraph)
 
     def parse_parameters(self, events, warnings):
         parameters = [
@@ -137,7 +152,8 @@ class CiscoCatalystParser(CiscoIOSParser):
         # The no/default form can start at ordinary line leading.
         formats, current = [], []
         for event in events:
-            if isinstance(event, Line) and current and re.match(r"^(?:no|default)\s", event.text.strip()):
+            inverse = r"^(?:" + "|".join(map(re.escape, self.inverse_keywords)) + r")\s"
+            if isinstance(event, Line) and current and re.match(inverse, event.text.strip()):
                 formats.extend(super().parse_formats(current, warnings))
                 current = []
             current.append(event)

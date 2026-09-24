@@ -95,16 +95,6 @@
       "title": "port media type",
       "page": 1594,
       "file": "cmd_corpus/4.2.49_port_media_type.json"
-    },
-    {
-      "title": "display snmp-agent trap feature-name cfgmgr all",
-      "page": 9589,
-      "file": "cmd_corpus/13.6.18_display_snmp-agent_trap_feature-name_cfgmgr_all.json"
-    },
-    {
-      "title": "snmp-agent trap enable feature-name cfgmgr",
-      "page": 9594,
-      "file": "cmd_corpus/13.6.21_snmp-agent_trap_enable_feature-name_cfgmgr.json"
     }
   ],
   "empty_cli_records": [],

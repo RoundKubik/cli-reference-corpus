@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download exact official NE40E CHM archives pinned in the source manifests."""
+"""Download an NE40E manual by URL, or verify a package against a source manifest."""
 from __future__ import annotations
 
 import argparse
@@ -11,6 +11,7 @@ import urllib.request
 import zipfile
 
 from fetch_cloudengine import digest
+from cli_reference_corpus.downloads import add_url_arguments, fetch_from_arguments, supplied_url
 
 
 def fetch(destination: Path, manifest: Path) -> Path:
@@ -71,10 +72,19 @@ def extract_chm(archive: Path, chm: Path, source: dict) -> None:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--destination', type=Path, required=True, help='Temporary download directory; data/manuals is reserved for final PDFs')
-    parser.add_argument('--manifest', type=Path, required=True, help='External source manifest with download URL and SHA-256 checksums')
+    add_url_arguments(parser)
+    parser.add_argument('--destination', type=Path, help='Download directory (URL mode default: data/manuals)')
+    parser.add_argument('--manifest', type=Path, help='External source manifest with download URL and SHA-256 checksums')
     args = parser.parse_args()
+    args.url = supplied_url(args, parser)
     try:
-        print(fetch(args.destination, args.manifest))
+        if args.url:
+            if args.manifest:
+                parser.error('Use either --url or --manifest')
+            print(fetch_from_arguments(args, parser, preferred_format='.chm'))
+        else:
+            if not args.manifest or not args.destination:
+                parser.error('Supply a documentation URL, or --manifest and --destination')
+            print(fetch(args.destination, args.manifest))
     except (OSError, ValueError, KeyError, zipfile.BadZipFile) as error:
         parser.exit(1, f'Download failed: {error}\n')

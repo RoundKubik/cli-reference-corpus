@@ -43,8 +43,10 @@ Markdown rendering.
 
 The corpus has 5,989 JSON/Markdown pairs and 11,851 CLI templates. Every JSON
 record passes the repository schema; 560 records carry extraction warnings.
-Three records have empty examples despite printed Example sections and remain
-in the independent audit review queue.
+The three empty-example findings have been reviewed: two commands with empty
+`<>` / `[]` prompts are now extracted, and `port media type` correctly retains
+an empty array because its source prints `Example: None`. See the
+[extraction review](../reports/coverage/extraction-warning-review.md).
 Full titles are taken from matching PDF bookmarks to avoid inserting spaces at
 printed line breaks.
 

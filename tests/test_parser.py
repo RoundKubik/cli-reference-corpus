@@ -39,10 +39,10 @@ def test_real_pdf_cross_page_command(bandwidth):
 def test_actual_corpus_and_paper_schemas(bandwidth):
     c = bandwidth.commands[0]
     repo = c.to_dict()
-    assert set(repo) == {"PageTitle", "CLIs", "FuncDef", "ParentView", "ParaDef", "Examples", "ExtraInfo", "UsageGuidelines", "related_topics"}
+    assert set(repo) == {"PageTitle", "CLIs", "FuncDef", "ParentView", "ParaDef", "Examples", "ExtraInfo", "UsageGuidelines", "related_topics", "syntax_issues"}
     assert set(repo["ParaDef"][0]) == {"Parameters", "Info"}
     paper = c.to_dict("paper")
-    assert set(paper) == {"CLIs", "FuncDef", "ParentViews", "ParaDef", "Examples", "UsageGuidelines", "ExtraInfo", "related_topics"}
+    assert set(paper) == {"CLIs", "FuncDef", "ParentViews", "ParaDef", "Examples", "UsageGuidelines", "ExtraInfo", "related_topics", "syntax_issues"}
     assert set(paper["ParaDef"][0]) == {"Paras", "Info"}
     with pytest.raises(ValueError, match="schema"):
         c.to_dict("unknown")

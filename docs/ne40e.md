@@ -1,43 +1,44 @@
 # Huawei NE40E Command Reference
 
-Входной файл: `data/manuals/huawei-ne40e-v800r024c00spc500.rendered.pdf`.
-Он содержит обычный **NE40E V800R024C00SPC500 Command Reference** из официального
-[пакета документации Huawei](https://support.huawei.com/enterprise/en/doc/EDOC1100423401).
-[Онлайн-версия справочника](https://support.huawei.com/hedex/hdx.do?docid=EDOC1100408650&lang=en&id=EN-US_TOPIC_0000001844751981).
+Input file: `data/manuals/huawei-ne40e-v800r024c00spc500.rendered.pdf`.
+It contains the standard **NE40E V800R024C00SPC500 Command Reference** from the
+official [Huawei documentation package](https://support.huawei.com/enterprise/en/doc/EDOC1100423401).
+[Online reference](https://support.huawei.com/hedex/hdx.do?docid=EDOC1100408650&lang=en&id=EN-US_TOPIC_0000001844751981).
 
-PDF подготовлен локально из CHM: HTML-темы напечатаны через Chrome блоками и
-объединены в один документ на **30 291 страницу**. Это не оригинальный PDF Huawei.
-Выбран целиком раздел Command Reference: **14 833 темы**, в том числе **14 551
-описание команды** и 282 вводные/группирующие темы. Соседний Debugging Command
-Reference в него не входит. Старый Diagnose заменён этим справочником.
+The PDF was prepared locally from CHM: HTML topics were printed in batches using
+Chrome and merged into a single **30,291-page** document. This is not an original
+Huawei PDF. The entire Command Reference section was selected: **14,833 topics**,
+including **14,551 command descriptions** and 282 introductory/grouping topics.
+The adjacent Debugging Command Reference is excluded. This reference replaces
+the previous Diagnose manual.
 
-## Проверка исходного документа
+## Source document verification
 
-- Обход дочерних HTML-тем независимо сверен с оглавлением CHM (`.hhc`):
-  14 833 уникальные темы, без пропусков и лишних тем.
-- Для каждой темы сохранены SHA-256 HTML и соответствующие физические страницы PDF.
-  Проверены порядок тем, заголовки разделов и текст после печати.
-- Все 2 508 ссылок на изображения разрешаются в локальные файлы; подготовка HTML
-  сохраняет изображения и исходные таблицы. В конечном PDF также найдено
-  2 508 изображений.
-- Посимвольный счётчик букв и цифр не обнаружил дефицита ни в одной теме.
-  Различия счётчика слов из-за переносов проверены отдельно. Эти проверки
-  обнаруживают потери текста, но не являются доказательством правильного порядка
-  каждого фрагмента таблицы или визуальной проверкой каждой страницы.
+- The traversal of child HTML topics was independently checked against the CHM
+  table of contents (`.hhc`): 14,833 unique topics, with no missing or extra topics.
+- Each topic's HTML SHA-256 and corresponding physical PDF pages were recorded.
+  Topic order, section headings, and text after printing were checked.
+- All 2,508 image references resolve to local files; HTML preparation preserves
+  images and original tables. The final PDF also contains 2,508 images.
+- A character-frequency check of letters and digits found no deficit in any
+  topic. Word-count differences caused by line wrapping were reviewed separately.
+  These checks detect text loss, but do not prove that every table fragment is
+  ordered correctly or constitute a visual review of every page.
 
-Происхождение и проверки сохранены вне `data`:
+Provenance and verification results are stored outside `data`:
 
-- [Пакет, URL и контрольные суммы](../reports/sources/ne40e-download.json).
-- [Карта HTML → PDF и результаты печати](../reports/sources/ne40e-rendering.json).
-- [Проверка переносов слов и изображений](../reports/sources/ne40e-text-review.json).
-- [Сверка исходных команд с корпусом](../reports/coverage/ne40e-source-to-corpus.json).
-- [Независимый аудит страниц PDF](../reports/coverage/huawei-ne40e-v800r024c00spc500.json).
+- [Package, URL, and checksums](../reports/sources/ne40e-download.json).
+- [HTML → PDF map and printing results](../reports/sources/ne40e-rendering.json).
+- [Word wrapping and image checks](../reports/sources/ne40e-text-review.json).
+- [Source command comparison with the corpus](../reports/coverage/ne40e-source-to-corpus.json).
+- [Independent PDF page audit](../reports/coverage/huawei-ne40e-v800r024c00spc500.json).
 
-Каждая тема начинается с новой страницы и имеет технический номер `1.N`.
-Закладки PDF указывают на описания команд; вводные темы тоже присутствуют в PDF.
-Номера в корпусе относятся к подготовленному PDF, а не к пагинации онлайн-справочника.
+Each topic starts on a new page and receives a generated section number `1.N`.
+PDF bookmarks point to command descriptions; introductory topics are also
+included in the PDF. Corpus page numbers refer to the prepared PDF, not the
+pagination of the online reference.
 
-## Генерация корпуса из PDF
+## Generating the corpus from PDF
 
 ```bash
 .venv/bin/python -m cli_reference_corpus parse \
@@ -46,20 +47,22 @@ Reference в него не входит. Старый Diagnose заменён э
   --source-url 'https://support.huawei.com/hedex/hdx.do?docid=EDOC1100408650&lang=en&id=EN-US_TOPIC_0000001844751981'
 ```
 
-Парсер читает именно PDF. HTML и CHM используются только при подготовке и проверке
-источника. Полные названия команд читаются из закладок PDF, чтобы переносы
-заголовков не добавляли пробелы внутрь имён. В `output/huawei-ne40e-v800r024c00spc500/cmd_corpus/` каждая команда имеет JSON и его английский
-Markdown-рендер. Общий Markdown справочника не создаётся. Предупреждения извлечения
-сохраняются в `validation.json` и Markdown команд. Получено 14 551 пар и 33 151
-CLI-шаблон; все записи проходят JSON Schema. У 379 команд есть предупреждения
-извлечения. Страница 19 559 пустая после печати, что также отражено в отчёте;
-проверки исходного текста не обнаружили потери содержимого этой темы.
+The parser reads the PDF itself. HTML and CHM are used only to prepare and verify
+the source. Complete command titles are read from PDF bookmarks so that wrapped
+headings do not introduce spaces within names. Each command in
+`output/huawei-ne40e-v800r024c00spc500/cmd_corpus/` has a JSON file and an English
+Markdown rendering. No combined reference Markdown file is generated. Extraction
+warnings are saved in `validation.json` and the command Markdown files. The
+result contains 14,551 pairs and 33,151 CLI templates; all records pass JSON Schema
+validation. There are extraction warnings for 379 commands. Page 19,559 is empty
+after printing, which is also recorded in the report; source text checks found
+no loss of content for that topic.
 
-## Воспроизведение PDF
+## Reproducing the PDF
 
-Дополнительно нужны `7z`, Chrome/Chromium и зависимости `.[prepare]`.
-Архив и извлечённый CHM следует хранить во временном каталоге: в `data` остаются
-только конечные PDF. Существующие выходные файлы и каталоги не перезаписываются.
+Additional requirements are `7z`, Chrome/Chromium, and the `.[prepare]` dependencies.
+Store the archive and extracted CHM in a temporary directory: only final PDFs
+remain in `data`. Existing output files and directories are not overwritten.
 
 ```bash
 .venv/bin/python scripts/fetch_ne40e.py \
@@ -73,11 +76,11 @@ CLI-шаблон; все записи проходят JSON Schema. У 379 ко�
   --renderer chrome --workers 4
 ```
 
-Конвертер также сохраняет `.source.json` рядом с новым PDF. При переносе конечного
-PDF в `data/manuals` карту следует сохранить в `reports/sources`.
-Версия Chrome и хеши модулей подготовки записаны в карте: повторная печать может
-дать другой двоичный хеш PDF. Для повторения существующего корпуса достаточно
-сохранённого конечного PDF.
+The converter also saves a `.source.json` file alongside the new PDF. When moving
+the final PDF into `data/manuals`, preserve the map in `reports/sources`.
+The map records the Chrome version and preparation module hashes: printing again
+may produce a different binary PDF hash. The saved final PDF is sufficient to
+reproduce the existing corpus.
 
 ```bash
 .venv/bin/python scripts/audit_prepared_reference.py \
@@ -86,9 +89,9 @@ PDF в `data/manuals` карту следует сохранить в `reports/s
   --corpus output/huawei-ne40e-v800r024c00spc500 -o reports/coverage/ne40e-source-to-corpus.json
 ```
 
-Полнота здесь относится к выбранному Command Reference этой версии NE40E.
-Она не означает наличие всех команд других версий ПО, диагностических справочников
-или полную семантическую точность каждого поля JSON.
+Completeness here refers to the selected Command Reference for this NE40E release.
+It does not imply coverage of all commands in other software versions or diagnostic
+references, or complete semantic accuracy of every JSON field.
 
 ## Additional information (schema v3)
 

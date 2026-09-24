@@ -1,0 +1,3431 @@
+{
+  "scope": "All records; before/after target comparison, file existence, self-reference and syntax checks.",
+  "limitations": "Parameter topics are lexical relevance candidates derived from the manual. Structural checks do not prove semantic precision or recall; regression tests cover reviewed examples.",
+  "corpora": [
+    {
+      "corpus": "huawei-cloudengine-9800-8800-6800-v300r024c00",
+      "source_sha256": "af8546aa428648f4acc9edf7ddb10910b6629da13056681abb1d87553134f17a",
+      "counts": {
+        "commands": 6672,
+        "related_topics": 29856,
+        "commands_with_related_topics": 6234,
+        "commands_with_changed_targets": 6122,
+        "added_target_sections": 28242,
+        "removed_target_sections": 8316,
+        "syntax_issues": 0,
+        "verified_target_files": 39430
+      },
+      "reference_kinds": {
+        "documented_reference": 7001,
+        "example_command": 17317,
+        "parameter_topic": 5538
+      },
+      "most_common_parameter_targets": [
+        {
+          "section": "2.2.1.23",
+          "title": "interface",
+          "references": 470
+        },
+        {
+          "section": "2.4.3.49",
+          "title": "vlan (system view)",
+          "references": 162
+        },
+        {
+          "section": "2.6.9.99",
+          "title": "route-policy",
+          "references": 151
+        },
+        {
+          "section": "2.5.10.8",
+          "title": "acl number",
+          "references": 132
+        },
+        {
+          "section": "2.6.1.75",
+          "title": "router id",
+          "references": 69
+        },
+        {
+          "section": "2.6.4.67",
+          "title": "ospfv3",
+          "references": 65
+        },
+        {
+          "section": "2.6.5.745",
+          "title": "peer group (BGP view) (IPv6)",
+          "references": 62
+        },
+        {
+          "section": "2.6.3.77",
+          "title": "ospf",
+          "references": 58
+        },
+        {
+          "section": "2.15.1.48",
+          "title": "nqa",
+          "references": 56
+        },
+        {
+          "section": "2.6.5.753",
+          "title": "peer group (BGP-VPN instance IPv6 address family view) (IPv6)",
+          "references": 56
+        },
+        {
+          "section": "2.9.1.16",
+          "title": "bridge-domain",
+          "references": 42
+        },
+        {
+          "section": "2.6.7.29",
+          "title": "rip",
+          "references": 40
+        },
+        {
+          "section": "2.3.19.1",
+          "title": "alarm",
+          "references": 38
+        },
+        {
+          "section": "2.7.5.45",
+          "title": "pim",
+          "references": 37
+        },
+        {
+          "section": "2.6.2.21",
+          "title": "ipv6 route-static track bfd-session admindown invalid",
+          "references": 34
+        },
+        {
+          "section": "2.7.1.14",
+          "title": "igmp",
+          "references": 33
+        },
+        {
+          "section": "2.6.6.94",
+          "title": "isis",
+          "references": 32
+        },
+        {
+          "section": "2.3.10.59",
+          "title": "snmp-agent trap source ipv6",
+          "references": 31
+        },
+        {
+          "section": "2.5.12.19",
+          "title": "ipv6 nd anti-attack rate-limit destination-ip",
+          "references": 31
+        },
+        {
+          "section": "2.7.5.21",
+          "title": "display pim bsr-info",
+          "references": 31
+        },
+        {
+          "section": "2.13.7.52",
+          "title": "pki certificate access-control-policy name",
+          "references": 30
+        },
+        {
+          "section": "2.9.1.196",
+          "title": "vni (System view)",
+          "references": 30
+        },
+        {
+          "section": "2.13.9.57",
+          "title": "sftp idle-timeout",
+          "references": 27
+        },
+        {
+          "section": "2.16.13.1",
+          "title": "flex-load-balancing",
+          "references": 26
+        },
+        {
+          "section": "2.7.10.4",
+          "title": "multicast-nat instance",
+          "references": 26
+        },
+        {
+          "section": "2.5.10.7",
+          "title": "acl name (user-defined ACL)",
+          "references": 25
+        },
+        {
+          "section": "2.6.5.296",
+          "title": "group (BGP view)",
+          "references": 25
+        },
+        {
+          "section": "2.6.5.299",
+          "title": "group (BGP-VPN instance view)",
+          "references": 25
+        },
+        {
+          "section": "2.6.5.664",
+          "title": "peer enable(IPv6)",
+          "references": 25
+        },
+        {
+          "section": "2.10.3.3",
+          "title": "bfd (session)",
+          "references": 25
+        }
+      ],
+      "change_samples": [
+        {
+          "file": "cmd_corpus/2.1.1.1_alias.json",
+          "title": "alias",
+          "added_targets": [
+            {
+              "section": "2.1.1.3",
+              "title": "command alias"
+            },
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.2_clear_configuration_interface.json",
+          "title": "clear configuration interface",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.13.9.31",
+              "title": "key-pair label"
+            },
+            {
+              "section": "2.2.1.23",
+              "title": "interface"
+            },
+            {
+              "section": "2.6.6.67",
+              "title": "import-rib vpn-instance protocol isis"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.1.1.39",
+              "title": "undo"
+            }
+          ],
+          "parameter_topics": [
+            {
+              "title": "interface",
+              "description": "Parameter interface-type: Deletes configurations on a specified type interface.\n-\nParameter interface-number: Deletes configurations on a specified number interface.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.1.23"
+              ],
+              "target_files": [
+                "2.2.1.23_interface.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.1.3_command_alias.json",
+          "title": "command alias",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.13.9.31",
+              "title": "key-pair label"
+            },
+            {
+              "section": "2.6.6.67",
+              "title": "import-rib vpn-instance protocol isis"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.1.1.39",
+              "title": "undo"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.4_command-privilege.json",
+          "title": "command-privilege",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.13.9.31",
+              "title": "key-pair label"
+            },
+            {
+              "section": "2.6.6.67",
+              "title": "import-rib vpn-instance protocol isis"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.1.1.39",
+              "title": "undo"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.5_display_command_alias.json",
+          "title": "display command alias",
+          "added_targets": [
+            {
+              "section": "2.1.5.28",
+              "title": "display configuration commit"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.6_display_current-configuration_interface.json",
+          "title": "display current-configuration interface",
+          "added_targets": [
+            {
+              "section": "2.2.1.23",
+              "title": "interface"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "interface",
+              "description": "Parameter interface [ interface-type [ interface-number ] | interface-name ]: Displays the specified interface type, number, and name.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.1.23"
+              ],
+              "target_files": [
+                "2.2.1.23_interface.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.1.7_display_diagnostic-information.json",
+          "title": "display diagnostic-information",
+          "added_targets": [
+            {
+              "section": "2.1.1.8",
+              "title": "display diagnostic-information(All views)"
+            },
+            {
+              "section": "2.1.5.28",
+              "title": "display configuration commit"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "display diagnostic-information(All views)",
+              "description": "Parameter level level_value: Specifies the level of the diagnostic information.\nEnumerated type. The options can be: ●high: The level of system diagnostic information is high.\nParameter file-name: Specifies the name of the file that stores diagnostic information.\nThe value is a string of 5 to 64 characters. By default, the file path is flash:/ and the file name extension must be .txt or .zip.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.1.1.8"
+              ],
+              "target_files": [
+                "2.1.1.8_display_diagnostic-information_All_views.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.1.8_display_diagnostic-information_All_views.json",
+          "title": "display diagnostic-information(All views)",
+          "added_targets": [
+            {
+              "section": "2.3.1.28",
+              "title": "display device configuration"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "display diagnostic-information",
+              "description": "Parameter level level_value: Specifies the level of the diagnostic information.\nEnumerated type. The options can be: ●high: The level of system diagnostic information is high.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.1.1.7"
+              ],
+              "target_files": [
+                "2.1.1.7_display_diagnostic-information.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "display device configuration",
+              "description": "Parameter slot slot-id: Displays diagnostic file information about a specified slot.\nThe value is a string of 1 to 49 case-sensitive characters, spaces not supported. Set the value according to the device configuration.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.3.1.28"
+              ],
+              "target_files": [
+                "2.3.1.28_display_device_configuration.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.1.15_display_terminal_command_alias.json",
+          "title": "display terminal command alias",
+          "added_targets": [],
+          "removed_targets": [
+            {
+              "section": "2.1.1.39",
+              "title": "undo"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.16_display_this.json",
+          "title": "display this",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.17_display_this_command_group_candidate.json",
+          "title": "display this command group candidate",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.1.5.8",
+              "title": "command group"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.10.3.17",
+              "title": "description (BFD session view)"
+            },
+            {
+              "section": "2.13.7.18",
+              "title": "description (PKI access configuration view)"
+            },
+            {
+              "section": "2.15.1.13",
+              "title": "description (NQA view)"
+            },
+            {
+              "section": "2.15.11.6",
+              "title": "description (IOAM-policy view)"
+            },
+            {
+              "section": "2.15.12.4",
+              "title": "description (Sensor-path-self-defined-event view)"
+            },
+            {
+              "section": "2.2.1.2",
+              "title": "description (interface view)"
+            },
+            {
+              "section": "2.3.12.3",
+              "title": "description (NACM rule view)"
+            },
+            {
+              "section": "2.4.3.3",
+              "title": "description (VLAN view)"
+            },
+            {
+              "section": "2.4.6.3",
+              "title": "description (ERPS ring view)"
+            },
+            {
+              "section": "2.5.11.5",
+              "title": "description (ACL6 view)"
+            },
+            {
+              "section": "2.6.3.16",
+              "title": "description (OSPF area view)"
+            },
+            {
+              "section": "2.6.3.17",
+              "title": "description (OSPF view)"
+            },
+            {
+              "section": "2.6.4.14",
+              "title": "description (OSPFv3 area view)"
+            },
+            {
+              "section": "2.6.4.15",
+              "title": "description (OSPFv3 view)"
+            },
+            {
+              "section": "2.6.6.20",
+              "title": "description (IS-IS view)"
+            },
+            {
+              "section": "2.6.7.7",
+              "title": "description (RIP view)"
+            },
+            {
+              "section": "2.6.8.2",
+              "title": "description (RIPng view)"
+            },
+            {
+              "section": "2.6.9.30",
+              "title": "description (Route-policy view)"
+            },
+            {
+              "section": "2.8.2.16",
+              "title": "description (VPN instance view)"
+            },
+            {
+              "section": "2.9.1.21",
+              "title": "description (Bridge domain view)"
+            },
+            {
+              "section": "2.9.1.22",
+              "title": "description (VNI peer view)"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.19_execute.json",
+          "title": "execute",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.1.2.9",
+              "title": "cd"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.20_header.json",
+          "title": "header",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.21_hotkey.json",
+          "title": "hotkey",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.6.1.17",
+              "title": "display ip routing-table (All views)"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.22_undo_language_character-set.json",
+          "title": "undo language character-set",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.23_load_vendor_information.json",
+          "title": "load vendor information",
+          "added_targets": [
+            {
+              "section": "2.1.1.40",
+              "title": "unload vendor information"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "unload vendor information",
+              "description": "Parameter fileName: Name of the vendor information customization file.\nThe value is a string of 5 to 64 case-sensitive characters (including the file name extension). The file name extension must be .zip. The file name cannot contain the following special characters: ~? * /\\ : ' | < > [ ] ; $ ` !",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.1.1.40"
+              ],
+              "target_files": [
+                "2.1.1.40_unload_vendor_information.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.1.26_quit.json",
+          "title": "quit",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.1.23",
+              "title": "interface"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.29_return.json",
+          "title": "return",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.30_run.json",
+          "title": "run",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.1.2.14",
+              "title": "dir (FTP client view)"
+            },
+            {
+              "section": "2.1.4.7",
+              "title": "dir"
+            },
+            {
+              "section": "2.13.9.6",
+              "title": "dir (SFTP client view)"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.1.31_set_net-manager_vpn-instance.json",
+          "title": "set net-manager vpn-instance",
+          "added_targets": [
+            {
+              "section": "2.1.1.26",
+              "title": "quit"
+            },
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.7.6.68",
+              "title": "pim ipv6 vpn-instance"
+            },
+            {
+              "section": "2.8.2.18",
+              "title": "ip vpn-instance(System view)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "pim ipv6 vpn-instance",
+              "description": "Parameter ipv6: Specifies the IPv6 VPN instance.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.7.6.68"
+              ],
+              "target_files": [
+                "2.7.6.68_pim_ipv6_vpn-instance.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.4.3.34_port_trunk_allow-pass_vlan.json",
+          "title": "port trunk allow-pass vlan",
+          "added_targets": [
+            {
+              "section": "2.1.1.33",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.1.23",
+              "title": "interface"
+            },
+            {
+              "section": "2.4.3.49",
+              "title": "vlan (system view)"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "2.10.6.4",
+              "title": "port (Monitor link group view)"
+            },
+            {
+              "section": "2.10.7.6",
+              "title": "port (Smart Link group view)"
+            },
+            {
+              "section": "2.4.3.27",
+              "title": "port (VLAN view)"
+            },
+            {
+              "section": "2.4.6.14",
+              "title": "port"
+            }
+          ],
+          "parameter_topics": [
+            {
+              "title": "vlan (system view)",
+              "description": "Parameter vlan-id1: Specifies the start VLAN ID.\nFor the CE6885-LL (low latency mode):The value is an integer that ranges from 1 to 1023. For the CE8850-SAN, CE6881H, CE6881H-K, CE8855, CE8851-32CQ4BQ, CE6866, CE6860-HAM, CE8865-SAN, CE6863H, CE6863H-K, CE6885-LL (standard forwarding mode), CE6885H, CE6885, CE6885-T, CE6863E-48S8CQ, CE6885L, CE6885-SAN, CE8851K, CE8851-32CQ8DQ-P, CE8850-HAM, CE6820H, CE6820H-K, CE6820S, CE6855-48XS8CQ, CE6866K, CE6860-SAN, CE9865, CE9855, CE8865 and CE8875:The value is an integer in the range from 1 to 4094.\nParameter to vlan-id2: Specifies the end ID of a VLAN.\nFor the CE6885-LL (low latency mode):The value is an integer that ranges from 1 to 1023. For the CE8850-SAN, CE6881H, CE6881H-K, CE8855, CE8851-32CQ4BQ, CE6866, CE6860-HAM, CE8865-SAN, CE6863H, CE6863H-K, CE6885-LL (standard forwarding mode), CE6885H, CE6885, CE6885-T, CE6863E-48S8CQ, CE6885L, CE6885-SAN, CE8851K, CE8851-32CQ8DQ-P, CE8850-HAM, CE6820H, CE6820H-K, CE6820S, CE6855-48XS8CQ, CE6866K, CE6860-SAN, CE9865, CE9855, CE8865 and CE8875:The value is an integer in the range from 1 to 4094.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.4.3.49"
+              ],
+              "target_files": [
+                "2.4.3.49_vlan_system_view.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "corpus": "huawei-campus-s1720-s2700-s5700-s6720-v200r011c10",
+      "source_sha256": "cf7b97b0ae0d4dfd78f7c7a1dac9ad3c8a4aa9896a9e392962c5bcd40fb84124",
+      "counts": {
+        "commands": 5989,
+        "related_topics": 30017,
+        "commands_with_related_topics": 5768,
+        "commands_with_changed_targets": 5277,
+        "added_target_sections": 16640,
+        "removed_target_sections": 568,
+        "syntax_issues": 2,
+        "verified_target_files": 32891
+      },
+      "reference_kinds": {
+        "documented_reference": 14062,
+        "example_command": 11693,
+        "parameter_topic": 4262
+      },
+      "most_common_parameter_targets": [
+        {
+          "section": "5.3.49",
+          "title": "vlan",
+          "references": 102
+        },
+        {
+          "section": "9.1.128",
+          "title": "snmp-agent trap enable feature-name ldp",
+          "references": 62
+        },
+        {
+          "section": "14.1.5",
+          "title": "acl (system view)",
+          "references": 60
+        },
+        {
+          "section": "7.10.52",
+          "title": "router id",
+          "references": 59
+        },
+        {
+          "section": "13.2.44",
+          "title": "radius-server shared-key (system view)",
+          "references": 53
+        },
+        {
+          "section": "10.4.36",
+          "title": "ip vpn-instance",
+          "references": 53
+        },
+        {
+          "section": "8.9.37",
+          "title": "igmp-snooping send-query source-address",
+          "references": 52
+        },
+        {
+          "section": "7.9.55",
+          "title": "route-policy",
+          "references": 45
+        },
+        {
+          "section": "11.1.235",
+          "title": "reset mac-address { ap-id | ap-name }",
+          "references": 44
+        },
+        {
+          "section": "8.1.15",
+          "title": "igmp",
+          "references": 41
+        },
+        {
+          "section": "11.1.102",
+          "title": "display ap provision",
+          "references": 40
+        },
+        {
+          "section": "14.1.4",
+          "title": "acl name",
+          "references": 39
+        },
+        {
+          "section": "11.5.26",
+          "title": "ucc-profile (system view)",
+          "references": 38
+        },
+        {
+          "section": "7.5.45",
+          "title": "ospfv3",
+          "references": 38
+        },
+        {
+          "section": "7.8.110",
+          "title": "peer group",
+          "references": 36
+        },
+        {
+          "section": "13.6.2",
+          "title": "as access controller ip-address",
+          "references": 36
+        },
+        {
+          "section": "3.4.17",
+          "title": "event",
+          "references": 35
+        },
+        {
+          "section": "10.7.121",
+          "title": "vsi",
+          "references": 34
+        },
+        {
+          "section": "8.13.5",
+          "title": "display user-vlan",
+          "references": 31
+        },
+        {
+          "section": "7.1.10",
+          "title": "ipv6 route-static track bfd-session admindown invalid",
+          "references": 31
+        },
+        {
+          "section": "8.6.5",
+          "title": "display multicast-domain vpn-instance share-group",
+          "references": 30
+        },
+        {
+          "section": "9.1.103",
+          "title": "mpls lsr-id",
+          "references": 29
+        },
+        {
+          "section": "16.6.40",
+          "title": "nqa",
+          "references": 28
+        },
+        {
+          "section": "11.1.126",
+          "title": "display mac-address { ap-id | ap-name }",
+          "references": 28
+        },
+        {
+          "section": "4.2.28",
+          "title": "interface (Ethernet interface)",
+          "references": 26
+        },
+        {
+          "section": "8.3.45",
+          "title": "pim",
+          "references": 26
+        },
+        {
+          "section": "13.5.103",
+          "title": "port connection-type access",
+          "references": 25
+        },
+        {
+          "section": "7.9.50",
+          "title": "ip ipv6-prefix",
+          "references": 25
+        },
+        {
+          "section": "7.2.30",
+          "title": "rip",
+          "references": 25
+        },
+        {
+          "section": "8.2.16",
+          "title": "mld",
+          "references": 25
+        }
+      ],
+      "change_samples": [
+        {
+          "file": "cmd_corpus/2.1.2_assistant_task.json",
+          "title": "assistant task",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.3_command-privilege_level.json",
+          "title": "command-privilege level",
+          "added_targets": [
+            {
+              "section": "15.5.2",
+              "title": "deny | permit"
+            },
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.71",
+              "title": "tftp-server/sftp-server/ftp-server"
+            },
+            {
+              "section": "2.8.28",
+              "title": "save"
+            },
+            {
+              "section": "4.2.67",
+              "title": "statistic enable (interface view)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.4_command-privilege_level_rearrange.json",
+          "title": "command-privilege level rearrange",
+          "added_targets": [
+            {
+              "section": "15.5.2",
+              "title": "deny | permit"
+            },
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.71",
+              "title": "tftp-server/sftp-server/ftp-server"
+            },
+            {
+              "section": "2.6.42",
+              "title": "run"
+            },
+            {
+              "section": "4.2.67",
+              "title": "statistic enable (interface view)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.5_diagnose.json",
+          "title": "diagnose",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.8_display_history-command.json",
+          "title": "display history-command",
+          "added_targets": [
+            {
+              "section": "3.1.9",
+              "title": "display diagnostic-information"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.9_display_snmp-agent_trap_feature-name_line_all.json",
+          "title": "display snmp-agent trap feature-name line all",
+          "added_targets": [
+            {
+              "section": "16.1.22",
+              "title": "snmp-agent"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.10_display_this.json",
+          "title": "display this",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "4.1.16",
+              "title": "interface"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.11_display_this_include-default.json",
+          "title": "display this include-default",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "interface"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.12_header.json",
+          "title": "header",
+          "added_targets": [
+            {
+              "section": "2.1.15",
+              "title": "quit"
+            },
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.13_if-match_timer_cron.json",
+          "title": "if-match timer cron",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.14_perform_batch-file.json",
+          "title": "perform batch-file",
+          "added_targets": [
+            {
+              "section": "2.1.10",
+              "title": "display this"
+            },
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "assistant task",
+              "description": "Parameter priority: Specifies a priority for an assistant task.\nThe value is fixed at 1 because one assistant task can process only one batch file.\nParameter filename: Specifies the name of the batch file processed by the assistant task.\n*.bat file. NOTE The batch file must be stored in the flash:/user/bat/ directory.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.1.2"
+              ],
+              "target_files": [
+                "2.1.2_assistant_task.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.15_quit.json",
+          "title": "quit",
+          "added_targets": [
+            {
+              "section": "13.1.2",
+              "title": "aaa"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.1.18_snmp-agent_trap_enable_feature-name_line.json",
+          "title": "snmp-agent trap enable feature-name line",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.6.74",
+              "title": "telnet server acl"
+            },
+            {
+              "section": "3.4.17",
+              "title": "event"
+            },
+            {
+              "section": "9.1.128",
+              "title": "snmp-agent trap enable feature-name ldp"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "snmp-agent trap enable feature-name ldp",
+              "description": "Parameter trap-name: Enables or disables the trap function for a specified event of the LINE module.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "9.1.128"
+              ],
+              "target_files": [
+                "9.1.128_snmp-agent_trap_enable_feature-name_ldp.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "telnet server acl",
+              "description": "Parameter hwVtyNumExceed: Enables the trap function for the event that the number of Telnet login users exceeds the maximum number allowed on the device.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.6.74"
+              ],
+              "target_files": [
+                "2.6.74_telnet_server_acl.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "event",
+              "description": "Parameter hwUserLogin: Enables the trap function for the user login event.\n-\nParameter hwUserLoginFail: Enables the trap function for the user login failure event.\n-\nParameter hwUserLogout: Enables the trap function for the user logout event.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "3.4.17"
+              ],
+              "target_files": [
+                "3.4.17_event.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.1.20_terminal_command_forward_matched_upper-view.json",
+          "title": "terminal command forward matched upper-view",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.4.8",
+              "title": "sysname"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.2.2_activate-file.json",
+          "title": "activate-file",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.31",
+              "title": "easy-operation"
+            },
+            {
+              "section": "2.2.48",
+              "title": "group custom"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.2.3_backup_configuration_interval.json",
+          "title": "backup configuration interval",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.31",
+              "title": "easy-operation"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.2.4_batch-cmd_begin.json",
+          "title": "batch-cmd begin",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.31",
+              "title": "easy-operation"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.2.5_clear_topology-error-info.json",
+          "title": "clear topology-error-info",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.11",
+              "title": "cluster"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/2.2.6_client.json",
+          "title": "client",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.10",
+              "title": "client replace"
+            },
+            {
+              "section": "2.2.14",
+              "title": "configuration-file"
+            },
+            {
+              "section": "2.2.15",
+              "title": "custom-file"
+            },
+            {
+              "section": "2.2.31",
+              "title": "easy-operation"
+            },
+            {
+              "section": "2.2.49",
+              "title": "license"
+            },
+            {
+              "section": "2.2.64",
+              "title": "patch"
+            },
+            {
+              "section": "2.2.70",
+              "title": "system-software"
+            },
+            {
+              "section": "2.2.71",
+              "title": "tftp-server/sftp-server/ftp-server"
+            },
+            {
+              "section": "2.2.76",
+              "title": "web-file"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "client replace",
+              "description": "Parameter mac-address mac-address: Specifies the MAC address of the client.\nThe value is in the H-H-H format, where each H contains four hexadecimal digits.\nParameter esn esn: Specifies the ESN of the client.\nThe value is a string of 10 to 32 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.10"
+              ],
+              "target_files": [
+                "2.2.10_client_replace.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "system-software",
+              "description": "Parameter system-software file-name: Specifies the name of the system software (*.cc) to be loaded to the client.\nThe value is a string of 4 to 48 case-insensitive characters without spaces.\nParameter version: Specifies the version of a system software package, for example, V200R011C10. If the specified software version is the same as the software version running on the client, a software upgrade will not be performed for the client.\nThe value is a string of 11 to 32 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.70"
+              ],
+              "target_files": [
+                "2.2.70_system-software.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "patch",
+              "description": "Parameter patch file-namei: Specifies the name of the patch file (*.pat) to be loaded to the client.\nThe value is a string of 5 to 48 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.64"
+              ],
+              "target_files": [
+                "2.2.64_patch.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "configuration-file",
+              "description": "Parameter configuration-file file-name: Specifies the name of the configuration file (*.zip or *.cfg) to be loaded to the client.\nThe value is a string of 5 to 48 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.14"
+              ],
+              "target_files": [
+                "2.2.14_configuration-file.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "web-file",
+              "description": "Parameter web-file file-name: Specifies the name of the web page file (*.web.7z or *.web.zip) to be loaded to the client.\nThe value is a string of 8 to 64 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.76"
+              ],
+              "target_files": [
+                "2.2.76_web-file.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "license",
+              "description": "Parameter license file-name: Specifies the name of the license file (*.dat) to be loaded to the client. NOTE The license file is not supported in the Easy-Operation view. The file does not take effect even if you configure it.\nThe value is a string of 5 to 64 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.49"
+              ],
+              "target_files": [
+                "2.2.49_license.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "custom-file",
+              "description": "Parameter custom-file file-name: Specifies the name of the user-defined file to be loaded to the client. A maximum of three user-defined files can be specified. The file names are separated by spaces.\nThe value is a string of 1 to 64 case-insensitive characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "2.2.15"
+              ],
+              "target_files": [
+                "2.2.15_custom-file.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/2.2.7_client_aging-time.json",
+          "title": "client aging-time",
+          "added_targets": [
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "2.2.31",
+              "title": "easy-operation"
+            },
+            {
+              "section": "5.1.20",
+              "title": "mac-address aging-time"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "mac-address aging-time",
+              "description": "Parameter aging-time: Specifies the aging time for clients in the lost state.\nThe value is an integer that ranges from 72 to 720, in hours.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "5.1.20"
+              ],
+              "target_files": [
+                "5.1.20_mac-address_aging-time.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/5.3.36_port_trunk_allow-pass_vlan.json",
+          "title": "port trunk allow-pass vlan",
+          "added_targets": [
+            {
+              "section": "13.5.103",
+              "title": "port connection-type access"
+            },
+            {
+              "section": "2.1.19",
+              "title": "system-view"
+            },
+            {
+              "section": "4.1.16",
+              "title": "interface"
+            },
+            {
+              "section": "5.3.34",
+              "title": "port link-type"
+            },
+            {
+              "section": "5.3.49",
+              "title": "vlan"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "vlan",
+              "description": "Parameter vlan-id1 [ to vlan-id2 ]: Adds a trunk interface to specified VLANs. ●vlan-id1 specifies the start VLAN ID. ●to vlan-id2 specifies the end VLAN ID. The value of vlan-id2 must be greater than or equal to the value of vlan-id1.\nThe value of vlan-id1 is an integer that ranges from 1 to 4094. The value of vlan-id2 is an integer that ranges from 1 to 4094.\nParameter vlan-id3: Specifies the ID of the start VLAN to be bound to the member port of a port group.\nThe value is an integer that ranges from 1 to 4094.\nParameter decreased: Specifies a decrease in the values of VLAN IDs starting from the one identified by vlan-id3 at a step specified by step-number to bind the VLANs to the member ports of a port group. When setting decreased, ensure that the value of vlan-id3 is greater than or equal to the number of the member ports of the port group.\n-",
+              "source_section": "Parameters",
+              "target_sections": [
+                "5.3.49"
+              ],
+              "target_files": [
+                "5.3.49_vlan.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "port connection-type access",
+              "description": "Parameter step step-number: Specifies the step for the increase or decrease in the value of the VLAN ID. With this parameter specified, the member ports in a port group can be bound to VLANs starting from the one identified by vlan-id3 in an ascending or descending order at a step specified by step-number. This facilitates the subsequent user configuration. For example: A port group has 10 member ports. You can configure increased, and set vlan-id3 to 1 and step-number to 1 in the port trunk allow-pass vlan command. After this configuration, member port 1 joins VLAN 1; member port 2 joins VLAN 2... By analogy, member port 10 joins VLAN 10.\nThe value is an integer that ranges from 1 to 4093.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "13.5.103"
+              ],
+              "target_files": [
+                "13.5.103_port_connection-type_access.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "corpus": "huawei-ne40e-v800r024c00spc500",
+      "source_sha256": "71d6075723cd8798691f8f0160dc9d5a4b50bc4d5b42736d330927e85493d4d6",
+      "counts": {
+        "commands": 14551,
+        "related_topics": 72606,
+        "commands_with_related_topics": 13989,
+        "commands_with_changed_targets": 13844,
+        "added_target_sections": 72293,
+        "removed_target_sections": 17422,
+        "syntax_issues": 2,
+        "verified_target_files": 98929
+      },
+      "reference_kinds": {
+        "example_command": 43237,
+        "documented_reference": 15290,
+        "parameter_topic": 14079
+      },
+      "most_common_parameter_targets": [
+        {
+          "section": "1.444",
+          "title": "slot",
+          "references": 556
+        },
+        {
+          "section": "1.14536",
+          "title": "br-ipv6-address (System view)",
+          "references": 480
+        },
+        {
+          "section": "1.13904",
+          "title": "dhcpv6 relay option-insert interface-id mode cn-telecom ignore-interface-type",
+          "references": 288
+        },
+        {
+          "section": "1.7137",
+          "title": "route-policy",
+          "references": 268
+        },
+        {
+          "section": "1.2424",
+          "title": "vlan (system view)",
+          "references": 222
+        },
+        {
+          "section": "1.3294",
+          "title": "acl number",
+          "references": 188
+        },
+        {
+          "section": "1.9271",
+          "title": "display srv6-te flow-group",
+          "references": 156
+        },
+        {
+          "section": "1.12639",
+          "title": "nqa",
+          "references": 153
+        },
+        {
+          "section": "1.1507",
+          "title": "bfd (session)",
+          "references": 150
+        },
+        {
+          "section": "1.9630",
+          "title": "display evpn df result",
+          "references": 148
+        },
+        {
+          "section": "1.1765",
+          "title": "interface",
+          "references": 128
+        },
+        {
+          "section": "1.6242",
+          "title": "router id",
+          "references": 93
+        },
+        {
+          "section": "1.6851",
+          "title": "ospfv3",
+          "references": 93
+        },
+        {
+          "section": "1.735",
+          "title": "alarm",
+          "references": 92
+        },
+        {
+          "section": "1.9274",
+          "title": "display srv6-te policy",
+          "references": 91
+        },
+        {
+          "section": "1.6673",
+          "title": "ospf",
+          "references": 87
+        },
+        {
+          "section": "1.6941",
+          "title": "rip",
+          "references": 71
+        },
+        {
+          "section": "1.4911",
+          "title": "peer group (BGP view) (IPv6)",
+          "references": 70
+        },
+        {
+          "section": "1.6401",
+          "title": "isis",
+          "references": 69
+        },
+        {
+          "section": "1.7206",
+          "title": "xpl route-filter",
+          "references": 68
+        },
+        {
+          "section": "1.7856",
+          "title": "igmp",
+          "references": 65
+        },
+        {
+          "section": "1.4767",
+          "title": "peer enable(group)",
+          "references": 61
+        },
+        {
+          "section": "1.11464",
+          "title": "radius-server dtls idle-timeout",
+          "references": 58
+        },
+        {
+          "section": "1.1005",
+          "title": "snmp-agent trap source-port",
+          "references": 56
+        },
+        {
+          "section": "1.4922",
+          "title": "peer group (BGP-VPN instance IPv6 address family view) (IPv6)",
+          "references": 56
+        },
+        {
+          "section": "1.7981",
+          "title": "pim",
+          "references": 55
+        },
+        {
+          "section": "1.2298",
+          "title": "bridge-domain",
+          "references": 54
+        },
+        {
+          "section": "1.8215",
+          "title": "display bgp multicast group",
+          "references": 53
+        },
+        {
+          "section": "1.12006",
+          "title": "pki import whitelist",
+          "references": 52
+        },
+        {
+          "section": "1.10169",
+          "title": "reset traffic-statistics vpn-instance",
+          "references": 52
+        }
+      ],
+      "change_samples": [
+        {
+          "file": "cmd_corpus/1.15_abort.json",
+          "title": "abort",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.23",
+              "title": "command group"
+            },
+            {
+              "section": "1.7196",
+              "title": "xpl as-path-list"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.16_abort_trial.json",
+          "title": "abort trial",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.2002",
+              "title": "sysname"
+            },
+            {
+              "section": "1.24",
+              "title": "commit (All views except the user view)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.17_apply-command-group.json",
+          "title": "apply-command-group",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.13249",
+              "title": "interface"
+            },
+            {
+              "section": "1.1765",
+              "title": "interface"
+            },
+            {
+              "section": "1.24",
+              "title": "commit (All views except the user view)"
+            },
+            {
+              "section": "1.36",
+              "title": "display configuration apply-command-group fail-result"
+            },
+            {
+              "section": "1.7188",
+              "title": "end-group"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.18_apply-command-group_System_view.json",
+          "title": "apply-command-group (System view)",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.36",
+              "title": "display configuration apply-command-group fail-result"
+            },
+            {
+              "section": "1.7188",
+              "title": "end-group"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.19_clear_configuration_candidate.json",
+          "title": "clear configuration candidate",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.12110",
+              "title": "sftp server enable"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.20_clear_configuration_commit_label.json",
+          "title": "clear configuration commit label",
+          "added_targets": [
+            {
+              "section": "1.39",
+              "title": "display configuration changes"
+            },
+            {
+              "section": "1.41",
+              "title": "display configuration commit list"
+            },
+            {
+              "section": "1.71",
+              "title": "set configuration commit"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.21_clear_configuration_commit_oldest.json",
+          "title": "clear configuration commit oldest",
+          "added_targets": [
+            {
+              "section": "1.39",
+              "title": "display configuration changes"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.22_collect_diagnostic_information_user_view.json",
+          "title": "collect diagnostic information(user view)",
+          "added_targets": [
+            {
+              "section": "1.444",
+              "title": "slot"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "slot",
+              "description": "Parameter slot slot-id: Specifies a slot ID.\nThe value is a string of 1 to 31 case-sensitive characters. It cannot contain spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "1.444"
+              ],
+              "target_files": [
+                "1.444_slot.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/1.23_command_group.json",
+          "title": "command group",
+          "added_targets": [
+            {
+              "section": "1.104",
+              "title": "quit"
+            },
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.12081",
+              "title": "key-pair label"
+            },
+            {
+              "section": "1.12298",
+              "title": "netstream apply record"
+            },
+            {
+              "section": "1.13582",
+              "title": "dhcp option-60"
+            },
+            {
+              "section": "1.15",
+              "title": "abort"
+            },
+            {
+              "section": "1.1765",
+              "title": "interface"
+            },
+            {
+              "section": "1.3072",
+              "title": "ipv6 enable"
+            },
+            {
+              "section": "1.395",
+              "title": "power-on-delay"
+            },
+            {
+              "section": "1.6350",
+              "title": "import-rib vpn-instance protocol isis"
+            },
+            {
+              "section": "1.7155",
+              "title": "abort"
+            },
+            {
+              "section": "1.7188",
+              "title": "end-group"
+            }
+          ],
+          "removed_targets": [
+            {
+              "section": "1.118",
+              "title": "undo"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.24_commit_All_views_except_the_user_view.json",
+          "title": "commit (All views except the user view)",
+          "added_targets": [
+            {
+              "section": "1.12030",
+              "title": "state"
+            },
+            {
+              "section": "1.2002",
+              "title": "sysname"
+            },
+            {
+              "section": "1.25",
+              "title": "commit label"
+            },
+            {
+              "section": "1.41",
+              "title": "display configuration commit list"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.25_commit_label.json",
+          "title": "commit label",
+          "added_targets": [
+            {
+              "section": "1.2002",
+              "title": "sysname"
+            },
+            {
+              "section": "1.41",
+              "title": "display configuration commit list"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.26_compare_configuration.json",
+          "title": "compare configuration",
+          "added_targets": [
+            {
+              "section": "1.697",
+              "title": "install-module next-startup"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "install-module next-startup",
+              "description": "Parameter configuration-file: Indicates the name of the configuration file to be compared with the current configurations. If this parameter is not specified, the next startup configuration file is compared with the current configurations by default.\nThe value is a string of 5 to 64 characters without spaces.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "1.697"
+              ],
+              "target_files": [
+                "1.697_install-module_next-startup.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/1.27_configuration_checkpoint_auto-save_disable.json",
+          "title": "configuration checkpoint auto-save disable",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.28_configuration_exclusive.json",
+          "title": "configuration exclusive",
+          "added_targets": [],
+          "removed_targets": [
+            {
+              "section": "1.102",
+              "title": "lock (user view)"
+            },
+            {
+              "section": "1.14252",
+              "title": "lock (Global CGN address pool view)"
+            },
+            {
+              "section": "1.3228",
+              "title": "lock (Server IP address pool view)"
+            }
+          ],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.29_configuration_exclusive_by-user-name.json",
+          "title": "configuration exclusive by-user-name",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.13373",
+              "title": "reauthorize"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "reauthorize",
+              "description": "Parameter user-name: Specifies the name of a user.\nThe name is a string of 1 to 253 characters.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "1.13373"
+              ],
+              "target_files": [
+                "1.13373_reauthorize.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/1.30_configuration_inconsistent_slave_detect_enable.json",
+          "title": "configuration inconsistent slave detect enable",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.31_configuration_prevent-misoperation_disable.json",
+          "title": "configuration prevent-misoperation disable",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.11504",
+              "title": "rule command"
+            },
+            {
+              "section": "1.11505",
+              "title": "rule command(Task group view)"
+            },
+            {
+              "section": "1.11921",
+              "title": "rule (service-sec-policy view)"
+            },
+            {
+              "section": "1.11922",
+              "title": "rule (service6-sec-policy view)"
+            },
+            {
+              "section": "1.12027",
+              "title": "rule (PKI access configuration view)"
+            },
+            {
+              "section": "1.12081",
+              "title": "key-pair label"
+            },
+            {
+              "section": "1.12298",
+              "title": "netstream apply record"
+            },
+            {
+              "section": "1.12452",
+              "title": "rule"
+            },
+            {
+              "section": "1.13582",
+              "title": "dhcp option-60"
+            },
+            {
+              "section": "1.14415",
+              "title": "rule nhp nqa (Service chain IPv4 multi-next-hop view)"
+            },
+            {
+              "section": "1.14416",
+              "title": "rule nhp nqa (Service chain IPv6 multi-hop view)"
+            },
+            {
+              "section": "1.3267",
+              "title": "rule (Advanced ACL6 view) (icmpv6)"
+            },
+            {
+              "section": "1.3268",
+              "title": "rule (Advanced ACL6 view) (protocol)"
+            },
+            {
+              "section": "1.3269",
+              "title": "rule (Advanced ACL6 view) (tcp)"
+            },
+            {
+              "section": "1.3270",
+              "title": "rule (Advanced ACL6 view) (udp)"
+            },
+            {
+              "section": "1.3271",
+              "title": "rule (Basic ACL6 view)"
+            },
+            {
+              "section": "1.3272",
+              "title": "rule (UCL6 view)"
+            },
+            {
+              "section": "1.3273",
+              "title": "rule (interface-based ACL6 view)"
+            },
+            {
+              "section": "1.3274",
+              "title": "rule description (Advanced ACL6 view)"
+            },
+            {
+              "section": "1.3275",
+              "title": "rule description (Basic ACL6 view)"
+            },
+            {
+              "section": "1.3276",
+              "title": "rule description (Interface-based ACL6 view)"
+            },
+            {
+              "section": "1.3277",
+              "title": "rule description (UCL6 view)"
+            },
+            {
+              "section": "1.3284",
+              "title": "undo rule time-range (interface-based ACL6 view)"
+            },
+            {
+              "section": "1.3305",
+              "title": "rule (Advanced ACL view) (ICMP)"
+            },
+            {
+              "section": "1.3306",
+              "title": "rule (Advanced ACL view) (TCP)"
+            },
+            {
+              "section": "1.3307",
+              "title": "rule (Advanced ACL view) (UDP)"
+            },
+            {
+              "section": "1.3308",
+              "title": "rule (Advanced ACL view) (gre-igmp-ip-ipinip-ospf)"
+            },
+            {
+              "section": "1.3309",
+              "title": "rule (Interface-based ACL view)"
+            },
+            {
+              "section": "1.3310",
+              "title": "rule (Layer 2 ACL view)"
+            },
+            {
+              "section": "1.3311",
+              "title": "rule (MPLS ACL view)"
+            },
+            {
+              "section": "1.3312",
+              "title": "rule (basic ACL view)"
+            },
+            {
+              "section": "1.3315",
+              "title": "rule description (Interface-based ACL view)"
+            },
+            {
+              "section": "1.3317",
+              "title": "rule description (MPLS ACL view)"
+            },
+            {
+              "section": "1.3318",
+              "title": "rule description (UCL view)"
+            },
+            {
+              "section": "1.3319",
+              "title": "rule(UCL view)"
+            },
+            {
+              "section": "1.3329",
+              "title": "undo rule time-range"
+            },
+            {
+              "section": "1.395",
+              "title": "power-on-delay"
+            },
+            {
+              "section": "1.6350",
+              "title": "import-rib vpn-instance protocol isis"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.32_configuration_re-authentication_enable.json",
+          "title": "configuration re-authentication enable",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.33_configuration_re-authorization_mode.json",
+          "title": "configuration re-authorization mode",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.11388",
+              "title": "display local-user(All views)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.34_configuration-occupied_timeout.json",
+          "title": "configuration-occupied timeout",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/1.2412_port_trunk_allow-pass_vlan.json",
+          "title": "port trunk allow-pass vlan",
+          "added_targets": [
+            {
+              "section": "1.111",
+              "title": "system-view"
+            },
+            {
+              "section": "1.13249",
+              "title": "interface"
+            },
+            {
+              "section": "1.1765",
+              "title": "interface"
+            },
+            {
+              "section": "1.2424",
+              "title": "vlan (system view)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "vlan (system view)",
+              "description": "Parameter vlan-id1: Specifies the start VLAN ID.\nThe value is an integer ranging from 1 to 4094.\nParameter to vlan-id2: Specifies the end ID of a VLAN.\nThe value is an integer ranging from 1 to 4094.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "1.2424"
+              ],
+              "target_files": [
+                "1.2424_vlan_system_view.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "corpus": "cisco-catalyst9300-iosxe-17.15.x",
+      "source_sha256": "70df6e9127918caf31ec931430cf69c2c58b7dcdacf3793c28e90b3d7a1521ae",
+      "counts": {
+        "commands": 1343,
+        "related_topics": 2773,
+        "commands_with_related_topics": 931,
+        "commands_with_changed_targets": 480,
+        "added_target_sections": 1016,
+        "removed_target_sections": 11,
+        "syntax_issues": 14,
+        "verified_target_files": 2483
+      },
+      "reference_kinds": {
+        "example_command": 456,
+        "documented_reference": 2063,
+        "parameter_topic": 254
+      },
+      "most_common_parameter_targets": [
+        {
+          "section": "6.1.18",
+          "title": "interface",
+          "references": 13
+        },
+        {
+          "section": "16.1.19",
+          "title": "hostname",
+          "references": 11
+        },
+        {
+          "section": "15.1.26",
+          "title": "switch priority",
+          "references": 9
+        },
+        {
+          "section": "7.1.59",
+          "title": "ipv6 dhcp database",
+          "references": 6
+        },
+        {
+          "section": "6.1.96",
+          "title": "show processes cpu platform history",
+          "references": 6
+        },
+        {
+          "section": "17.1.17",
+          "title": "vlan",
+          "references": 6
+        },
+        {
+          "section": "17.1.8",
+          "title": "interface (VLAN)",
+          "references": 6
+        },
+        {
+          "section": "14.1.60",
+          "title": "ip access-list",
+          "references": 6
+        },
+        {
+          "section": "15.1.6",
+          "title": "redundancy",
+          "references": 5
+        },
+        {
+          "section": "7.1.47",
+          "title": "ipv6 access-list",
+          "references": 3
+        },
+        {
+          "section": "9.1.35",
+          "title": "port-channel load-balance",
+          "references": 3
+        },
+        {
+          "section": "11.1.140",
+          "title": "snmp-server group",
+          "references": 3
+        },
+        {
+          "section": "16.2.30",
+          "title": "monitor logging process-helper",
+          "references": 3
+        },
+        {
+          "section": "8.1.11",
+          "title": "ip igmp snooping last-member-query-count",
+          "references": 3
+        },
+        {
+          "section": "8.1.24",
+          "title": "ip pim rp-address",
+          "references": 3
+        },
+        {
+          "section": "15.1.30",
+          "title": "switch stack port",
+          "references": 3
+        },
+        {
+          "section": "17.1.20",
+          "title": "vtp (interface configuration)",
+          "references": 3
+        },
+        {
+          "section": "12.1.9",
+          "title": "policy-map",
+          "references": 3
+        },
+        {
+          "section": "11.1.60",
+          "title": "match ipv4 source address",
+          "references": 3
+        },
+        {
+          "section": "7.1.106",
+          "title": "key chain",
+          "references": 3
+        },
+        {
+          "section": "7.1.95",
+          "title": "ipv6 pim neighbor-filter list",
+          "references": 3
+        },
+        {
+          "section": "15.1.29",
+          "title": "switch renumber",
+          "references": 3
+        },
+        {
+          "section": "7.1.96",
+          "title": "ipv6 pim rp-address",
+          "references": 2
+        },
+        {
+          "section": "7.1.99",
+          "title": "ipv6 prefix-list",
+          "references": 2
+        },
+        {
+          "section": "5.1.42",
+          "title": "show cts policy-server",
+          "references": 2
+        },
+        {
+          "section": "6.1.115",
+          "title": "system mtu",
+          "references": 2
+        },
+        {
+          "section": "6.1.113",
+          "title": "stack-power stack auto-off",
+          "references": 2
+        },
+        {
+          "section": "6.1.43",
+          "title": "network-policy profile (global configuration)",
+          "references": 2
+        },
+        {
+          "section": "14.2.17",
+          "title": "class-map type control subscriber",
+          "references": 2
+        },
+        {
+          "section": "10.1.31",
+          "title": "show mpls ldp discovery",
+          "references": 2
+        }
+      ],
+      "change_samples": [
+        {
+          "file": "cmd_corpus/4.1.1_broadcast-underlay.json",
+          "title": "broadcast-underlay",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.2_database-mapping.json",
+          "title": "database-mapping",
+          "added_targets": [
+            {
+              "section": "16.1.15",
+              "title": "exit"
+            },
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            },
+            {
+              "section": "4.1.7",
+              "title": "eid-table"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.3_dynamic-eid.json",
+          "title": "dynamic-eid",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.4_dynamic-eid_detection_multiple-addr.json",
+          "title": "dynamic-eid detection multiple-addr",
+          "added_targets": [
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.5_eid-record-provider.json",
+          "title": "eid-record-provider",
+          "added_targets": [
+            {
+              "section": "4.1.11",
+              "title": "extranet"
+            },
+            {
+              "section": "4.1.6",
+              "title": "eid-record-subscriber"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "eid-record-subscriber",
+              "description": "Parameter instance-id instance id: Instance ID of the LISP instance for which the extranet provider policy applies.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "4.1.6"
+              ],
+              "target_files": [
+                "4.1.6_eid-record-subscriber.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.6_eid-record-subscriber.json",
+          "title": "eid-record-subscriber",
+          "added_targets": [
+            {
+              "section": "4.1.11",
+              "title": "extranet"
+            },
+            {
+              "section": "4.1.5",
+              "title": "eid-record-provider"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "eid-record-provider",
+              "description": "Parameter instance-id instance id: Instance ID of the LISP instance for which the extranet provider policy is applicable.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "4.1.5"
+              ],
+              "target_files": [
+                "4.1.5_eid-record-provider.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.7_eid-table.json",
+          "title": "eid-table",
+          "added_targets": [
+            {
+              "section": "16.1.15",
+              "title": "exit"
+            },
+            {
+              "section": "17.1.8",
+              "title": "interface (VLAN)"
+            },
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            },
+            {
+              "section": "7.1.34",
+              "title": "ip address"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.8_encapsulation.json",
+          "title": "encapsulation",
+          "added_targets": [
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.9_etr.json",
+          "title": "etr",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.2",
+              "title": "database-mapping"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.10_etr_map-server.json",
+          "title": "etr map-server",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.12_extranet-config-from-transit.json",
+          "title": "extranet-config-from-transit",
+          "added_targets": [
+            {
+              "section": "4.1.11",
+              "title": "extranet"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.13_fast-detection.json",
+          "title": "fast-detection",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.27",
+              "title": "locator-set"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.14_first-packet-petr.json",
+          "title": "first-packet-petr",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.15_import-database-publication_locator-set.json",
+          "title": "import-database-publication locator-set",
+          "added_targets": [
+            {
+              "section": "16.1.15",
+              "title": "exit"
+            },
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.27",
+              "title": "locator-set"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.17_ip_pim_lisp_core-group-range.json",
+          "title": "ip pim lisp core-group-range",
+          "added_targets": [
+            {
+              "section": "7.1.76",
+              "title": "ipv6 multicast group-range"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "ipv6 multicast group-range",
+              "description": "Parameter number-of-groups: Specifies the size of group range.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "7.1.76"
+              ],
+              "target_files": [
+                "7.1.76_ipv6_multicast_group-range.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.18_ip_pim_lisp_transport_multicast.json",
+          "title": "ip pim lisp transport multicast",
+          "added_targets": [
+            {
+              "section": "17.1.8",
+              "title": "interface (VLAN)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.19_ip_pim_rp-address.json",
+          "title": "ip pim rp-address",
+          "added_targets": [
+            {
+              "section": "7.1.47",
+              "title": "ipv6 access-list"
+            },
+            {
+              "section": "7.1.96",
+              "title": "ipv6 pim rp-address"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "ipv6 pim rp-address",
+              "description": "Parameter rp-address: IP address of a router to be a PIM RP. This is a unicast IP address in four-part dotted-decimal notation.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "7.1.96"
+              ],
+              "target_files": [
+                "7.1.96_ipv6_pim_rp-address.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "ipv6 access-list",
+              "description": "Parameter access-list: Number or name of an access list that defines the multicast groups for which the RP should be used.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "7.1.47"
+              ],
+              "target_files": [
+                "7.1.47_ipv6_access-list.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.20_ip_pim_sparse_mode.json",
+          "title": "ip pim sparse mode",
+          "added_targets": [
+            {
+              "section": "17.1.8",
+              "title": "interface (VLAN)"
+            },
+            {
+              "section": "7.1.34",
+              "title": "ip address"
+            },
+            {
+              "section": "8.1.27",
+              "title": "ip pim spt-threshold"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.22_ip_pim_ssm.json",
+          "title": "ip pim ssm",
+          "added_targets": [
+            {
+              "section": "7.1.47",
+              "title": "ipv6 access-list"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "ipv6 access-list",
+              "description": "Parameter range access-list: Specifies the standard IP access list number or name defining the SSM range.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "7.1.47"
+              ],
+              "target_files": [
+                "7.1.47_ipv6_access-list.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.23_ipv4-interface_Loopback_affinity-id.json",
+          "title": "ipv4-interface Loopback affinity-id",
+          "added_targets": [
+            {
+              "section": "9.1.35",
+              "title": "port-channel load-balance"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "port-channel load-balance",
+              "description": "Parameter weight locator-weight: Configures the load-balance on the device. Values range from 0 to 100.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "9.1.35"
+              ],
+              "target_files": [
+                "9.1.35_port-channel_load-balance.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "corpus": "cisco-catalyst9500-iosxe-17.15.x",
+      "source_sha256": "6e71ec7ecf69d4d4199d6188bd0615ee66e57753ec781999848c09aa04132038",
+      "counts": {
+        "commands": 1321,
+        "related_topics": 3014,
+        "commands_with_related_topics": 939,
+        "commands_with_changed_targets": 568,
+        "added_target_sections": 1150,
+        "removed_target_sections": 11,
+        "syntax_issues": 18,
+        "verified_target_files": 2658
+      },
+      "reference_kinds": {
+        "example_command": 665,
+        "documented_reference": 2115,
+        "parameter_topic": 234
+      },
+      "most_common_parameter_targets": [
+        {
+          "section": "7.1.15",
+          "title": "interface",
+          "references": 17
+        },
+        {
+          "section": "16.1.19",
+          "title": "hostname",
+          "references": 10
+        },
+        {
+          "section": "7.1.70",
+          "title": "show processes cpu platform history",
+          "references": 6
+        },
+        {
+          "section": "17.1.17",
+          "title": "vlan",
+          "references": 6
+        },
+        {
+          "section": "17.1.8",
+          "title": "interface (VLAN)",
+          "references": 6
+        },
+        {
+          "section": "15.1.52",
+          "title": "ip access-list",
+          "references": 6
+        },
+        {
+          "section": "8.1.62",
+          "title": "ipv6 dhcp database",
+          "references": 4
+        },
+        {
+          "section": "6.1.45",
+          "title": "stackwise-virtual",
+          "references": 4
+        },
+        {
+          "section": "6.1.17",
+          "title": "redundancy",
+          "references": 4
+        },
+        {
+          "section": "8.1.50",
+          "title": "ipv6 access-list",
+          "references": 3
+        },
+        {
+          "section": "10.1.35",
+          "title": "port-channel load-balance",
+          "references": 3
+        },
+        {
+          "section": "12.1.126",
+          "title": "snmp-server group",
+          "references": 3
+        },
+        {
+          "section": "16.2.30",
+          "title": "monitor logging process-helper",
+          "references": 3
+        },
+        {
+          "section": "9.1.12",
+          "title": "ip igmp snooping last-member-query-count",
+          "references": 3
+        },
+        {
+          "section": "9.1.25",
+          "title": "ip pim rp-address",
+          "references": 3
+        },
+        {
+          "section": "17.1.20",
+          "title": "vtp (interface configuration)",
+          "references": 3
+        },
+        {
+          "section": "13.1.9",
+          "title": "policy-map",
+          "references": 3
+        },
+        {
+          "section": "12.1.51",
+          "title": "match ipv4 source address",
+          "references": 3
+        },
+        {
+          "section": "8.1.109",
+          "title": "key chain",
+          "references": 3
+        },
+        {
+          "section": "8.1.98",
+          "title": "ipv6 pim neighbor-filter list",
+          "references": 3
+        },
+        {
+          "section": "8.1.99",
+          "title": "ipv6 pim rp-address",
+          "references": 2
+        },
+        {
+          "section": "8.1.102",
+          "title": "ipv6 prefix-list",
+          "references": 2
+        },
+        {
+          "section": "5.1.42",
+          "title": "show cts policy-server",
+          "references": 2
+        },
+        {
+          "section": "7.1.84",
+          "title": "system mtu",
+          "references": 2
+        },
+        {
+          "section": "7.1.24",
+          "title": "network-policy profile (global configuration)",
+          "references": 2
+        },
+        {
+          "section": "5.1.23",
+          "title": "cts sxp default source-ip",
+          "references": 2
+        },
+        {
+          "section": "15.2.17",
+          "title": "class-map type control subscriber",
+          "references": 2
+        },
+        {
+          "section": "11.1.34",
+          "title": "show mpls ldp discovery",
+          "references": 2
+        },
+        {
+          "section": "12.1.18",
+          "title": "debug flow exporter",
+          "references": 2
+        },
+        {
+          "section": "12.1.19",
+          "title": "debug flow monitor",
+          "references": 2
+        }
+      ],
+      "change_samples": [
+        {
+          "file": "cmd_corpus/4.1.1_broadcast-underlay.json",
+          "title": "broadcast-underlay",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.2_database-mapping.json",
+          "title": "database-mapping",
+          "added_targets": [
+            {
+              "section": "16.1.15",
+              "title": "exit"
+            },
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            },
+            {
+              "section": "4.1.7",
+              "title": "eid-table"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.3_dynamic-eid.json",
+          "title": "dynamic-eid",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.4_dynamic-eid_detection_multiple-addr.json",
+          "title": "dynamic-eid detection multiple-addr",
+          "added_targets": [
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.5_eid-record-provider.json",
+          "title": "eid-record-provider",
+          "added_targets": [
+            {
+              "section": "4.1.11",
+              "title": "extranet"
+            },
+            {
+              "section": "4.1.6",
+              "title": "eid-record-subscriber"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "eid-record-subscriber",
+              "description": "Parameter instance-id instance id: Instance ID of the LISP instance for which the extranet provider policy applies.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "4.1.6"
+              ],
+              "target_files": [
+                "4.1.6_eid-record-subscriber.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.6_eid-record-subscriber.json",
+          "title": "eid-record-subscriber",
+          "added_targets": [
+            {
+              "section": "4.1.11",
+              "title": "extranet"
+            },
+            {
+              "section": "4.1.5",
+              "title": "eid-record-provider"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "eid-record-provider",
+              "description": "Parameter instance-id instance id: Instance ID of the LISP instance for which the extranet provider policy is applicable.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "4.1.5"
+              ],
+              "target_files": [
+                "4.1.5_eid-record-provider.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.7_eid-table.json",
+          "title": "eid-table",
+          "added_targets": [
+            {
+              "section": "16.1.15",
+              "title": "exit"
+            },
+            {
+              "section": "17.1.8",
+              "title": "interface (VLAN)"
+            },
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            },
+            {
+              "section": "8.1.34",
+              "title": "ip address"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.8_encapsulation.json",
+          "title": "encapsulation",
+          "added_targets": [
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.9_etr.json",
+          "title": "etr",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.2",
+              "title": "database-mapping"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.10_etr_map-server.json",
+          "title": "etr map-server",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.12_extranet-config-from-transit.json",
+          "title": "extranet-config-from-transit",
+          "added_targets": [
+            {
+              "section": "4.1.11",
+              "title": "extranet"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.13_fast-detection.json",
+          "title": "fast-detection",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.27",
+              "title": "locator-set"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.14_first-packet-petr.json",
+          "title": "first-packet-petr",
+          "added_targets": [
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.15_import-database-publication_locator-set.json",
+          "title": "import-database-publication locator-set",
+          "added_targets": [
+            {
+              "section": "16.1.15",
+              "title": "exit"
+            },
+            {
+              "section": "4.1.16",
+              "title": "instance-id"
+            },
+            {
+              "section": "4.1.27",
+              "title": "locator-set"
+            },
+            {
+              "section": "4.1.33",
+              "title": "service"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.17_ip_pim_lisp_core-group-range.json",
+          "title": "ip pim lisp core-group-range",
+          "added_targets": [
+            {
+              "section": "8.1.79",
+              "title": "ipv6 multicast group-range"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "ipv6 multicast group-range",
+              "description": "Parameter number-of-groups: Specifies the size of group range.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "8.1.79"
+              ],
+              "target_files": [
+                "8.1.79_ipv6_multicast_group-range.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.18_ip_pim_lisp_transport_multicast.json",
+          "title": "ip pim lisp transport multicast",
+          "added_targets": [
+            {
+              "section": "17.1.8",
+              "title": "interface (VLAN)"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.19_ip_pim_rp-address.json",
+          "title": "ip pim rp-address",
+          "added_targets": [
+            {
+              "section": "8.1.50",
+              "title": "ipv6 access-list"
+            },
+            {
+              "section": "8.1.99",
+              "title": "ipv6 pim rp-address"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "ipv6 pim rp-address",
+              "description": "Parameter rp-address: IP address of a router to be a PIM RP. This is a unicast IP address in four-part dotted-decimal notation.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "8.1.99"
+              ],
+              "target_files": [
+                "8.1.99_ipv6_pim_rp-address.json"
+              ],
+              "reference_kind": "parameter_topic"
+            },
+            {
+              "title": "ipv6 access-list",
+              "description": "Parameter access-list: Number or name of an access list that defines the multicast groups for which the RP should be used.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "8.1.50"
+              ],
+              "target_files": [
+                "8.1.50_ipv6_access-list.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.20_ip_pim_sparse_mode.json",
+          "title": "ip pim sparse mode",
+          "added_targets": [
+            {
+              "section": "17.1.8",
+              "title": "interface (VLAN)"
+            },
+            {
+              "section": "8.1.34",
+              "title": "ip address"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": []
+        },
+        {
+          "file": "cmd_corpus/4.1.22_ip_pim_ssm.json",
+          "title": "ip pim ssm",
+          "added_targets": [
+            {
+              "section": "8.1.50",
+              "title": "ipv6 access-list"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "ipv6 access-list",
+              "description": "Parameter range access-list: Specifies the standard IP access list number or name defining the SSM range.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "8.1.50"
+              ],
+              "target_files": [
+                "8.1.50_ipv6_access-list.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        },
+        {
+          "file": "cmd_corpus/4.1.23_ipv4-interface_Loopback_affinity-id.json",
+          "title": "ipv4-interface Loopback affinity-id",
+          "added_targets": [
+            {
+              "section": "10.1.35",
+              "title": "port-channel load-balance"
+            }
+          ],
+          "removed_targets": [],
+          "parameter_topics": [
+            {
+              "title": "port-channel load-balance",
+              "description": "Parameter weight locator-weight: Configures the load-balance on the device. Values range from 0 to 100.",
+              "source_section": "Parameters",
+              "target_sections": [
+                "10.1.35"
+              ],
+              "target_files": [
+                "10.1.35_port-channel_load-balance.json"
+              ],
+              "reference_kind": "parameter_topic"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -10,6 +10,7 @@ from urllib.parse import urlsplit
 
 from .corpus_input import CorpusInput, natural_key
 from .model import Command
+from .command_syntax import syntax_issues
 from .storage import staged_text
 
 
@@ -54,7 +55,10 @@ class CommandMarkdown:
         return parts
 
     def syntax(self) -> list[str]:
-        return [code_block(cli) for cli in self.command.clis] or ["Not extracted."]
+        parts = [code_block(cli) for cli in self.command.clis] or ["Not extracted."]
+        for issue in syntax_issues(self.command.clis):
+            parts.append(f"Syntax issue in template {issue['cli_index'] + 1}: " + prose(issue["message"]))
+        return parts
 
     def views(self) -> str:
         return "\n".join("- " + prose(view) for view in self.command.views) or "Not specified."
@@ -89,12 +93,16 @@ class CommandMarkdown:
         rows = []
         for topic in self.command.related_topics:
             text = prose(topic.title) + " — Source section: " + prose(topic.source_section)
+            if topic.reference_kind != "documented_reference":
+                text += ". Reference kind: " + prose(topic.reference_kind)
             if topic.description:
                 text += ". " + prose(topic.description).replace("\n", " ")
             if topic.target_sections:
                 text += ". Reference sections: " + ", ".join(prose(s) for s in topic.target_sections)
             else:
                 text += ". Target not resolved in the reference outline."
+            if topic.target_files:
+                text += ". JSON files: " + ", ".join(prose(name) for name in topic.target_files)
             rows.append("- " + text)
         return ["### Related Topics", "\n".join(rows)]
 

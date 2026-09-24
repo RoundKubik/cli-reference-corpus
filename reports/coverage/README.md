@@ -1,6 +1,6 @@
 # Corpus coverage audit
 
-Audit date: 2026-09-14. NE40E was regenerated from the complete ordinary Command
+Initial audit: 2026-09-14. Cisco and Campus corrections and repeat audits: 2026-09-24. NE40E was regenerated from the complete ordinary Command
 Reference; CloudEngine and Cisco retain their verified original PDF inputs.
 Campus Switch was added from original Huawei V200R011C10 PDF pages, with the
 Upgrade-compatible chapter excluded.
@@ -9,7 +9,8 @@ Cisco Catalyst 9500 IOS XE 17.15.x was added from its complete original Cisco PD
 The scan found no missing **dedicated command descriptions** in the five retained
 PDFs. This does **not** establish complete or correct extraction of their contents,
 or coverage of every command mentioned in the manuals or supported by the devices.
-Concrete content losses were confirmed in the Cisco corpus.
+Previously confirmed Cisco content losses have been corrected; source defects
+and the remaining field-level limitations are documented below.
 
 ## Structural census
 
@@ -45,74 +46,51 @@ Additional low-size occurrences of Function/Format can be table or prose text.
 This remains a typography-based audit. It cannot prove that every possible layout,
 embedded image, syntactic alternative or reference to another command was covered.
 
-## Confirmed extraction problems
+## Extraction corrections and reviewed source limitations
 
-After regeneration with parser 0.3.0/schema v3, `ExtraInfo` preserves the extracted
-source example text, captions and output in all corpora, including the examples
-below. The remaining empty-example findings refer to the structured `Examples`
-CLI array. Huawei access metadata and explicit related sections are retained;
-`related_topics` also captures named references in primary fields. See
-[additional-information rules](../../docs/additional-information.md).
+The [extraction review](extraction-warning-review.md) records fixes, source evidence,
+and the remaining warning categories. Both Cisco corpora and Campus were rebuilt
+from their complete retained PDFs, with no missing descriptions or new schema
+failures.
 
-- **Missing examples with hostless prompts.** On physical Cisco PDF page 303,
-  `macro description` has `(config-if)# macro description duplex settings` in its
-  Example section, but the JSON has an empty `Examples` array. On page 529,
-  `clear ipv6 access-list` has `# clear ipv6 access-list marketing`, also omitted.
-  The production prompt pattern requires a hostname before the prompt.
-- **Missing examples without prompts.** Pages 572–574 contain configuration examples
-  for `ip nat inside source`, while its JSON has an empty `Examples` array. These
-  are command blocks without a hostname/prompt, currently excluded from the CLI array
-  but retained in `ExtraInfo`.
-- **Corrupted syntax.** On page 570, the visually verified heading `Dynamic NAT`
-  is a subsection caption. The first `ip nat inside source` CLI template includes
-  this caption and misorders fragments of the syntax. The record exists, but this
-  template is not a faithful representation of the printed command.
+Cisco now supports hostless prompts, routed processor prompts, boot-loader prompts,
+and promptless configuration examples. Individual PDF spans are ordered by their
+visual positions; NAT captions and preamble notes no longer contaminate CLI syntax.
+Five missing Catalyst 9500 function paragraphs were recovered, and `no-match`
+forms are exported as separate templates. Full source examples remain in `ExtraInfo`.
 
-Relevant records:
-[macro description](../../output/cisco-catalyst9300-iosxe-17.15.x/cmd_corpus/6.1.36_macro_description.json),
-[clear ipv6 access-list](../../output/cisco-catalyst9300-iosxe-17.15.x/cmd_corpus/7.1.2_clear_ipv6_access-list.json),
-[ip nat inside source](../../output/cisco-catalyst9300-iosxe-17.15.x/cmd_corpus/7.1.36_ip_nat_inside_source.json).
-Source: [Cisco PDF](../../data/manuals/cisco-catalyst9300-iosxe-17.15.x.pdf).
-Page numbers above are physical PDF pages, starting at 1.
+| Corpus | Empty examples with a printed heading before | After | Explanation of remaining cases |
+| --- | ---: | ---: | --- |
+| Catalyst 9300 | 281 | 6 | Five source captions without commands, one log-only example |
+| Catalyst 9500 | 120 | 4 | Three source captions without commands, one log-only example |
+| Campus Switch | 3 | 1 | `port media type` explicitly prints `Example: None` |
 
-**281 Catalyst 9300 records** have empty `Examples` although a printed Example/Examples
-section was detected. This is a review queue, not a claim that all 281 have the
-same cause. In total 616 Cisco records have empty examples; some have no separately
-labelled example section. Eight records have no extracted CLI template. Structural
-counts do not detect these issues, and the current validation report does not warn
-on every missing example or incorrectly ordered template.
+Campus examples with `<>` and `[]` prompts are recovered; output legends beginning
+with `[] :` are not treated as commands. NE40E `dcn security-mode enable` remains
+an empty structured example because its source is promptless `default.cfg` content;
+that text remains in `ExtraInfo`, as documented in the earlier review.
 
-**Catalyst 9500:** all 1,321 descriptions are represented. Eight records have empty
-CLI syntax, eleven have empty command modes, and 120 have empty examples despite
-a printed Example/Examples section. All JSON/Markdown pairs match exactly; nineteen
-records fail the strict schema. These findings are review items, not proof that
-the fields are absent from the original PDF. [Source and reproduction](../../docs/cisco.md).
+All 42 Cisco schema failures were checked against their source pages: 16 descriptions
+lack a standalone syntax block, 21 print mode text under Command Default, and 5
+omit a labelled mode section. These records remain exported with warnings.
+Each Cisco corpus also has one function paragraph absent in the source. Missing
+fields are not filled with guesses from command names or examples.
 
-The new NE40E corpus also has one empty `Examples` field despite a printed
-Example section: `dcn security-mode enable`, physical page 1,083. The source shows
-`default.cfg` content without a device prompt; the current example extractor
-omits that block. The command record and its syntax are present. This is a
-field-extraction limitation, not a missing command or an incomplete input PDF.
-
-Campus Switch has **three records** with empty `Examples` despite a printed
-Example section: `port media type` (page 1594),
-`display snmp-agent trap feature-name cfgmgr all` (page 9589), and
-`snmp-agent trap enable feature-name cfgmgr` (page 9594). These remain a field-level
-review queue; their command records and syntax are present. All 5,989 Campus JSON
-records pass the schema, and all Markdown pairs match their JSON and metadata.
+The [warning inventory](extraction-warning-review.json) covers every retained
+warning and provides source samples for each category. Continued/borderless tables,
+parameter-name discrepancies, font ambiguity, and malformed printed syntax remain
+limitations. Review does not imply that every field is semantically correct.
 
 ## Additional-information verification
 
-All 29,876 records now have additional source text. There are 33,645 related-topic
-entries across 15,697 records, including explicit numbered Huawei references and
-Cisco related-command tables. Every non-empty `target_sections` value points to
-an existing command record in these full corpora; unresolved named targets remain
-empty rather than being guessed. The page census found no empty additional or
-structured related fields where the checked source section headings were present.
+All 29,876 records retain additional source text. JSON/Markdown pairs, PDF hashes,
+schema failures, reference targets, and exported filenames are checked in the
+[current verification report](corpus-verification.json). The three regenerated
+corpora retain their section IDs and source page mappings. Core field changes
+are recorded explicitly; unchanged CloudEngine and NE40E pairs were also checked.
 
-Core command fields match the previous corpora. Seventeen NE40E titles differ only
-in whitespace normalization; filenames and section IDs are unchanged. All JSON/MD
-pairs match. [Rules and per-corpus counts](../../docs/additional-information.md).
+The page census found no missing additional or structured related sections where
+the checked source headings were present. [Extraction rules](../../docs/additional-information.md).
 
 ## Limits of the source set
 
@@ -153,5 +131,5 @@ The script writes only coverage reports. It neither reparses nor changes the cor
 It discovers all `output/*/manifest.json` files and uses the recorded parser module
 to select Huawei or Cisco page typography. `--corpus` takes the full directory name,
 including models and software version; `--device` remains an argument alias.
-The next correction should address Cisco prompt handling and syntax ordering,
-then regenerate the affected pairs and repeat this census and field-level checks.
+The prompt and syntax corrections are covered by real-page regression tests;
+remaining source omissions and field limitations are tracked in the extraction review.
